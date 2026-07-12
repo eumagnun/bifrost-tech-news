@@ -1,5 +1,25 @@
 [
   {
+    "slug": "o-enigma-das-redes-infinitas-decifrando-o-fluxo-de-gradiente-em-redes-neurais-quadraticas-de-largura-extensiva",
+    "title": "O Enigma das Redes Infinitas: Decifrando o Fluxo de Gradiente em Redes Neurais Quadráticas de Largura Extensiva",
+    "date": "12/07/2026",
+    "image_path": "posts/images/o-enigma-das-redes-infinitas-decifrando-o-fluxo-de-gradiente-em-redes-neurais-quadraticas-de-largura-extensiva.png",
+    "original_link": "http://jmlr.org/papers/v27/26-0672.html",
+    "hn_link": "http://jmlr.org/papers/v27/26-0672.html",
+    "reading_time": 9,
+    "excerpt": "A busca pela \"teoria da caixa preta\" das redes neurais nunca foi tão intensa quanto agora, em 2026. Enquanto o mundo se maravilha com agentes autônomos realizando tarefas complexas, um..."
+  },
+  {
+    "slug": "a-economia-da-sobrevivencia-termica-como-maquinas-de-granizado-de-proxima-geracao-sinalizam-uma-mudanca-radical-na-infraestrutura-de-adaptacao-climatica",
+    "title": "A \"Economia da Sobrevivência Térmica\": Como Máquinas de Granizado de Próxima Geração Sinalizam uma Mudança Radical na Infraestrutura de Adaptação Climática",
+    "date": "12/07/2026",
+    "image_path": "posts/images/a-economia-da-sobrevivencia-termica-como-maquinas-de-granizado-de-proxima-geracao-sinalizam-uma-mudanca-radical-na-infraestrutura-de-adaptacao-climatica.png",
+    "original_link": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
+    "hn_link": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
+    "reading_time": 9,
+    "excerpt": "Panorama Global: O Ano de 2026 e a Nova Geopolítica do Conforto O ano de 2026 não será lembrado apenas pelos avanços na computação quântica ou pela consolidação da inteligência..."
+  },
+  {
     "slug": "al-m-da-invari-ncia-a-busca-pela-generaliza-o-robusta-em-dom-nios-desconhecidos",
     "title": "Além da Invariância: A Busca pela Generalização Robusta em Domínios Desconhecidos",
     "date": "12/07/2026",
@@ -20,14 +40,14 @@
     "excerpt": "A Sombra da Inovação: Por que o Legado de Reed Jobs Sinaliza uma Mudança de Paradigma na Economia da Longevidade Estamos em meados de 2026 e o capitalismo de marca..."
   },
   {
-    "slug": "a-revolu-o-dos-agentes-de-programa-o-a-ponte-entre-o-legado-e-o-futuro",
-    "title": "A Revolução dos Agentes de Programação: A Ponte entre o Legado e o Futuro",
+    "slug": "a-revolucao-silenciosa-como-agentes-de-ia-estao-reconectando-o-legado-com-o-futuro-da-engenharia-de-software",
+    "title": "A Revolução Silenciosa: Como Agentes de IA Estão Reconectando o Legado com o Futuro da Engenharia de Software",
     "date": "12/07/2026",
-    "image_path": "posts/images/a-revolu-o-dos-agentes-de-programa-o-a-ponte-entre-o-legado-e-o-futuro.png",
+    "image_path": "posts/images/a-revolucao-silenciosa-como-agentes-de-ia-estao-reconectando-o-legado-com-o-futuro-da-engenharia-de-software.png",
     "original_link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
     "hn_link": "https://news.ycombinator.com/item?id=48880170",
-    "reading_time": 9,
-    "excerpt": "Você já se sentiu como um arqueólogo digital, tentando decifrar o código de uma aplicação monolítica escrita há 15 anos, enquanto sua gerência pressiona para integrar funcionalidades modernas de IA..."
+    "reading_time": 10,
+    "excerpt": "Vivemos em uma era onde o \"débito técnico\" deixou de ser apenas um fantasma nos nossos backlogs para se tornar uma barreira crítica à inovação. Empresas ao redor do mundo..."
   },
   {
     "slug": "o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna",

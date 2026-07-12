@@ -11,6 +11,31 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-enigma-das-redes-infinitas-decifrando-o-fluxo-de-gradiente-em-redes-neurais-quadraticas-de-largura-extensiva.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-economia-da-sobrevivencia-termica-como-maquinas-de-granizado-de-proxima-geracao-sinalizam-uma-mudanca-radical-na-infraestrutura-de-adaptacao-climatica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/al-m-da-invari-ncia-a-busca-pela-generaliza-o-robusta-em-dom-nios-desconhecidos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-revolucao-silenciosa-como-agentes-de-ia-estao-reconectando-o-legado-com-o-futuro-da-engenharia-de-software.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
