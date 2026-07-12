@@ -1,5 +1,35 @@
 [
   {
+    "slug": "al-m-da-invari-ncia-a-busca-pela-generaliza-o-robusta-em-dom-nios-desconhecidos",
+    "title": "Além da Invariância: A Busca pela Generalização Robusta em Domínios Desconhecidos",
+    "date": "12/07/2026",
+    "image_path": "posts/images/al-m-da-invari-ncia-a-busca-pela-generaliza-o-robusta-em-dom-nios-desconhecidos.png",
+    "original_link": "http://jmlr.org/papers/v27/25-0399.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-0399.html",
+    "reading_time": 9,
+    "excerpt": "A Inteligência Artificial moderna vive um paradoxo fascinante: construímos modelos que dominam o mundo em datasets gigantescos, mas que se tornam frágeis ao enfrentar a menor mudança no \"cenário\" de..."
+  },
+  {
+    "slug": "reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name",
+    "title": "Reed Jobs would rather talk about curing cancer than his last name",
+    "date": "12/07/2026",
+    "image_path": "posts/images/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name.png",
+    "original_link": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+    "hn_link": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+    "reading_time": 11,
+    "excerpt": "A Sombra da Inovação: Por que o Legado de Reed Jobs Sinaliza uma Mudança de Paradigma na Economia da Longevidade Estamos em meados de 2026 e o capitalismo de marca..."
+  },
+  {
+    "slug": "a-revolu-o-dos-agentes-de-programa-o-a-ponte-entre-o-legado-e-o-futuro",
+    "title": "A Revolução dos Agentes de Programação: A Ponte entre o Legado e o Futuro",
+    "date": "12/07/2026",
+    "image_path": "posts/images/a-revolu-o-dos-agentes-de-programa-o-a-ponte-entre-o-legado-e-o-futuro.png",
+    "original_link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+    "hn_link": "https://news.ycombinator.com/item?id=48880170",
+    "reading_time": 9,
+    "excerpt": "Você já se sentiu como um arqueólogo digital, tentando decifrar o código de uma aplicação monolítica escrita há 15 anos, enquanto sua gerência pressiona para integrar funcionalidades modernas de IA..."
+  },
+  {
     "slug": "o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna",
     "title": "O Santo Graal da Produtividade: Por que Encontrar uma Dock que \"Acorda\" Confiavelmente é o Problema Mais Difícil da Computação Moderna",
     "date": "11/07/2026",
