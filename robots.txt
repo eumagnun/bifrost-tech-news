@@ -17,4 +17,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://eumagnun.github.io/bifrost-tech-news/sitemap.xml
+Sitemap: https://blog.bifrost-solutions.com/sitemap.xml

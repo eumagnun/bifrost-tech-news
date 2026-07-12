@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/index.html</loc>
+        <loc>https://blog.bifrost-solutions.com/index.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/archive.html</loc>
+        <loc>https://blog.bifrost-solutions.com/archive.html</loc>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/posts/o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/posts/o-labirinto-das-gpus-como-a-engenharia-financeira-est-alimentando-a-corrida-pela-ia-e-por-que-voc-deve-se-importar.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/o-labirinto-das-gpus-como-a-engenharia-financeira-est-alimentando-a-corrida-pela-ia-e-por-que-voc-deve-se-importar.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/posts/al-m-do-c-digo-as-cl-usulas-de-n-o-concorr-ncia-est-o-travando-a-inova-o.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/al-m-do-c-digo-as-cl-usulas-de-n-o-concorr-ncia-est-o-travando-a-inova-o.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/posts/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/posts/ant-o-novo-runtime-javascript-que-quer-desafiar-os-gigantes-e-revolucionar-o-ecossistema.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/ant-o-novo-runtime-javascript-que-quer-desafiar-os-gigantes-e-revolucionar-o-ecossistema.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://eumagnun.github.io/bifrost-tech-news/posts/a-revolu-o-da-intelig-ncia-artificial-descentralizada-como-o-mesh-llm-e-o-iroh-est-o-mudando-o-jogo.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/mesh-llm-o-fim-do-monop-lio-da-nuvem-centralizada-e-o-poder-da-computa-o-distribu-da.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
