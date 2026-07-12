@@ -4,7 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="O cenário da computação portátil sempre foi dominado por gigantes de propriedade fechada: Nintendo, Sony e, mais recentemente, a Valve com seu Steam Deck, operam em ecossistemas onde o hardware...">
-    <title>Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava</title>
+    <title>Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava — Bifrost Tech News</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://eumagnun.github.io/bifrost-tech-news/posts/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.html">
+    <meta property="og:title" content="Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava">
+    <meta property="og:description" content="O cenário da computação portátil sempre foi dominado por gigantes de propriedade fechada: Nintendo, Sony e, mais recentemente, a Valve com seu Steam Deck, operam em ecossistemas onde o hardware...">
+    <meta property="og:image" content="https://eumagnun.github.io/bifrost-tech-news/posts/images/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://eumagnun.github.io/bifrost-tech-news/posts/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.html">
+    <meta property="twitter:title" content="Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava">
+    <meta property="twitter:description" content="O cenário da computação portátil sempre foi dominado por gigantes de propriedade fechada: Nintendo, Sony e, mais recentemente, a Valve com seu Steam Deck, operam em ecossistemas onde o hardware...">
+    <meta property="twitter:image" content="https://eumagnun.github.io/bifrost-tech-news/posts/images/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.png">
+
+    <!-- SEO / Google Discovery -->
+    <link rel="canonical" href="https://eumagnun.github.io/bifrost-tech-news/posts/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.html">
+    <meta name="robots" content="index, follow">
+    
+    <!-- LLM Metadata -->
+    <meta name="ai-generated" content="true">
+    <meta name="citation_title" content="Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava">
+    <meta name="citation_publisher" content="Bifrost Tech News">
+    <meta name="citation_date" content="2026-07-11">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava",
+      "description": "O cenário da computação portátil sempre foi dominado por gigantes de propriedade fechada: Nintendo, Sony e, mais recentemente, a Valve com seu Steam Deck, operam em ecossistemas onde o hardware...",
+      "image": "https://eumagnun.github.io/bifrost-tech-news/posts/images/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.png",
+      "datePublished": "2026-07-11",
+      "author": {
+        "@type": "Organization",
+        "name": "Bifrost Tech News"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bifrost Tech News",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://eumagnun.github.io/bifrost-tech-news/posts/images/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://eumagnun.github.io/bifrost-tech-news/posts/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.html"
+      }
+    }
+    </script>
+
+    <!-- Google Analytics (GA4) -->
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -467,6 +523,15 @@
             margin: var(--spacing-xl) 0;
         }
 
+        .original-article-link {
+            display: block;
+            margin-top: var(--spacing-xl);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+
         /* ═══════════════════════════════════════════
            SEÇÃO EM DESTAQUE
            ═══════════════════════════════════════════ */
@@ -501,50 +566,8 @@
         }
 
         /* ═══════════════════════════════════════════
-           CARD DE FONTES / CRÉDITOS
+           FOOTER
            ═══════════════════════════════════════════ */
-        .sources-card {
-            margin-top: var(--spacing-xl);
-            padding: var(--spacing-lg);
-            border-radius: 16px;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            backdrop-filter: blur(10px);
-        }
-
-        .sources-card h3 {
-            font-family: var(--font-heading);
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: var(--spacing-sm);
-        }
-
-        .source-link {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-            padding: var(--spacing-xs) var(--spacing-sm);
-            margin-bottom: var(--spacing-xs);
-            border-radius: 10px;
-            background: transparent;
-            color: var(--accent-blue);
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: all var(--transition-fast);
-        }
-
-        .source-link:hover {
-            background: rgba(168, 85, 247, 0.08);
-            color: var(--accent-cyan);
-            transform: translateX(4px);
-        }
-
-        .source-link .icon {
-            font-size: 1.15rem;
-            flex-shrink: 0;
-        }
 
         /* ═══════════════════════════════════════════
            FOOTER
@@ -658,8 +681,6 @@
                 padding: var(--spacing-sm);
             }
 
-            .sources-card {
-                padding: var(--spacing-sm);
             }
         }
 
@@ -737,9 +758,9 @@
 <h2>Caso de Uso: A Batalha de Namekusei (Ou, Como Otimizar um Sistema com a Energia Z)</h2>
 <p>Imagine que o Universo Dragon Ball está prestes a colapsar. Não por causa de Freeza, mas por uma falha catastrófica no "Sistema de Gerenciamento de Combate do Universo" (o nosso <em>Sistema Operacional</em>). Goku, em sua forma base, está sobrecarregado. Ele tem que lutar, monitorar a energia do Vegeta, proteger o Gohan e ainda lidar com o Piccolo fazendo <em>debugging</em> tático. O sistema está travando, o lag na transmissão de ki é imenso, e o Freeza está se aproximando. É aqui que entra a genialidade da Bulma e o conceito do <strong>RISCBoy (Arquitetura RISC-V)</strong>.</p>
 <p>Bulma percebe que o problema não é a falta de poder de luta (a velocidade do processador), mas a ineficiência do gerenciamento de tarefas no console antigo do Universo (uma arquitetura proprietária, pesada e cheia de <em>bloatware</em>). Ela decide implementar o projeto "RISC-Goku". Em vez de forçar o Goku a fazer tudo, ela constrói um <strong>FPGA</strong> (a Corporação Cápsula), onde cada guerreiro Z tem uma função lógica dedicada e imutável.</p>
-<p>Goku, ao invés de gerenciar o <em>scheduling</em> das tarefas (quem ataca, quem defende), torna-se apenas o processador principal, focado exclusivamente na execução do <em>input</em> (o combate). Ela delega as tarefas secundárias para unidades lógicas específicas dentro desse "processador" aberto:<br />
-*   <strong>Piccolo</strong> é designado como o <em>Controlador de Interrupções</em> (IRQ). Sua mente estratégica processa as ameaças externas instantaneamente e envia um sinal de prioridade para o sistema, garantindo que o Goku desvie de ataques sem precisar "pensar" nisso.<br />
-*   <strong>Vegeta</strong>, com seu orgulho e força, atua como a <em>Unidade de Aceleração Gráfica</em> (GPU). Ele não se preocupa com o resto da logística; ele foca toda sua energia em renderizar os ataques de energia (Big Bang Attack) com precisão, liberando o processador principal (Goku) de cálculos complexos de renderização.<br />
+<p>Goku, ao invés de gerenciar o <em>scheduling</em> das tarefas (quem ataca, quem defende), torna-se apenas o processador principal, focado exclusivamente na execução do <em>input</em> (o combate). Ela delega as tarefas secundárias para unidades lógicas específicas dentro desse "processador" aberto:<br/>
+*   <strong>Piccolo</strong> é designado como o <em>Controlador de Interrupções</em> (IRQ). Sua mente estratégica processa as ameaças externas instantaneamente e envia um sinal de prioridade para o sistema, garantindo que o Goku desvie de ataques sem precisar "pensar" nisso.<br/>
+*   <strong>Vegeta</strong>, com seu orgulho e força, atua como a <em>Unidade de Aceleração Gráfica</em> (GPU). Ele não se preocupa com o resto da logística; ele foca toda sua energia em renderizar os ataques de energia (Big Bang Attack) com precisão, liberando o processador principal (Goku) de cálculos complexos de renderização.<br/>
 *   <strong>Gohan</strong>, inteligente e adaptável, torna-se a <em>Memória Cache de Alta Velocidade</em>. Ele armazena os padrões de luta do inimigo, garantindo que os dados necessários para o contra-ataque estejam sempre disponíveis em milissegundos, evitando que o Goku precise acessar o "disco rígido" (o Planeta Terra) constantemente.</p>
 <p>O problema de latência que travava a luta desaparece. O sistema é agora enxuto e eficiente, porque cada um dos Guerreiros Z conhece exatamente o seu <em>Instruction Set</em> (o seu estilo de luta) e não perde ciclos de processamento tentando emular outras funções. É exatamente isso que o RISCBoy faz: ao remover as abstrações desnecessárias e permitir que o hardware seja desenhado para a tarefa específica (no nosso caso, rodar jogos com eficiência máxima), ele elimina os gargalos. Freeza ataca, mas o sistema "RISC-Goku" responde com uma precisão cirúrgica e zero lag. A vitória não veio de um processador mais "forte" (mais GHz), mas de um processador mais <em>inteligente</em>, aberto e otimizado para o que ele precisava fazer. O RISCBoy é, essencialmente, a Corporação Cápsula trazendo essa eficiência de elite para o mundo da computação portátil.</p>
 <h2>Do Laboratório à Mesa do Usuário: Aplicações no Mundo Real</h2>
@@ -751,14 +772,10 @@
 <p>Ao encerrar esta reflexão, convido você, leitor, a olhar para o seu próximo dispositivo tecnológico não apenas como uma caixa fechada, mas como uma estrutura feita de escolhas de design, fluxos lógicos e padrões de arquitetura. O futuro da tecnologia não está no segredo, mas na abertura. Estaríamos nós caminhando para uma era onde o hardware se tornará tão modular, customizável e aberto quanto o software se tornou com o Linux? Se projetos como o RISCBoy servirem de guia, a resposta é um sonoro sim. E, honestamente? Mal posso esperar para ver o que essa comunidade de "Engenheiros Z" vai construir a seguir. O controle do seu próximo dispositivo está, literalmente, nas suas mãos. Que tal começar a soldar o futuro? 🚀</p>
         </article>
 
-        <!-- Card de fontes e créditos -->
-        <div class="sources-card reveal">
-            <h3>🔗 Fontes e Créditos</h3>
-            <a href="https://github.com/Wren6991/RISCBoy" target="_blank" rel="noopener noreferrer" class="source-link">
-                <span class="icon">👉</span>
-                Artigo Original
-            </a>
-        </div>
+        <!-- Link discreto para o artigo original -->
+        <p style="text-align: center; margin-top: var(--spacing-xl); font-size: 0.9rem; color: var(--text-muted);">
+            *Este artigo foi baseado no <a href="https://github.com/Wren6991/RISCBoy" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); text-decoration: underline;">artigo original</a>.*
+        </p>
     </main>
 
     <!-- Footer -->
