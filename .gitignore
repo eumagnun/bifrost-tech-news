@@ -1,0 +1,9 @@
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente
+.env
+
+# Artefatos gerados (serão publicados na branch gh-pages)
+post.html
+post_image.png

@@ -1,0 +1,59 @@
+name: Gerar e Publicar Post
+
+on:
+  # Disparo manual pelo painel do GitHub
+  workflow_dispatch:
+  # Agendamento diário às 09:00 UTC (06:00 BRT)
+  schedule:
+    - cron: '0 9 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Gerar o post
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python gerar-blogpost.py
+
+      - name: Preparar artefatos para publicação
+        run: |
+          mkdir -p _site
+          cp post.html _site/index.html
+          cp post_image.png _site/post_image.png
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload do artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
