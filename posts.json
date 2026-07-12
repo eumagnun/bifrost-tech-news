@@ -1,62 +1,62 @@
 [
   {
-    "slug": "billions-of-sketches-reveal-hidden-cultural-variation-in-human-concepts",
-    "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
+    "slug": "o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna",
+    "title": "O Santo Graal da Produtividade: Por que Encontrar uma Dock que \"Acorda\" Confiavelmente é o Problema Mais Difícil da Computação Moderna",
     "date": "11/07/2026",
-    "image_path": "posts/images/billions-of-sketches-reveal-hidden-cultural-variation-in-human-concepts.png",
-    "original_link": "https://arxiv.org/abs/2607.07267",
-    "hn_link": "https://news.ycombinator.com/item?id=48849744",
-    "reading_time": 9,
-    "excerpt": "O Que Bilhões de Esboços nos Ensinam Sobre a Mente Humana: IA, Cultura e a Arquitetura da Percepção Global Vivemos em uma era onde os dados não são apenas números..."
+    "image_path": "posts/images/o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna.png",
+    "original_link": "https://fabiensanglard.net/tb4/index.html",
+    "hn_link": "https://news.ycombinator.com/item?id=48877269",
+    "reading_time": 10,
+    "excerpt": "Você já viveu o ritual do exorcismo moderno? Você chega à sua mesa, conecta o cabo USBC do seu notebook na dock station e… silêncio. Um monitor pisca, o teclado..."
   },
   {
-    "slug": "nvidia-coreweave-and-nebius-inside-the-circular-financing-of-the-gpu-boom",
-    "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+    "slug": "o-labirinto-das-gpus-como-a-engenharia-financeira-est-alimentando-a-corrida-pela-ia-e-por-que-voc-deve-se-importar",
+    "title": "O Labirinto das GPUs: Como a Engenharia Financeira Está Alimentando a Corrida pela IA (E Por que Você Deve se Importar) ⚡💰",
     "date": "11/07/2026",
-    "image_path": "posts/images/nvidia-coreweave-and-nebius-inside-the-circular-financing-of-the-gpu-boom.png",
+    "image_path": "posts/images/o-labirinto-das-gpus-como-a-engenharia-financeira-est-alimentando-a-corrida-pela-ia-e-por-que-voc-deve-se-importar.png",
     "original_link": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
     "hn_link": "https://news.ycombinator.com/item?id=48873836",
     "reading_time": 10,
-    "excerpt": "O Efeito Estufa do Silício: Desvendando a Engenharia Financeira por Trás da Corrida do Ouro das GPUs A inteligência artificial generativa não é apenas um salto tecnológico; é uma das..."
+    "excerpt": "A corrida pelo ouro da Inteligência Artificial Generativa não é apenas movida por algoritmos, modelos de linguagem e engenharia de software de ponta. Nas sombras do silício, existe um mecanismo..."
   },
   {
-    "slug": "the-fine-print-that-follows-you-out-the-door-non-compete-clauses-are-spreading",
-    "title": "The fine print that follows you out the door: non-compete clauses are spreading",
+    "slug": "al-m-do-c-digo-as-cl-usulas-de-n-o-concorr-ncia-est-o-travando-a-inova-o",
+    "title": "Além do Código: As Cláusulas de Não-Concorrência Estão Travando a Inovação?",
     "date": "11/07/2026",
-    "image_path": "posts/images/the-fine-print-that-follows-you-out-the-door-non-compete-clauses-are-spreading.png",
+    "image_path": "posts/images/al-m-do-c-digo-as-cl-usulas-de-n-o-concorr-ncia-est-o-travando-a-inova-o.png",
     "original_link": "https://oecdecoscope.blog/2026/07/07/the-fine-print-that-follows-you-out-the-door-non-compete-clauses-are-spreading-and-holding-back-growth/",
     "hn_link": "https://news.ycombinator.com/item?id=48876578",
-    "reading_time": 11,
-    "excerpt": "As Algemas Invisíveis do Código: O Lado Sombrio das Cláusulas de Não Concorrência na Tecnologia Você já parou para ler cada linha daquele contrato de trabalho de 40 páginas que..."
+    "reading_time": 10,
+    "excerpt": "Você já assinou um contrato onde sentiu que estava vendendo não apenas o seu tempo e habilidades, mas também a liberdade de construir o seu futuro? No ecossistema tecnológico, estamos..."
   },
   {
-    "slug": "riscboy-is-an-open-source-portable-games-console-designed-from-scratch",
-    "title": "RISCBoy is an open-source portable games console, designed from scratch",
+    "slug": "do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava",
+    "title": "Do Zero ao Retro: Por que o RISCBoy é a Revolução Open-Source que a Engenharia de Hardware Precisava",
     "date": "11/07/2026",
-    "image_path": "posts/images/riscboy-is-an-open-source-portable-games-console-designed-from-scratch.png",
+    "image_path": "posts/images/do-zero-ao-retro-por-que-o-riscboy-a-revolu-o-open-source-que-a-engenharia-de-hardware-precisava.png",
     "original_link": "https://github.com/Wren6991/RISCBoy",
     "hn_link": "https://news.ycombinator.com/item?id=48876245",
-    "reading_time": 10,
-    "excerpt": "RISCBoy: A Revolução do Hardware OpenSource na Palma da Sua Mão O cenário da tecnologia de consumo tem sido dominado, nas últimas décadas, por dispositivos \"caixapreta\". Smartphones, consoles portáteis e..."
+    "reading_time": 11,
+    "excerpt": "O cenário da computação portátil sempre foi dominado por gigantes de propriedade fechada: Nintendo, Sony e, mais recentemente, a Valve com seu Steam Deck, operam em ecossistemas onde o hardware..."
   },
   {
-    "slug": "show-hn-ant-a-javascript-runtime-and-ecosystem",
-    "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+    "slug": "ant-o-novo-runtime-javascript-que-quer-desafiar-os-gigantes-e-revolucionar-o-ecossistema",
+    "title": "Ant: O Novo Runtime JavaScript que Quer Desafiar os Gigantes e Revolucionar o Ecossistema",
     "date": "11/07/2026",
-    "image_path": "posts/images/show-hn-ant-a-javascript-runtime-and-ecosystem.png",
+    "image_path": "posts/images/ant-o-novo-runtime-javascript-que-quer-desafiar-os-gigantes-e-revolucionar-o-ecossistema.png",
     "original_link": "https://antjs.org",
     "hn_link": "https://news.ycombinator.com/item?id=48875377",
-    "reading_time": 10,
-    "excerpt": "Ant: O Novo Jogador no Tabuleiro dos Runtimes JavaScript que Você Precisa Conhecer 🐜🚀 O ecossistema JavaScript está em um estado de ebulição constante. Por anos, vivemos no conforto e,..."
+    "reading_time": 11,
+    "excerpt": "Estamos vivendo uma \"era de ouro\" ou talvez uma \"era de fragmentação\" para o JavaScript no servidor. Durante anos, reinamos sob o domínio absoluto do Node.js, seguido pela ascensão meteórica..."
   },
   {
-    "slug": "mesh-llm-distributed-ai-computing-on-iroh",
-    "title": "Mesh LLM: distributed AI computing on iroh",
-    "date": "12/07/2026",
-    "image_path": "posts/images/mesh-llm-distributed-ai-computing-on-iroh.png",
+    "slug": "o-fim-dos-data-centers-gigantes-descentralizando-o-poder-da-ia-com-mesh-llm-e-iroh",
+    "title": "O Fim dos Data Centers Gigantes? Descentralizando o Poder da IA com Mesh LLM e Iroh",
+    "date": "11/07/2026",
+    "image_path": "posts/images/o-fim-dos-data-centers-gigantes-descentralizando-o-poder-da-ia-com-mesh-llm-e-iroh.png",
     "original_link": "https://www.iroh.computer/blog/mesh-llm",
     "hn_link": "https://news.ycombinator.com/item?id=48876505",
     "reading_time": 9,
-    "excerpt": "O Fim dos Monólitos de IA: Como o Mesh LLM e o Iroh estão descentralizando o futuro da computação Vivemos em uma era paradoxal: nunca tivemos tanto poder computacional, mas..."
+    "excerpt": "A Inteligência Artificial generativa vive um momento de contradição fascinante. Nunca tivemos modelos tão potentes, mas, ao mesmo tempo, nunca estivemos tão dependentes de centralização. Quando você interage com um..."
   }
 ]

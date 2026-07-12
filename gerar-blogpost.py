@@ -202,6 +202,29 @@ def generate_mascot_image_via_interaction(theme: str, output_path="post_image.pn
                     
     raise Exception("A API de interação não retornou nenhuma imagem válida.")
 
+def extract_and_strip_title_from_markdown(content_md: str, default_title: str) -> tuple[str, str]:
+    """
+    Extrai o título principal (H1) do Markdown, remove essa linha do conteúdo
+    e retorna uma tupla (titulo, conteudo_limpo).
+    """
+    lines = content_md.split('\n')
+    title = default_title
+    cleaned_lines = []
+    found_title = False
+
+    for line in lines:
+        if not found_title and line.strip().startswith('#'):
+            # Encontrou o título H1 principal
+            title = re.sub(r'^#+\s*', '', line.strip())
+            # Remove marcadores de negrito/itálico que o LLM possa ter colocado no título
+            title = re.sub(r'[*_`]', '', title)
+            found_title = True
+            continue # Pula a linha do título para não repetir no corpo
+        cleaned_lines.append(line)
+
+    cleaned_content = '\n'.join(cleaned_lines).strip()
+    return title, cleaned_content
+
 def slugify(text: str) -> str:
     """
     Converte um texto para um slug URL amigável.
@@ -438,21 +461,25 @@ def main():
             print(f"Link Original: {story['link']}")
             print(f"=========================================")
 
-            slug = slugify(story['title'])
+            print("\n-> Gerando a versão adaptada em PT-BR com o Gemini 3.1 Flash-Lite...")
+            post_text = generate_ptbr_content(story['title'])
+
+            # Extrai o título traduzido e limpa o H1 do markdown para evitar duplicação no layout
+            ptbr_title, clean_post_text = extract_and_strip_title_from_markdown(post_text, story['title'])
+            print(f"Título extraído (PT-BR): {ptbr_title}")
+
+            slug = slugify(ptbr_title)
             image_filename = f"{slug}.png"
             image_path = os.path.join("posts/images", image_filename)
             html_path = os.path.join("posts", f"{slug}.html")
-
-            print("\n-> Gerando a versão adaptada em PT-BR com o Gemini 3.1 Flash-Lite...")
-            post_text = generate_ptbr_content(story['title'])
 
             print(f"\n-> Gerando a imagem em {image_path}...")
             generate_mascot_image_via_interaction(story['title'], output_path=image_path)
 
             print(f"\n-> Renderizando o post em HTML em {html_path}...")
             reading_time, excerpt = render_html_post(
-                title=story['title'],
-                content_md=post_text,
+                title=ptbr_title,
+                content_md=clean_post_text,
                 image_filename=image_filename,
                 original_link=story['link'],
                 hn_link=story['hn_link'],
@@ -462,7 +489,7 @@ def main():
             print("\n-> Atualizando metadados posts.json...")
             date_str = datetime.now().strftime("%d/%m/%Y")
             posts = update_posts_metadata(
-                title=story['title'],
+                title=ptbr_title,
                 date_str=date_str,
                 slug=slug,
                 image_filename=image_filename,
