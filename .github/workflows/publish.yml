@@ -8,7 +8,7 @@ on:
     - cron: '0 9 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -40,11 +40,17 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python gerar-blogpost.py
 
+      - name: Commit e push das novas postagens
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add posts.json index.html archive.html posts/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: adiciona nova postagem automatica [skip ci]" && git push origin main)
+
       - name: Preparar artefatos para publicação
         run: |
           mkdir -p _site
-          cp post.html _site/index.html
-          cp post_image.png _site/post_image.png
+          cp -r index.html archive.html posts.json template.html list_template.html posts _site/ 2>/dev/null || true
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5

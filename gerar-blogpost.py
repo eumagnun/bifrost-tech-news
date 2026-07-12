@@ -4,6 +4,7 @@ import math
 import requests
 import base64
 import io
+import json
 from datetime import datetime
 from bs4 import BeautifulSoup
 from google import genai
@@ -67,6 +68,7 @@ def get_top_hacker_news_story():
                 }
                 
     raise Exception("Nenhum post válido encontrado.")
+
 def generate_ptbr_content(title: str) -> str:
     """
     Utiliza o Gemini 3.1 Flash-Lite para traduzir, contextualizar e criar o corpo
@@ -92,6 +94,8 @@ def generate_ptbr_content(title: str) -> str:
     7. **Conclusão e reflexão (1-2 parágrafos)** — Feche com um gancho para o leitor, provocando reflexão sobre o futuro do tema.
 
     DIRETRIZES DE ESTILO:
+    - Comece o texto DIRETAMENTE com o título. Não adicione conversas amigáveis no início ou no fim (ex: "Aqui está o post solicitado", "Espero que goste").
+    - Não envolva a resposta completa em um bloco de código markdown (como ```markdown ... ```).
     - Tom profissional, porém leve, acessível e com toques de humor geek.
     - Use emojis estrategicamente para melhorar a legibilidade (🚀, 💡, ⚡, 🐉, etc.).
     - Inclua subtítulos claros para cada seção.
@@ -111,7 +115,39 @@ def generate_ptbr_content(title: str) -> str:
         contents=prompt,
         config=generate_content_config
     )
-    return response.text
+    
+    text = response.text.strip()
+    
+    # Remove wrappers de bloco de código markdown se houver
+    if text.startswith("```markdown"):
+        text = text[len("```markdown"):].strip()
+    elif text.startswith("```"):
+        text = text[3:].strip()
+    if text.endswith("```"):
+        text = text[:-3].strip()
+        
+    # Remove saudações e introduções conversacionais comuns
+    preambles = [
+        "aqui está o seu post", "aqui está o post", "aqui está um post",
+        "segue o post", "claro! aqui está", "com certeza, aqui está",
+        "olá! aqui está", "segue abaixo o post", "aqui está o artigo"
+    ]
+    for preamble in preambles:
+        if text.lower().startswith(preamble):
+            # Procura o primeiro título (# ou ##) ou linha com texto e remove o preâmbulo
+            lines = text.split("\n")
+            cleaned_lines = []
+            heading_found = False
+            for line in lines:
+                if line.strip().startswith("#"):
+                    heading_found = True
+                if heading_found:
+                    cleaned_lines.append(line)
+            if cleaned_lines:
+                text = "\n".join(cleaned_lines).strip()
+            break
+            
+    return text
 
 def generate_mascot_image_via_interaction(theme: str, output_path="post_image.png"):
     """
@@ -159,12 +195,25 @@ def generate_mascot_image_via_interaction(theme: str, output_path="post_image.pn
                     
     raise Exception("A API de interação não retornou nenhuma imagem válida.")
 
-def render_html_post(title: str, content_md: str, image_path: str,
+def slugify(text: str) -> str:
+    """
+    Converte um texto para um slug URL amigável.
+    """
+    # Converte para minúsculas e remove acentos/caracteres especiais simples
+    text = text.lower()
+    # Substitui caracteres não alfanuméricos por hífen
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    # Remove hífens múltiplos ou nas pontas
+    text = re.sub(r'-+', '-', text)
+    text = text.strip('-')
+    return text if text else "post"
+
+def render_html_post(title: str, content_md: str, image_filename: str,
                      original_link: str, hn_link: str,
-                     output_path: str = "post.html"):
+                     output_path: str) -> tuple[int, str]:
     """
     Converte o conteúdo Markdown gerado em HTML e injeta no template,
-    produzindo o arquivo final do post estilizado.
+    produzindo o arquivo final do post estilizado. Retorna uma tupla (reading_time, excerpt).
     """
     # Caminho do template relativo ao script
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -185,26 +234,181 @@ def render_html_post(title: str, content_md: str, image_path: str,
 
     # Gera a meta description a partir das primeiras palavras do conteúdo
     plain_text = re.sub(r'[#*_`\[\]()>\-!]', '', content_md)
-    meta_description = ' '.join(plain_text.split()[:30]) + '...'
+    excerpt = ' '.join(plain_text.split()[:30]) + '...'
 
     # Data formatada em PT-BR
     date_str = datetime.now().strftime("%d/%m/%Y")
 
+    # Caminho da imagem relativo ao arquivo HTML do post (está na pasta posts/images/...)
+    rel_image_path = f"images/{image_filename}"
+
     # Substitui os placeholders no template
     html_output = template.replace("{{TITLE}}", title)
     html_output = html_output.replace("{{CONTENT}}", content_html)
-    html_output = html_output.replace("{{IMAGE_PATH}}", image_path)
+    html_output = html_output.replace("{{IMAGE_PATH}}", rel_image_path)
     html_output = html_output.replace("{{ORIGINAL_LINK}}", original_link)
     html_output = html_output.replace("{{HN_LINK}}", hn_link)
     html_output = html_output.replace("{{DATE}}", date_str)
     html_output = html_output.replace("{{READING_TIME}}", str(reading_time))
-    html_output = html_output.replace("{{META_DESCRIPTION}}", meta_description)
+    html_output = html_output.replace("{{META_DESCRIPTION}}", excerpt)
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_output)
 
-    return output_path
+    return reading_time, excerpt
 
+def update_posts_metadata(title: str, date_str: str, slug: str, image_filename: str,
+                          original_link: str, hn_link: str, reading_time: int, excerpt: str):
+    """
+    Carrega, atualiza e salva o arquivo posts.json com o novo post no início da lista.
+    """
+    metadata_path = "posts.json"
+    
+    if os.path.exists(metadata_path):
+        try:
+            with open(metadata_path, "r", encoding="utf-8") as f:
+                posts = json.load(f)
+        except Exception:
+            posts = []
+    else:
+        posts = []
+
+    # Cria o novo registro
+    new_post = {
+        "slug": slug,
+        "title": title,
+        "date": date_str,
+        "image_path": f"posts/images/{image_filename}",
+        "original_link": original_link,
+        "hn_link": hn_link,
+        "reading_time": reading_time,
+        "excerpt": excerpt
+    }
+
+    # Verifica se já existe um post com a mesma slug ou link original
+    existing_index = -1
+    for i, p in enumerate(posts):
+        if p["slug"] == slug or p["original_link"] == original_link:
+            existing_index = i
+            break
+
+    if existing_index != -1:
+        # Atualiza o registro existente
+        posts[existing_index] = new_post
+    else:
+        # Insere no início da lista
+        posts.insert(0, new_post)
+
+    with open(metadata_path, "w", encoding="utf-8") as f:
+        json.dump(posts, f, indent=2, ensure_ascii=False)
+
+    return posts
+
+def generate_list_pages(posts: list):
+    """
+    Gera index.html (últimos 10 posts) e archive.html (todos os posts).
+    """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    list_template_path = os.path.join(script_dir, "list_template.html")
+
+    if not os.path.exists(list_template_path):
+        raise FileNotFoundError(f"Template de lista não encontrado em: {list_template_path}")
+
+    with open(list_template_path, "r", encoding="utf-8") as f:
+        template = f.read()
+
+    # Função auxiliar para gerar blocos de HTML dos posts
+    def build_hero_html(post):
+        return f"""
+        <article class="hero-post">
+            <div class="hero-image-wrapper">
+                <img src="{post['image_path']}" alt="{post['title']}">
+            </div>
+            <div class="hero-info">
+                <div class="post-tag">Último Post</div>
+                <a href="posts/{post['slug']}.html" class="hero-post-title">{post['title']}</a>
+                <p class="post-excerpt">{post['excerpt']}</p>
+                <div class="post-meta">
+                    <span>📅 {post['date']}</span>
+                    <span class="separator"></span>
+                    <span>⚡ {post['reading_time']} min de leitura</span>
+                </div>
+            </div>
+        </article>
+        """
+
+    def build_grid_html(posts_list):
+        grid_items = []
+        for post in posts_list:
+            grid_items.append(f"""
+            <article class="grid-post">
+                <div class="grid-image-wrapper">
+                    <img src="{post['image_path']}" alt="{post['title']}">
+                </div>
+                <div class="grid-info">
+                    <a href="posts/{post['slug']}.html" class="grid-post-title">{post['title']}</a>
+                    <p class="post-excerpt">{post['excerpt']}</p>
+                    <div class="post-meta">
+                        <span>📅 {post['date']}</span>
+                        <span class="separator"></span>
+                        <span>⚡ {post['reading_time']} min de leitura</span>
+                    </div>
+                </div>
+            </article>
+            """)
+        return "\n".join(grid_items)
+
+    # 1. Gerar index.html (Até 10 posts)
+    if not posts:
+        latest_hero = "<p style='text-align: center; color: var(--text-secondary);'>Nenhuma postagem encontrada ainda.</p>"
+        posts_grid = ""
+        bottom_nav = ""
+    else:
+        latest_hero = build_hero_html(posts[0])
+        grid_posts = posts[1:10]  # post 1 ao 9 (máximo 10 total incluindo o hero)
+        posts_grid = build_grid_html(grid_posts)
+        
+        if len(posts) > 10:
+            bottom_nav = """
+            <div class="archive-trigger">
+                <a href="archive.html" class="btn-archive">Ver todas as postagens →</a>
+            </div>
+            """
+        else:
+            bottom_nav = ""
+
+    index_html = template.replace("{{LIST_TITLE}}", "Últimas Postagens")
+    index_html = index_html.replace("{{PAGE_TITLE}}", "Bifrost Tech News")
+    index_html = index_html.replace("{{PAGE_SUBTITLE}}", "As principais novidades do mundo da tecnologia analisadas e detalhadas com apoio de IA.")
+    index_html = index_html.replace("{{NAV_HOME_CLASS}}", "active")
+    index_html = index_html.replace("{{NAV_ARCHIVE_CLASS}}", "")
+    index_html = index_html.replace("{{LATEST_HERO}}", latest_hero)
+    index_html = index_html.replace("{{POSTS_GRID}}", posts_grid)
+    index_html = index_html.replace("{{BOTTOM_NAVIGATION}}", bottom_nav)
+
+    with open(os.path.join(script_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(index_html)
+
+    # 2. Gerar archive.html (Todos os posts)
+    if not posts:
+        latest_hero = "<p style='text-align: center; color: var(--text-secondary);'>Nenhuma postagem encontrada ainda.</p>"
+        posts_grid = ""
+    else:
+        latest_hero = build_hero_html(posts[0])
+        grid_posts = posts[1:]  # Todos os posts restantes
+        posts_grid = build_grid_html(grid_posts)
+
+    archive_html = template.replace("{{LIST_TITLE}}", "Arquivo de Postagens")
+    archive_html = archive_html.replace("{{PAGE_TITLE}}", "Todas as Postagens")
+    archive_html = archive_html.replace("{{PAGE_SUBTITLE}}", "Explore todo o histórico de publicações do Bifrost Tech News.")
+    archive_html = archive_html.replace("{{NAV_HOME_CLASS}}", "")
+    archive_html = archive_html.replace("{{NAV_ARCHIVE_CLASS}}", "active")
+    archive_html = archive_html.replace("{{LATEST_HERO}}", latest_hero)
+    archive_html = archive_html.replace("{{POSTS_GRID}}", posts_grid)
+    archive_html = archive_html.replace("{{BOTTOM_NAVIGATION}}", "")
+
+    with open(os.path.join(script_dir, "archive.html"), "w", encoding="utf-8") as f:
+        f.write(archive_html)
 
 def main():
     try:
@@ -213,28 +417,52 @@ def main():
         print(f"Encontrado: {story['title']}")
         print(f"Link Original: {story['link']}")
 
+        slug = slugify(story['title'])
+        
+        # Garante que os diretórios necessários existam
+        os.makedirs("posts", exist_ok=True)
+        os.makedirs("posts/images", exist_ok=True)
+
+        image_filename = f"{slug}.png"
+        image_path = os.path.join("posts/images", image_filename)
+        html_path = os.path.join("posts", f"{slug}.html")
+
         print("\n2. Gerando a versão adaptada em PT-BR com o Gemini 3.1 Flash-Lite...")
         post_text = generate_ptbr_content(story['title'])
 
-        print("\n3. Gerando a imagem com o Nano Bana via Gemini 3.1 Flash-Lite Image...")
-        image_file = generate_mascot_image_via_interaction(story['title'])
+        print(f"\n3. Gerando a imagem com o Nano Bana em {image_path}...")
+        generate_mascot_image_via_interaction(story['title'], output_path=image_path)
 
-        print("\n4. Renderizando o post em HTML com o template...")
-        html_file = render_html_post(
+        print(f"\n4. Renderizando o post em HTML em {html_path}...")
+        reading_time, excerpt = render_html_post(
             title=story['title'],
             content_md=post_text,
-            image_path=image_file,
+            image_filename=image_filename,
             original_link=story['link'],
-            hn_link=story['hn_link']
+            hn_link=story['hn_link'],
+            output_path=html_path
         )
 
-        print("\n--- POST GERADO COM SUCESSO ---")
-        print(post_text)
-        print("\n🔗 Fontes e Créditos:")
-        print(f"👉 Artigo Original: {story['link']}")
-        print(f"💬 Discussão no HN: {story['hn_link']}")
-        print(f"🖼️ Imagem gerada: {image_file}")
-        print(f"📄 Post HTML: {html_file}")
+        print("\n5. Atualizando metadados posts.json...")
+        date_str = datetime.now().strftime("%d/%m/%Y")
+        posts = update_posts_metadata(
+            title=story['title'],
+            date_str=date_str,
+            slug=slug,
+            image_filename=image_filename,
+            original_link=story['link'],
+            hn_link=story['hn_link'],
+            reading_time=reading_time,
+            excerpt=excerpt
+        )
+
+        print("\n6. Regenerando as páginas de listagem (index.html e archive.html)...")
+        generate_list_pages(posts)
+
+        print("\n--- PROCESSO CONCLUÍDO COM SUCESSO ---")
+        print(f"📄 Novo Post: {html_path}")
+        print(f"🖼️ Nova Imagem: {image_path}")
+        print(f"🏠 Home Page atualizada com {min(10, len(posts))} postagens.")
         print("--------------------------------")
 
     except Exception as e:

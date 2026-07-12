@@ -11,7 +11,7 @@ This is a **single-file Python CLI tool** (`gerar-blogpost.py`) with four sequen
 1. **Scraping** — Fetches the highest-voted story from the Hacker News front page using `requests` + `BeautifulSoup`.
 2. **Text Generation** — Sends the story title to `gemini-3.1-flash-lite` (with thinking enabled at LOW level) to produce a 2000+ word professional, didactic post in Brazilian Portuguese. The post includes a creative **Dragon Ball use case** section that uses characters and scenarios from the Dragon Ball universe to explain the technical concept through analogy.
 3. **Image Generation** — Uses the `gemini-3.1-flash-lite-image` model via the `client.interactions` API to generate an **anime-style Dragon Ball illustration** of the project mascot "Nano Bana" (a banana warrior in Saiyan armor with nanotech elements) contextualized to the article theme.
-4. **HTML Rendering** — Converts the Markdown output to HTML using the `markdown` library and injects it into `template.html`, producing a styled, ready-to-publish `post.html` file with reading progress bar, responsive layout, and Dragon Ball-themed dark mode design.
+4. **HTML Rendering & Site Build** — Converts the Markdown output to HTML using the `markdown` library, saves it to `posts/{slug}.html` using `template.html`, saves the mascot image to `posts/images/{slug}.png`, appends post metadata to `posts.json`, and rebuilds `index.html` (displaying the 10 newest posts) and `archive.html` (displaying all posts) using `list_template.html`.
 
 ## Tech Stack
 
@@ -21,7 +21,7 @@ This is a **single-file Python CLI tool** (`gerar-blogpost.py`) with four sequen
 - **Scraping:** `requests`, `beautifulsoup4`
 - **Image Processing:** `Pillow` (PIL)
 - **HTML Rendering:** `markdown` (with `extra`, `codehilite`, `nl2br`, `sane_lists` extensions)
-- **Environment:** API key via `GEMINI_API_KEY` env var
+- **Environment:** API key loaded from `.env` file via `python-dotenv`
 
 ## Key Conventions
 
@@ -33,18 +33,23 @@ This is a **single-file Python CLI tool** (`gerar-blogpost.py`) with four sequen
 - **Gemini client initialization:** Use `genai.Client(api_key=...)` at module level. Do not instantiate multiple clients.
 - **Image generation pattern:** Uses `client.interactions.create()` with `response_modalities=['image', 'text']`, then iterates `interaction.steps` to extract base64-encoded image data.
 - **Error handling:** Functions raise exceptions on failure; `main()` wraps everything in a single try/except.
-- **Output:** The generated image is saved to `post_image.png` and the final styled post to `post.html` in the project root.
+- **Output:** New posts are saved to `posts/{slug}.html`, images to `posts/images/{slug}.png`, and list pages `index.html` and `archive.html` are regenerated. All posts are tracked in `posts.json`.
 
 ## File Structure
 
 ```
 blogpost-generator/
 ├── gerar-blogpost.py    # Main script (all logic)
-├── template.html        # HTML template for rendering posts
+├── template.html        # HTML template for individual posts
+├── list_template.html   # HTML template for landing/archive list pages
 ├── requirements.txt     # Python dependencies
 ├── readme.md            # Setup instructions
-├── post.html            # Last generated post (output artifact)
-├── post_image.png       # Last generated mascot image (output artifact)
+├── index.html           # Landing page listing the 10 newest posts (regenerated)
+├── archive.html         # Page listing all posts (regenerated)
+├── posts.json           # Database of all posts metadata
+├── posts/               # Generated posts directory
+│   ├── images/          # Generated images directory
+│   └── *.html           # Individual post pages
 └── .venv/               # Virtual environment (not committed)
 ```
 
