@@ -1,5 +1,25 @@
 [
   {
+    "slug": "alem-dos-pixels-decifrando-o-acumulo-de-erros-em-modelos-de-difusao-de-video-auto-regressivos",
+    "title": "Além dos Pixels: Decifrando o Acúmulo de Erros em Modelos de Difusão de Vídeo Auto-Regressivos 🎥🤖",
+    "date": "12/07/2026",
+    "image_path": "posts/images/alem-dos-pixels-decifrando-o-acumulo-de-erros-em-modelos-de-difusao-de-video-auto-regressivos.png",
+    "original_link": "http://jmlr.org/papers/v27/25-3128.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-3128.html",
+    "reading_time": 9,
+    "excerpt": "O Desafio da Consistência Temporal: Por que Vídeos em IA ainda \"Alucinam\"? Nos últimos anos, assistimos a uma revolução na geração de mídia sintética. De modelos de difusão de imagem..."
+  },
+  {
+    "slug": "a-ascensao-do-invisible-tech-por-que-a-produtividade-sem-vigilancia-esta-redefinindo-o-mercado-de-wearables-em-2026",
+    "title": "A Ascensão do \"Invisible Tech\": Por que a Produtividade sem Vigilância está Redefinindo o Mercado de Wearables em 2026",
+    "date": "12/07/2026",
+    "image_path": "posts/images/a-ascensao-do-invisible-tech-por-que-a-produtividade-sem-vigilancia-esta-redefinindo-o-mercado-de-wearables-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
+    "hn_link": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
+    "reading_time": 12,
+    "excerpt": "No cenário tecnológico global de 2026, a corrida armamentista pelo próximo dispositivo vestível wearable atingiu um ponto de inflexão crítico. Enquanto titãs como Meta, Apple e as gigantes asiáticas se..."
+  },
+  {
     "slug": "o-enigma-das-redes-infinitas-decifrando-o-fluxo-de-gradiente-em-redes-neurais-quadraticas-de-largura-extensiva",
     "title": "O Enigma das Redes Infinitas: Decifrando o Fluxo de Gradiente em Redes Neurais Quadráticas de Largura Extensiva",
     "date": "12/07/2026",
@@ -40,14 +60,14 @@
     "excerpt": "A Sombra da Inovação: Por que o Legado de Reed Jobs Sinaliza uma Mudança de Paradigma na Economia da Longevidade Estamos em meados de 2026 e o capitalismo de marca..."
   },
   {
-    "slug": "a-revolucao-silenciosa-como-agentes-de-ia-estao-reconectando-o-legado-com-o-futuro-da-engenharia-de-software",
-    "title": "A Revolução Silenciosa: Como Agentes de IA Estão Reconectando o Legado com o Futuro da Engenharia de Software",
+    "slug": "a-revolucao-invisivel-como-agentes-de-ia-estao-unindo-o-legado-do-passado-ao-futuro-do-codigo",
+    "title": "A Revolução Invisível: Como Agentes de IA Estão Unindo o Legado do Passado ao Futuro do Código",
     "date": "12/07/2026",
-    "image_path": "posts/images/a-revolucao-silenciosa-como-agentes-de-ia-estao-reconectando-o-legado-com-o-futuro-da-engenharia-de-software.png",
+    "image_path": "posts/images/a-revolucao-invisivel-como-agentes-de-ia-estao-unindo-o-legado-do-passado-ao-futuro-do-codigo.png",
     "original_link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
     "hn_link": "https://news.ycombinator.com/item?id=48880170",
-    "reading_time": 10,
-    "excerpt": "Vivemos em uma era onde o \"débito técnico\" deixou de ser apenas um fantasma nos nossos backlogs para se tornar uma barreira crítica à inovação. Empresas ao redor do mundo..."
+    "reading_time": 11,
+    "excerpt": "Introdução: O Dilema da Dívida Técnica Infinita Vivemos em uma era paradoxal na engenharia de software. Nunca tivemos tantas ferramentas poderosas, linguagens de programação expressivas e infraestrutura em nuvem escalável..."
   },
   {
     "slug": "o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna",

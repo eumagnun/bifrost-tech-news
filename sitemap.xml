@@ -11,6 +11,16 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-dos-pixels-decifrando-o-acumulo-de-erros-em-modelos-de-difusao-de-video-auto-regressivos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-ascensao-do-invisible-tech-por-que-a-produtividade-sem-vigilancia-esta-redefinindo-o-mercado-de-wearables-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-enigma-das-redes-infinitas-decifrando-o-fluxo-de-gradiente-em-redes-neurais-quadraticas-de-largura-extensiva.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -31,7 +41,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://blog.bifrost-solutions.com/posts/a-revolucao-silenciosa-como-agentes-de-ia-estao-reconectando-o-legado-com-o-futuro-da-engenharia-de-software.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/a-revolucao-invisivel-como-agentes-de-ia-estao-unindo-o-legado-do-passado-ao-futuro-do-codigo.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
