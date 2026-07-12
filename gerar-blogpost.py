@@ -11,6 +11,7 @@ from google import genai
 from google.genai import types
 from PIL import Image as PILImage
 import markdown
+import argparse
 from dotenv import load_dotenv
 
 # Carrega as variáveis de ambiente do arquivo .env
@@ -21,9 +22,9 @@ client = genai.Client(
     api_key=os.environ.get("GOOGLE_API_KEY"),
 )
 
-def get_top_hacker_news_story():
+def get_top_hacker_news_stories(count: int = 1):
     """
-    Faz o scraping da página inicial do Hacker News e retorna o post mais votado
+    Faz o scraping da página inicial do Hacker News e retorna os posts mais votados
     do momento (evitando links de jobs ou posts sem pontuação).
     """
     url = "https://news.ycombinator.com/news"
@@ -38,6 +39,7 @@ def get_top_hacker_news_story():
     # Seleciona todas as linhas principais de posts (class 'athing')
     stories = soup.find_all('tr', class_='athing')
     
+    stories_list = []
     for story in stories:
         story_id = story.get('id')
         
@@ -61,13 +63,18 @@ def get_top_hacker_news_story():
                 if link.startswith('item?id='):
                     link = f"https://news.ycombinator.com/{link}"
                     
-                return {
+                stories_list.append({
                     "title": title,
                     "link": link,
                     "hn_link": f"https://news.ycombinator.com/item?id={story_id}"
-                }
+                })
                 
-    raise Exception("Nenhum post válido encontrado.")
+                if len(stories_list) >= count:
+                    break
+                    
+    if not stories_list:
+        raise Exception("Nenhum post válido encontrado.")
+    return stories_list
 
 def generate_ptbr_content(title: str) -> str:
     """
@@ -412,57 +419,67 @@ def generate_list_pages(posts: list):
 
 def main():
     try:
-        print("1. Buscando o post mais relevante do Hacker News...")
-        story = get_top_hacker_news_story()
-        print(f"Encontrado: {story['title']}")
-        print(f"Link Original: {story['link']}")
+        parser = argparse.ArgumentParser(description="Gerador de posts técnicos automáticos.")
+        parser.add_argument("-c", "--count", type=int, default=1, help="Número de posts a gerar a partir das principais notícias do Hacker News.")
+        args = parser.parse_args()
 
-        slug = slugify(story['title'])
-        
+        print(f"1. Buscando as {args.count} postagens mais relevantes do Hacker News...")
+        stories = get_top_hacker_news_stories(args.count)
+        print(f"Encontrados {len(stories)} artigos para processar.")
+
         # Garante que os diretórios necessários existam
         os.makedirs("posts", exist_ok=True)
         os.makedirs("posts/images", exist_ok=True)
 
-        image_filename = f"{slug}.png"
-        image_path = os.path.join("posts/images", image_filename)
-        html_path = os.path.join("posts", f"{slug}.html")
+        posts = []
+        for idx, story in enumerate(stories, 1):
+            print(f"\n=========================================")
+            print(f"Processando artigo {idx}/{len(stories)}: {story['title']}")
+            print(f"Link Original: {story['link']}")
+            print(f"=========================================")
 
-        print("\n2. Gerando a versão adaptada em PT-BR com o Gemini 3.1 Flash-Lite...")
-        post_text = generate_ptbr_content(story['title'])
+            slug = slugify(story['title'])
+            image_filename = f"{slug}.png"
+            image_path = os.path.join("posts/images", image_filename)
+            html_path = os.path.join("posts", f"{slug}.html")
 
-        print(f"\n3. Gerando a imagem com o Nano Bana em {image_path}...")
-        generate_mascot_image_via_interaction(story['title'], output_path=image_path)
+            print("\n-> Gerando a versão adaptada em PT-BR com o Gemini 3.1 Flash-Lite...")
+            post_text = generate_ptbr_content(story['title'])
 
-        print(f"\n4. Renderizando o post em HTML em {html_path}...")
-        reading_time, excerpt = render_html_post(
-            title=story['title'],
-            content_md=post_text,
-            image_filename=image_filename,
-            original_link=story['link'],
-            hn_link=story['hn_link'],
-            output_path=html_path
-        )
+            print(f"\n-> Gerando a imagem em {image_path}...")
+            generate_mascot_image_via_interaction(story['title'], output_path=image_path)
 
-        print("\n5. Atualizando metadados posts.json...")
-        date_str = datetime.now().strftime("%d/%m/%Y")
-        posts = update_posts_metadata(
-            title=story['title'],
-            date_str=date_str,
-            slug=slug,
-            image_filename=image_filename,
-            original_link=story['link'],
-            hn_link=story['hn_link'],
-            reading_time=reading_time,
-            excerpt=excerpt
-        )
+            print(f"\n-> Renderizando o post em HTML em {html_path}...")
+            reading_time, excerpt = render_html_post(
+                title=story['title'],
+                content_md=post_text,
+                image_filename=image_filename,
+                original_link=story['link'],
+                hn_link=story['hn_link'],
+                output_path=html_path
+            )
+
+            print("\n-> Atualizando metadados posts.json...")
+            date_str = datetime.now().strftime("%d/%m/%Y")
+            posts = update_posts_metadata(
+                title=story['title'],
+                date_str=date_str,
+                slug=slug,
+                image_filename=image_filename,
+                original_link=story['link'],
+                hn_link=story['hn_link'],
+                reading_time=reading_time,
+                excerpt=excerpt
+            )
+
+            print(f"✓ Concluído artigo: {story['title']}")
 
         print("\n6. Regenerando as páginas de listagem (index.html e archive.html)...")
         generate_list_pages(posts)
 
-        print("\n--- PROCESSO CONCLUÍDO COM SUCESSO ---")
-        print(f"📄 Novo Post: {html_path}")
-        print(f"🖼️ Nova Imagem: {image_path}")
-        print(f"🏠 Home Page atualizada com {min(10, len(posts))} postagens.")
+        print("\n--- PROCESSO COMPLETO CONCLUÍDO COM SUCESSO ---")
+        print(f"🏠 Home Page e arquivos atualizados com sucesso.")
+        print(f"📊 Total acumulado de postagens: {len(posts)}.")
         print("--------------------------------")
 
     except Exception as e:

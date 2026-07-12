@@ -1,12 +1,62 @@
 [
   {
+    "slug": "billions-of-sketches-reveal-hidden-cultural-variation-in-human-concepts",
+    "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
+    "date": "11/07/2026",
+    "image_path": "posts/images/billions-of-sketches-reveal-hidden-cultural-variation-in-human-concepts.png",
+    "original_link": "https://arxiv.org/abs/2607.07267",
+    "hn_link": "https://news.ycombinator.com/item?id=48849744",
+    "reading_time": 9,
+    "excerpt": "O Que Bilhões de Esboços nos Ensinam Sobre a Mente Humana: IA, Cultura e a Arquitetura da Percepção Global Vivemos em uma era onde os dados não são apenas números..."
+  },
+  {
+    "slug": "nvidia-coreweave-and-nebius-inside-the-circular-financing-of-the-gpu-boom",
+    "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+    "date": "11/07/2026",
+    "image_path": "posts/images/nvidia-coreweave-and-nebius-inside-the-circular-financing-of-the-gpu-boom.png",
+    "original_link": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+    "hn_link": "https://news.ycombinator.com/item?id=48873836",
+    "reading_time": 10,
+    "excerpt": "O Efeito Estufa do Silício: Desvendando a Engenharia Financeira por Trás da Corrida do Ouro das GPUs A inteligência artificial generativa não é apenas um salto tecnológico; é uma das..."
+  },
+  {
+    "slug": "the-fine-print-that-follows-you-out-the-door-non-compete-clauses-are-spreading",
+    "title": "The fine print that follows you out the door: non-compete clauses are spreading",
+    "date": "11/07/2026",
+    "image_path": "posts/images/the-fine-print-that-follows-you-out-the-door-non-compete-clauses-are-spreading.png",
+    "original_link": "https://oecdecoscope.blog/2026/07/07/the-fine-print-that-follows-you-out-the-door-non-compete-clauses-are-spreading-and-holding-back-growth/",
+    "hn_link": "https://news.ycombinator.com/item?id=48876578",
+    "reading_time": 11,
+    "excerpt": "As Algemas Invisíveis do Código: O Lado Sombrio das Cláusulas de Não Concorrência na Tecnologia Você já parou para ler cada linha daquele contrato de trabalho de 40 páginas que..."
+  },
+  {
+    "slug": "riscboy-is-an-open-source-portable-games-console-designed-from-scratch",
+    "title": "RISCBoy is an open-source portable games console, designed from scratch",
+    "date": "11/07/2026",
+    "image_path": "posts/images/riscboy-is-an-open-source-portable-games-console-designed-from-scratch.png",
+    "original_link": "https://github.com/Wren6991/RISCBoy",
+    "hn_link": "https://news.ycombinator.com/item?id=48876245",
+    "reading_time": 10,
+    "excerpt": "RISCBoy: A Revolução do Hardware OpenSource na Palma da Sua Mão O cenário da tecnologia de consumo tem sido dominado, nas últimas décadas, por dispositivos \"caixapreta\". Smartphones, consoles portáteis e..."
+  },
+  {
+    "slug": "show-hn-ant-a-javascript-runtime-and-ecosystem",
+    "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+    "date": "11/07/2026",
+    "image_path": "posts/images/show-hn-ant-a-javascript-runtime-and-ecosystem.png",
+    "original_link": "https://antjs.org",
+    "hn_link": "https://news.ycombinator.com/item?id=48875377",
+    "reading_time": 10,
+    "excerpt": "Ant: O Novo Jogador no Tabuleiro dos Runtimes JavaScript que Você Precisa Conhecer 🐜🚀 O ecossistema JavaScript está em um estado de ebulição constante. Por anos, vivemos no conforto e,..."
+  },
+  {
     "slug": "mesh-llm-distributed-ai-computing-on-iroh",
     "title": "Mesh LLM: distributed AI computing on iroh",
-    "date": "12/07/2026",
+    "date": "11/07/2026",
     "image_path": "posts/images/mesh-llm-distributed-ai-computing-on-iroh.png",
     "original_link": "https://www.iroh.computer/blog/mesh-llm",
     "hn_link": "https://news.ycombinator.com/item?id=48876505",
-    "reading_time": 9,
-    "excerpt": "Mesh LLM: O Futuro da Inteligência Artificial Descentralizada Chegou e Ele não está na Nuvem 🌐🚀 Estamos vivendo a era de ouro da Inteligência Artificial. Todos os dias, vemos novos..."
+    "reading_time": 10,
+    "excerpt": "O Fim do Monopólio da GPU: Como o Mesh LLM e o Iroh Estão Democratizando a Inteligência Artificial A arquitetura de sistemas de Inteligência Artificial vive um paradoxo interessante: enquanto..."
   }
 ]
