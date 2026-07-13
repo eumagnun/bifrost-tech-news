@@ -1,5 +1,35 @@
 [
   {
+    "slug": "python-na-escala-da-inteligencia-artificial-uma-decada-de-infraestrutura-na-meta",
+    "title": "Python na Escala da Inteligência Artificial: Uma Década de Infraestrutura na Meta",
+    "date": "13/07/2026",
+    "image_path": "posts/images/python-na-escala-da-inteligencia-artificial-uma-decada-de-infraestrutura-na-meta.png",
+    "original_link": "https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/",
+    "hn_link": "https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/",
+    "reading_time": 10,
+    "excerpt": "A evolução da Inteligência Artificial IA não é construída apenas sobre novos modelos de linguagem ou arquiteturas de redes neurais mais profundas. Ela é, fundamentalmente, construída sobre o silício e,..."
+  },
+  {
+    "slug": "o-fim-do-big-brother-de-algoritmos-por-que-o-rompimento-lapd-flock-marca-uma-mudanca-de-mare-no-capitalismo-de-vigilancia",
+    "title": "O Fim do \"Big Brother\" de Algoritmos: Por que o Rompimento LAPD-Flock Marca uma Mudança de Maré no Capitalismo de Vigilância",
+    "date": "13/07/2026",
+    "image_path": "posts/images/o-fim-do-big-brother-de-algoritmos-por-que-o-rompimento-lapd-flock-marca-uma-mudanca-de-mare-no-capitalismo-de-vigilancia.png",
+    "original_link": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
+    "hn_link": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
+    "reading_time": 11,
+    "excerpt": "O cancelamento do contrato entre o Departamento de Polícia de Los Angeles LAPD e a gigante de tecnologia de vigilância Flock Safety não é apenas um contratempo burocrático ou um..."
+  },
+  {
+    "slug": "a-ilusao-da-magia-na-ia-por-que-a-engenharia-real-ainda-supera-o-marketing-de-silicone",
+    "title": "A Ilusão da \"Magia\" na IA: Por que a Engenharia Real Ainda Supera o Marketing de Silicone",
+    "date": "13/07/2026",
+    "image_path": "posts/images/a-ilusao-da-magia-na-ia-por-que-a-engenharia-real-ainda-supera-o-marketing-de-silicone.png",
+    "original_link": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+    "hn_link": "https://news.ycombinator.com/item?id=48889637",
+    "reading_time": 10,
+    "excerpt": "Estamos vivendo em uma era onde a fronteira entre a promessa tecnológica e a realidade técnica nunca foi tão tênue. De um lado, temos o marketing agressivo de grandes corporações..."
+  },
+  {
     "slug": "a-engenharia-do-invisivel-como-a-meta-reescreveu-o-blueprint-do-armazenamento-para-a-era-da-ia-em-escala-exabyte",
     "title": "A Engenharia do Invisível: Como a Meta reescreveu o blueprint do armazenamento para a era da IA em escala Exabyte",
     "date": "13/07/2026",

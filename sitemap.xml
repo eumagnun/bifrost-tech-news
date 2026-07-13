@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/python-na-escala-da-inteligencia-artificial-uma-decada-de-infraestrutura-na-meta.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-do-big-brother-de-algoritmos-por-que-o-rompimento-lapd-flock-marca-uma-mudanca-de-mare-no-capitalismo-de-vigilancia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-ilusao-da-magia-na-ia-por-que-a-engenharia-real-ainda-supera-o-marketing-de-silicone.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/a-engenharia-do-invisivel-como-a-meta-reescreveu-o-blueprint-do-armazenamento-para-a-era-da-ia-em-escala-exabyte.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
