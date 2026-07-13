@@ -1,5 +1,35 @@
 [
   {
+    "slug": "a-engenharia-do-invisivel-como-a-meta-reescreveu-o-blueprint-do-armazenamento-para-a-era-da-ia-em-escala-exabyte",
+    "title": "A Engenharia do Invisível: Como a Meta reescreveu o blueprint do armazenamento para a era da IA em escala Exabyte",
+    "date": "13/07/2026",
+    "image_path": "posts/images/a-engenharia-do-invisivel-como-a-meta-reescreveu-o-blueprint-do-armazenamento-para-a-era-da-ia-em-escala-exabyte.png",
+    "original_link": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
+    "hn_link": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
+    "reading_time": 11,
+    "excerpt": "1. O Problema: O Gargalo de Dados na Era da Inteligência Artificial Estamos vivendo em um momento peculiar da história da computação. Enquanto a atenção do público está focada na..."
+  },
+  {
+    "slug": "o-ultimato-dos-robotaxis-por-que-2026-e-o-ano-decisivo-da-mobilidade-autonoma-global",
+    "title": "O Ultimato dos Robotaxis: Por que 2026 é o ano decisivo da mobilidade autônoma global",
+    "date": "13/07/2026",
+    "image_path": "posts/images/o-ultimato-dos-robotaxis-por-que-2026-e-o-ano-decisivo-da-mobilidade-autonoma-global.png",
+    "original_link": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+    "hn_link": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+    "reading_time": 11,
+    "excerpt": "Estamos vivendo o ponto de inflexão da década. O \"Ultimato dos Robotaxis\" não é apenas uma manchete sobre veículos sem motorista circulando em São Francisco ou Shenzhen; é a culminação..."
+  },
+  {
+    "slug": "o-fim-da-invisibilidade-como-uma-simples-funcao-matematica-pode-revelar-o-seu-sistema-operacional",
+    "title": "O Fim da Invisibilidade: Como uma Simples Função Matemática Pode Revelar o Seu Sistema Operacional",
+    "date": "13/07/2026",
+    "image_path": "posts/images/o-fim-da-invisibilidade-como-uma-simples-funcao-matematica-pode-revelar-o-seu-sistema-operacional.png",
+    "original_link": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+    "hn_link": "https://news.ycombinator.com/item?id=48884853",
+    "reading_time": 9,
+    "excerpt": "Você já teve a sensação de estar sendo vigiado na internet? Não, não estou falando de teorias da conspiração, mas de algo muito mais tangível e técnico: o Browser Fingerprinting..."
+  },
+  {
     "slug": "alem-dos-pixels-decifrando-o-acumulo-de-erros-em-modelos-de-difusao-de-video-auto-regressivos",
     "title": "Além dos Pixels: Decifrando o Acúmulo de Erros em Modelos de Difusão de Vídeo Auto-Regressivos 🎥🤖",
     "date": "12/07/2026",

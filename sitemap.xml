@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-engenharia-do-invisivel-como-a-meta-reescreveu-o-blueprint-do-armazenamento-para-a-era-da-ia-em-escala-exabyte.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-ultimato-dos-robotaxis-por-que-2026-e-o-ano-decisivo-da-mobilidade-autonoma-global.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-invisibilidade-como-uma-simples-funcao-matematica-pode-revelar-o-seu-sistema-operacional.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/alem-dos-pixels-decifrando-o-acumulo-de-erros-em-modelos-de-difusao-de-video-auto-regressivos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
