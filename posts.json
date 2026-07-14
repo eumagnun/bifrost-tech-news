@@ -1,5 +1,35 @@
 [
   {
+    "slug": "infraestrutura-orientada-a-privacidade-na-era-da-ia-nativa-o-novo-paradigma-da-classificacao-de-ativos-inteligentes",
+    "title": "Infraestrutura Orientada à Privacidade na Era da IA Nativa: O Novo Paradigma da Classificação de Ativos Inteligentes",
+    "date": "14/07/2026",
+    "image_path": "posts/images/infraestrutura-orientada-a-privacidade-na-era-da-ia-nativa-o-novo-paradigma-da-classificacao-de-ativos-inteligentes.png",
+    "original_link": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+    "hn_link": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+    "reading_time": 9,
+    "excerpt": "Vivemos em 2026, um momento em que a Inteligência Artificial não é apenas uma ferramenta auxiliar, mas a própria base da nossa infraestrutura digital. No entanto, com a ubiquidade dos..."
+  },
+  {
+    "slug": "o-retrofuturismo-como-estrategia-de-defesa-por-que-o-mercado-de-hardware-infantil-virou-o-novo-campo-de-batalha-geopolitico",
+    "title": "O Retrofuturismo como Estratégia de Defesa: Por que o Mercado de Hardware Infantil virou o novo Campo de Batalha Geopolítico",
+    "date": "14/07/2026",
+    "image_path": "posts/images/o-retrofuturismo-como-estrategia-de-defesa-por-que-o-mercado-de-hardware-infantil-virou-o-novo-campo-de-batalha-geopolitico.png",
+    "original_link": "https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids/",
+    "hn_link": "https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids/",
+    "reading_time": 10,
+    "excerpt": "O Panorama Global de 2026: A Economia da Desconexão Seletiva Estamos em 2026, e o cenário tecnológico global atravessa uma transformação que poucos analistas anteciparam com clareza total na década..."
+  },
+  {
+    "slug": "a-era-da-criptografia-em-agentes-de-ia-por-que-proteger-prompts-se-tornou-o-novo-padrao-de-seguranca",
+    "title": "A Era da Criptografia em Agentes de IA: Por que Proteger Prompts se Tornou o Novo Padrão de Segurança?",
+    "date": "14/07/2026",
+    "image_path": "posts/images/a-era-da-criptografia-em-agentes-de-ia-por-que-proteger-prompts-se-tornou-o-novo-padrao-de-seguranca.png",
+    "original_link": "https://github.com/openai/codex/issues/28058",
+    "hn_link": "https://news.ycombinator.com/item?id=48905028",
+    "reading_time": 9,
+    "excerpt": "A segurança em ambientes de Inteligência Artificial Generativa acaba de dar um passo fundamental para o amadurecimento corporativo. Recentemente, observamos uma mudança drástica na arquitetura de sistemas que operam com..."
+  },
+  {
     "slug": "o-fim-do-gargalo-de-escalonamento-como-a-meta-revolucionou-a-infraestrutura-de-ia-com-o-schedext",
     "title": "O Fim do Gargalo de Escalonamento: Como a Meta Revolucionou a Infraestrutura de IA com o schedext",
     "date": "14/07/2026",

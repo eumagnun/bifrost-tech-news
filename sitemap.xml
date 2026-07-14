@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/infraestrutura-orientada-a-privacidade-na-era-da-ia-nativa-o-novo-paradigma-da-classificacao-de-ativos-inteligentes.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-retrofuturismo-como-estrategia-de-defesa-por-que-o-mercado-de-hardware-infantil-virou-o-novo-campo-de-batalha-geopolitico.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-era-da-criptografia-em-agentes-de-ia-por-que-proteger-prompts-se-tornou-o-novo-padrao-de-seguranca.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-fim-do-gargalo-de-escalonamento-como-a-meta-revolucionou-a-infraestrutura-de-ia-com-o-schedext.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
