@@ -1,5 +1,35 @@
 [
   {
+    "slug": "o-fim-do-gargalo-de-escalonamento-como-a-meta-revolucionou-a-infraestrutura-de-ia-com-o-schedext",
+    "title": "O Fim do Gargalo de Escalonamento: Como a Meta Revolucionou a Infraestrutura de IA com o schedext",
+    "date": "14/07/2026",
+    "image_path": "posts/images/o-fim-do-gargalo-de-escalonamento-como-a-meta-revolucionou-a-infraestrutura-de-ia-com-o-schedext.png",
+    "original_link": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
+    "hn_link": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
+    "reading_time": 8,
+    "excerpt": "1. O Problema: O Gargalo Invisível da Escala Massiva Em 2026, quando falamos de Inteligência Artificial em escala de Big Tech, a conversa geralmente gira em torno de modelos de..."
+  },
+  {
+    "slug": "uber-e-a-estrategia-da-simplificacao-complexa-por-que-ser-tudo-para-todos-tornou-se-o-maior-risco-de-2026",
+    "title": "Uber e a Estratégia da 'Simplificação Complexa': Por que ser tudo para todos tornou-se o maior risco de 2026",
+    "date": "14/07/2026",
+    "image_path": "posts/images/uber-e-a-estrategia-da-simplificacao-complexa-por-que-ser-tudo-para-todos-tornou-se-o-maior-risco-de-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+    "hn_link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+    "reading_time": 11,
+    "excerpt": "Panorama Global: O Ajuste de Rota do Capital em 2026 Estamos em meados de 2026 e o cenário econômico global atravessa uma mutação que os economistas já chamam de \"Era..."
+  },
+  {
+    "slug": "o-poder-oculto-do-seu-repositorio-por-que-o-comando-git-log-e-a-ferramenta-que-voce-esta-ignorando",
+    "title": "O Poder Oculto do seu Repositório: Por que o comando git log é a ferramenta que você está ignorando",
+    "date": "14/07/2026",
+    "image_path": "posts/images/o-poder-oculto-do-seu-repositorio-por-que-o-comando-git-log-e-a-ferramenta-que-voce-esta-ignorando.png",
+    "original_link": "https://lalitm.com/post/git-history/",
+    "hn_link": "https://news.ycombinator.com/item?id=48901010",
+    "reading_time": 10,
+    "excerpt": "Você já sentiu aquela pontada de desespero ao abrir um código legado, se deparar com uma função complexa e se perguntar: \"Quem diabos escreveu isso e por que diabos essa..."
+  },
+  {
     "slug": "python-na-escala-da-inteligencia-artificial-uma-decada-de-infraestrutura-na-meta",
     "title": "Python na Escala da Inteligência Artificial: Uma Década de Infraestrutura na Meta",
     "date": "13/07/2026",

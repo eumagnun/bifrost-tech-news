@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-do-gargalo-de-escalonamento-como-a-meta-revolucionou-a-infraestrutura-de-ia-com-o-schedext.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/uber-e-a-estrategia-da-simplificacao-complexa-por-que-ser-tudo-para-todos-tornou-se-o-maior-risco-de-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-poder-oculto-do-seu-repositorio-por-que-o-comando-git-log-e-a-ferramenta-que-voce-esta-ignorando.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/python-na-escala-da-inteligencia-artificial-uma-decada-de-infraestrutura-na-meta.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
