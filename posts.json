@@ -1,5 +1,35 @@
 [
   {
+    "slug": "otimizando-a-infraestrutura-da-internet-a-revolucao-do-av1-em-comunicacoes-de-tempo-real-rtc-em-larga-escala",
+    "title": "Otimizando a Infraestrutura da Internet: A Revolução do AV1 em Comunicações de Tempo Real (RTC) em Larga Escala",
+    "date": "15/07/2026",
+    "image_path": "posts/images/otimizando-a-infraestrutura-da-internet-a-revolucao-do-av1-em-comunicacoes-de-tempo-real-rtc-em-larga-escala.png",
+    "original_link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
+    "hn_link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
+    "reading_time": 9,
+    "excerpt": "A infraestrutura digital que sustenta nossas chamadas de vídeo, conferências remotas e interações em tempo real nunca esteve tão sobrecarregada. À medida que avançamos em 2026, a demanda por maior..."
+  },
+  {
+    "slug": "a-nova-fronteira-do-trilhao-por-que-a-implementacao-de-ia-e-a-corrida-do-ouro-de-2026",
+    "title": "A Nova Fronteira do Trilhão: Por que a Implementação de IA é a \"Corrida do Ouro\" de 2026",
+    "date": "15/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-do-trilhao-por-que-a-implementacao-de-ia-e-a-corrida-do-ouro-de-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+    "hn_link": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+    "reading_time": 11,
+    "excerpt": "Panorama Global: O Fim da Era da Excitação e o Início da Era da Execução Estamos em 2026, e o mercado global de Inteligência Artificial atravessou o seu Rubicão. Após..."
+  },
+  {
+    "slug": "o-algoritmo-da-longevidade-por-que-a-regularidade-e-o-seu-novo-deploy-de-producao",
+    "title": "O Algoritmo da Longevidade: Por que a Regularidade é o seu Novo \"Deploy\" de Produção",
+    "date": "15/07/2026",
+    "image_path": "posts/images/o-algoritmo-da-longevidade-por-que-a-regularidade-e-o-seu-novo-deploy-de-producao.png",
+    "original_link": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
+    "hn_link": "https://news.ycombinator.com/item?id=48919363",
+    "reading_time": 10,
+    "excerpt": "No mundo da tecnologia, somos obcecados por métricas. Monitoramos latência, throughput, consumo de CPU, erros 5xx e o famoso uptime. Passamos noites em claro otimizando bancos de dados e ajustando..."
+  },
+  {
     "slug": "a-engenharia-do-invisivel-como-a-meta-redefiniu-o-armazenamento-de-energia-para-a-proxima-era-da-ia-vestivel",
     "title": "A Engenharia do Invisível: Como a Meta Redefiniu o Armazenamento de Energia para a Próxima Era da IA Vestível",
     "date": "15/07/2026",

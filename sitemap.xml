@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/otimizando-a-infraestrutura-da-internet-a-revolucao-do-av1-em-comunicacoes-de-tempo-real-rtc-em-larga-escala.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-do-trilhao-por-que-a-implementacao-de-ia-e-a-corrida-do-ouro-de-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-algoritmo-da-longevidade-por-que-a-regularidade-e-o-seu-novo-deploy-de-producao.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/a-engenharia-do-invisivel-como-a-meta-redefiniu-o-armazenamento-de-energia-para-a-proxima-era-da-ia-vestivel.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
