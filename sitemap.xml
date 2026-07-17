@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-meritocracia-algoritmica-quando-o-lixo-de-ia-vence-competicoes-de-alto-nivel.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

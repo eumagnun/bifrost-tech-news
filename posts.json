@@ -1,5 +1,35 @@
 [
   {
+    "slug": "originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala",
+    "title": "OriginBlame: Rastreando a Gênese do Conhecimento na Era dos Modelos de Linguagem de Grande Escala",
+    "date": "17/07/2026",
+    "image_path": "posts/images/originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala.png",
+    "original_link": "https://arxiv.org/abs/2607.13037",
+    "hn_link": "https://arxiv.org/abs/2607.13037",
+    "reading_time": 15,
+    "excerpt": "A construção de sistemas de Inteligência Artificial modernos não é mais apenas uma questão de arquitetura de rede neural, mas uma questão de proveniência de dados. À medida que entramos..."
+  },
+  {
+    "slug": "a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes",
+    "title": "A Nova Fronteira do Capital: Por que os Financiadores de GPUs estão Migrando para os Chips de Inferência em um Movimento de US$ 400 Milhões",
+    "date": "17/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes.png",
+    "original_link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+    "hn_link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+    "reading_time": 12,
+    "excerpt": "O mercado de tecnologia global vive, neste ano de 2026, um momento de inflexão fundamental. Se 2023 e 2024 foram marcados pela corrida desenfreada pelo treinamento de grandes modelos de..."
+  },
+  {
+    "slug": "o-fim-da-meritocracia-algoritmica-quando-o-lixo-de-ia-vence-competicoes-de-alto-nivel",
+    "title": "O Fim da Meritocracia Algorítmica? Quando o \"Lixo de IA\" Vence Competições de Alto Nível",
+    "date": "17/07/2026",
+    "image_path": "posts/images/o-fim-da-meritocracia-algoritmica-quando-o-lixo-de-ia-vence-competicoes-de-alto-nivel.png",
+    "original_link": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+    "hn_link": "https://news.ycombinator.com/item?id=48946010",
+    "reading_time": 11,
+    "excerpt": "A indústria de tecnologia está vivendo um momento de ruptura. A promessa da Inteligência Artificial Generativa era clara: aumentar a produtividade, democratizar a criação e elevar a barra de qualidade..."
+  },
+  {
     "slug": "silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao",
     "title": "SilverTorch: O Fim do Abismo entre Recuperação e Ranking em Sistemas de Recomendação",
     "date": "17/07/2026",
