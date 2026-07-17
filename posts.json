@@ -1,5 +1,35 @@
 [
   {
+    "slug": "silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao",
+    "title": "SilverTorch: O Fim do Abismo entre Recuperação e Ranking em Sistemas de Recomendação",
+    "date": "17/07/2026",
+    "image_path": "posts/images/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.png",
+    "original_link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
+    "hn_link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
+    "reading_time": 14,
+    "excerpt": "A era dos sistemas de recomendação baseados em \"dois estágios\" pode estar chegando ao fim. Durante anos, a arquitetura dominante na indústria de tecnologia para plataformas como YouTube, TikTok ou..."
+  },
+  {
+    "slug": "a-crise-da-automacao-em-san-francisco-o-ponto-de-inflexao-da-regulacao-global-de-inteligencia-artificial-e-mobilidade",
+    "title": "A Crise da Automação em San Francisco: O Ponto de Inflexão da Regulação Global de Inteligência Artificial e Mobilidade",
+    "date": "17/07/2026",
+    "image_path": "posts/images/a-crise-da-automacao-em-san-francisco-o-ponto-de-inflexao-da-regulacao-global-de-inteligencia-artificial-e-mobilidade.png",
+    "original_link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+    "hn_link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+    "reading_time": 10,
+    "excerpt": "Panorama Global: O Ano de 2026 e a \"Grande Regulação\" Estamos em 2026, um ano marcado pelo que os economistas chamam de \"Grande Regulação Algorítmica\". Após a explosão desenfreada da..."
+  },
+  {
+    "slug": "kimi-k3-o-surgimento-da-inteligencia-de-fronteira-aberta-e-o-fim-das-caixas-pretas",
+    "title": "Kimi K3: O Surgimento da Inteligência de Fronteira Aberta e o Fim das \"Caixas Pretas\"",
+    "date": "17/07/2026",
+    "image_path": "posts/images/kimi-k3-o-surgimento-da-inteligencia-de-fronteira-aberta-e-o-fim-das-caixas-pretas.png",
+    "original_link": "https://www.kimi.com/blog/kimi-k3",
+    "hn_link": "https://news.ycombinator.com/item?id=48935342",
+    "reading_time": 11,
+    "excerpt": "No cenário da Inteligência Artificial, frequentemente nos sentimos presos em um dilema: ou utilizamos modelos proprietários fechados, que oferecem desempenho de ponta, mas nos deixam à mercê das políticas corporativas..."
+  },
+  {
     "slug": "apagao-repentino-ia-de-pe-a-fronteira-da-resiliencia-em-sistemas-agenticos",
     "title": "Apagão Repentino, IA de Pé: A Fronteira da Resiliência em Sistemas Agênticos",
     "date": "16/07/2026",

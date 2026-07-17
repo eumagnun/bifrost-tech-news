@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-crise-da-automacao-em-san-francisco-o-ponto-de-inflexao-da-regulacao-global-de-inteligencia-artificial-e-mobilidade.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/kimi-k3-o-surgimento-da-inteligencia-de-fronteira-aberta-e-o-fim-das-caixas-pretas.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/apagao-repentino-ia-de-pe-a-fronteira-da-resiliencia-em-sistemas-agenticos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
