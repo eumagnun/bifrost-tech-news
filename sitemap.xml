@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-lua-de-mel-por-que-o-capital-de-risco-comecou-a-drenar-o-entusiasmo-excessivo-pela-ia-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-cavalo-de-troia-digital-por-que-o-software-no-seu-monitor-lg-deveria-te-preocupar.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/spine-a-espinha-dorsal-da-ia-agentica-na-conexao-entre-o-mundo-digital-e-o-fisico.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
