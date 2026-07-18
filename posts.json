@@ -1,5 +1,35 @@
 [
   {
+    "slug": "o-fim-do-ajuste-de-hiperparametros-decifrando-a-complexidade-amostral-na-otimizacao-convexa-estocastica",
+    "title": "O Fim do Ajuste de Hiperparâmetros? Decifrando a Complexidade Amostral na Otimização Convexa Estocástica",
+    "date": "18/07/2026",
+    "image_path": "posts/images/o-fim-do-ajuste-de-hiperparametros-decifrando-a-complexidade-amostral-na-otimizacao-convexa-estocastica.png",
+    "original_link": "http://jmlr.org/papers/v27/25-2383.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-2383.html",
+    "reading_time": 7,
+    "excerpt": "O Problema que esse trabalho resolve Na fronteira da Inteligência Artificial em 2026, estamos obcecados por escala. No entanto, existe um \"imposto invisível\" que pagamos em cada treinamento de modelo:..."
+  },
+  {
+    "slug": "o-efeito-waymo-a-fragilidade-da-infraestrutura-de-ia-urbana-em-um-mercado-de-trilioes-de-dolares",
+    "title": "O Efeito Waymo: A Fragilidade da Infraestrutura de IA Urbana em um Mercado de Triliões de Dólares",
+    "date": "18/07/2026",
+    "image_path": "posts/images/o-efeito-waymo-a-fragilidade-da-infraestrutura-de-ia-urbana-em-um-mercado-de-trilioes-de-dolares.png",
+    "original_link": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+    "hn_link": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+    "reading_time": 7,
+    "excerpt": "A breve interrupção dos serviços da Waymo em São Francisco, embora contida em apenas sessenta minutos, não foi um mero soluço operacional. Em 2026, onde a autonomia vehicular deixou de..."
+  },
+  {
+    "slug": "ia-pocket-sized-como-a-revolucao-de-speech-recognition-e-tts-em-menos-de-500kb-muda-tudo",
+    "title": "IA \"Pocket-Sized\": Como a Revolução de Speech Recognition e TTS em Menos de 500kb Muda Tudo",
+    "date": "18/07/2026",
+    "image_path": "posts/images/ia-pocket-sized-como-a-revolucao-de-speech-recognition-e-tts-em-menos-de-500kb-muda-tudo.png",
+    "original_link": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+    "hn_link": "https://news.ycombinator.com/item?id=48911793",
+    "reading_time": 6,
+    "excerpt": "A Inteligência Artificial generativa tomou o mundo de assalto, mas com ela veio um custo: modelos cada vez maiores, exigindo GPUs potentes e data centers inteiros para rodar uma simples..."
+  },
+  {
     "slug": "estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica",
     "title": "Estimativa Delta-Convexa Quase Ótima de Funções Lipschitz: O Novo Horizonte da Eficiência Algorítmica",
     "date": "18/07/2026",

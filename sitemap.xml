@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-do-ajuste-de-hiperparametros-decifrando-a-complexidade-amostral-na-otimizacao-convexa-estocastica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-efeito-waymo-a-fragilidade-da-infraestrutura-de-ia-urbana-em-um-mercado-de-trilioes-de-dolares.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/ia-pocket-sized-como-a-revolucao-de-speech-recognition-e-tts-em-menos-de-500kb-muda-tudo.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

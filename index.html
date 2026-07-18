@@ -451,7 +451,26 @@
 
         @media (max-width: 600px) {
             .navbar {
-                padding: 1rem;
+                padding: 0.75rem 1rem;
+                flex-direction: column;
+                gap: 0.75rem;
+                align-items: center;
+            }
+
+            .navbar-brand {
+                font-size: 1.15rem;
+            }
+
+            .navbar-links {
+                display: flex;
+                gap: 0.5rem;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .navbar-links a {
+                font-size: 0.85rem;
+                padding: 4px 10px;
             }
 
             .main-container {
@@ -492,16 +511,16 @@
         
         <article class="hero-post">
             <div class="hero-image-wrapper">
-                <img src="posts/images/estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica.png" alt="Estimativa Delta-Convexa Quase Ótima de Funções Lipschitz: O Novo Horizonte da Eficiência Algorítmica">
+                <img src="posts/images/o-fim-do-ajuste-de-hiperparametros-decifrando-a-complexidade-amostral-na-otimizacao-convexa-estocastica.png" alt="O Fim do Ajuste de Hiperparâmetros? Decifrando a Complexidade Amostral na Otimização Convexa Estocástica">
             </div>
             <div class="hero-info">
                 <div class="post-tag">Último Post</div>
-                <a href="posts/estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica.html" class="hero-post-title">Estimativa Delta-Convexa Quase Ótima de Funções Lipschitz: O Novo Horizonte da Eficiência Algorítmica</a>
-                <p class="post-excerpt">Na fronteira da inteligência artificial de 2026, estamos movendo o foco de "fazer modelos maiores" para "fazer modelos mais inteligentes e fundamentados matematicamente". Enquanto o hype de LLMs massivos começa...</p>
+                <a href="posts/o-fim-do-ajuste-de-hiperparametros-decifrando-a-complexidade-amostral-na-otimizacao-convexa-estocastica.html" class="hero-post-title">O Fim do Ajuste de Hiperparâmetros? Decifrando a Complexidade Amostral na Otimização Convexa Estocástica</a>
+                <p class="post-excerpt">O Problema que esse trabalho resolve Na fronteira da Inteligência Artificial em 2026, estamos obcecados por escala. No entanto, existe um "imposto invisível" que pagamos em cada treinamento de modelo:...</p>
                 <div class="post-meta">
                     <span>📅 18/07/2026</span>
                     <span class="separator"></span>
-                    <span>⚡ 9 min de leitura</span>
+                    <span>⚡ 7 min de leitura</span>
                 </div>
             </div>
         </article>
@@ -510,6 +529,54 @@
         <!-- Grid de outros posts -->
         <div class="posts-grid">
             
+            <article class="grid-post">
+                <div class="grid-image-wrapper">
+                    <img src="posts/images/o-efeito-waymo-a-fragilidade-da-infraestrutura-de-ia-urbana-em-um-mercado-de-trilioes-de-dolares.png" alt="O Efeito Waymo: A Fragilidade da Infraestrutura de IA Urbana em um Mercado de Triliões de Dólares">
+                </div>
+                <div class="grid-info">
+                    <a href="posts/o-efeito-waymo-a-fragilidade-da-infraestrutura-de-ia-urbana-em-um-mercado-de-trilioes-de-dolares.html" class="grid-post-title">O Efeito Waymo: A Fragilidade da Infraestrutura de IA Urbana em um Mercado de Triliões de Dólares</a>
+                    <p class="post-excerpt">A breve interrupção dos serviços da Waymo em São Francisco, embora contida em apenas sessenta minutos, não foi um mero soluço operacional. Em 2026, onde a autonomia vehicular deixou de...</p>
+                    <div class="post-meta">
+                        <span>📅 18/07/2026</span>
+                        <span class="separator"></span>
+                        <span>⚡ 7 min de leitura</span>
+                    </div>
+                </div>
+            </article>
+            
+
+            <article class="grid-post">
+                <div class="grid-image-wrapper">
+                    <img src="posts/images/ia-pocket-sized-como-a-revolucao-de-speech-recognition-e-tts-em-menos-de-500kb-muda-tudo.png" alt="IA "Pocket-Sized": Como a Revolução de Speech Recognition e TTS em Menos de 500kb Muda Tudo">
+                </div>
+                <div class="grid-info">
+                    <a href="posts/ia-pocket-sized-como-a-revolucao-de-speech-recognition-e-tts-em-menos-de-500kb-muda-tudo.html" class="grid-post-title">IA "Pocket-Sized": Como a Revolução de Speech Recognition e TTS em Menos de 500kb Muda Tudo</a>
+                    <p class="post-excerpt">A Inteligência Artificial generativa tomou o mundo de assalto, mas com ela veio um custo: modelos cada vez maiores, exigindo GPUs potentes e data centers inteiros para rodar uma simples...</p>
+                    <div class="post-meta">
+                        <span>📅 18/07/2026</span>
+                        <span class="separator"></span>
+                        <span>⚡ 6 min de leitura</span>
+                    </div>
+                </div>
+            </article>
+            
+
+            <article class="grid-post">
+                <div class="grid-image-wrapper">
+                    <img src="posts/images/estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica.png" alt="Estimativa Delta-Convexa Quase Ótima de Funções Lipschitz: O Novo Horizonte da Eficiência Algorítmica">
+                </div>
+                <div class="grid-info">
+                    <a href="posts/estimativa-delta-convexa-quase-otima-de-funcoes-lipschitz-o-novo-horizonte-da-eficiencia-algoritmica.html" class="grid-post-title">Estimativa Delta-Convexa Quase Ótima de Funções Lipschitz: O Novo Horizonte da Eficiência Algorítmica</a>
+                    <p class="post-excerpt">Na fronteira da inteligência artificial de 2026, estamos movendo o foco de "fazer modelos maiores" para "fazer modelos mais inteligentes e fundamentados matematicamente". Enquanto o hype de LLMs massivos começa...</p>
+                    <div class="post-meta">
+                        <span>📅 18/07/2026</span>
+                        <span class="separator"></span>
+                        <span>⚡ 9 min de leitura</span>
+                    </div>
+                </div>
+            </article>
+            
+
             <article class="grid-post">
                 <div class="grid-image-wrapper">
                     <img src="posts/images/o-fim-da-lua-de-mel-por-que-o-capital-de-risco-comecou-a-drenar-o-entusiasmo-excessivo-pela-ia-em-2026.png" alt="O FIM DA LUA DE MEL: Por que o Capital de Risco começou a drenar o entusiasmo excessivo pela IA em 2026">
@@ -601,54 +668,6 @@
                         <span>📅 17/07/2026</span>
                         <span class="separator"></span>
                         <span>⚡ 15 min de leitura</span>
-                    </div>
-                </div>
-            </article>
-            
-
-            <article class="grid-post">
-                <div class="grid-image-wrapper">
-                    <img src="posts/images/a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes.png" alt="A Nova Fronteira do Capital: Por que os Financiadores de GPUs estão Migrando para os Chips de Inferência em um Movimento de US$ 400 Milhões">
-                </div>
-                <div class="grid-info">
-                    <a href="posts/a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes.html" class="grid-post-title">A Nova Fronteira do Capital: Por que os Financiadores de GPUs estão Migrando para os Chips de Inferência em um Movimento de US$ 400 Milhões</a>
-                    <p class="post-excerpt">O mercado de tecnologia global vive, neste ano de 2026, um momento de inflexão fundamental. Se 2023 e 2024 foram marcados pela corrida desenfreada pelo treinamento de grandes modelos de...</p>
-                    <div class="post-meta">
-                        <span>📅 17/07/2026</span>
-                        <span class="separator"></span>
-                        <span>⚡ 12 min de leitura</span>
-                    </div>
-                </div>
-            </article>
-            
-
-            <article class="grid-post">
-                <div class="grid-image-wrapper">
-                    <img src="posts/images/o-fim-da-meritocracia-algoritmica-quando-o-lixo-de-ia-vence-competicoes-de-alto-nivel.png" alt="O Fim da Meritocracia Algorítmica? Quando o "Lixo de IA" Vence Competições de Alto Nível">
-                </div>
-                <div class="grid-info">
-                    <a href="posts/o-fim-da-meritocracia-algoritmica-quando-o-lixo-de-ia-vence-competicoes-de-alto-nivel.html" class="grid-post-title">O Fim da Meritocracia Algorítmica? Quando o "Lixo de IA" Vence Competições de Alto Nível</a>
-                    <p class="post-excerpt">A indústria de tecnologia está vivendo um momento de ruptura. A promessa da Inteligência Artificial Generativa era clara: aumentar a produtividade, democratizar a criação e elevar a barra de qualidade...</p>
-                    <div class="post-meta">
-                        <span>📅 17/07/2026</span>
-                        <span class="separator"></span>
-                        <span>⚡ 11 min de leitura</span>
-                    </div>
-                </div>
-            </article>
-            
-
-            <article class="grid-post">
-                <div class="grid-image-wrapper">
-                    <img src="posts/images/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.png" alt="SilverTorch: O Fim do Abismo entre Recuperação e Ranking em Sistemas de Recomendação">
-                </div>
-                <div class="grid-info">
-                    <a href="posts/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.html" class="grid-post-title">SilverTorch: O Fim do Abismo entre Recuperação e Ranking em Sistemas de Recomendação</a>
-                    <p class="post-excerpt">A era dos sistemas de recomendação baseados em "dois estágios" pode estar chegando ao fim. Durante anos, a arquitetura dominante na indústria de tecnologia para plataformas como YouTube, TikTok ou...</p>
-                    <div class="post-meta">
-                        <span>📅 17/07/2026</span>
-                        <span class="separator"></span>
-                        <span>⚡ 14 min de leitura</span>
                     </div>
                 </div>
             </article>
