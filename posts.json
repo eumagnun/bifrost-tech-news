@@ -1,5 +1,35 @@
 [
   {
+    "slug": "spine-a-espinha-dorsal-da-ia-agentica-na-conexao-entre-o-mundo-digital-e-o-fisico",
+    "title": "SPINE: A Espinha Dorsal da IA Agêntica na Conexão entre o Mundo Digital e o Físico",
+    "date": "18/07/2026",
+    "image_path": "posts/images/spine-a-espinha-dorsal-da-ia-agentica-na-conexao-entre-o-mundo-digital-e-o-fisico.png",
+    "original_link": "https://arxiv.org/abs/2607.13049",
+    "hn_link": "https://arxiv.org/abs/2607.13049",
+    "reading_time": 10,
+    "excerpt": "O Problema que esse trabalho resolve: A lacuna entre o código e o concreto Desde o advento dos modelos de linguagem de larga escala LLMs, testemunhamos uma revolução sem precedentes..."
+  },
+  {
+    "slug": "o-efeito-down-under-a-batalha-de-startups-da-stripe-e-a-nova-geopolitica-do-capital-de-risco-em-2026",
+    "title": "O Efeito \"Down Under\": A Batalha de Startups da Stripe e a Nova Geopolítica do Capital de Risco em 2026",
+    "date": "18/07/2026",
+    "image_path": "posts/images/o-efeito-down-under-a-batalha-de-startups-da-stripe-e-a-nova-geopolitica-do-capital-de-risco-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
+    "hn_link": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
+    "reading_time": 10,
+    "excerpt": "O ecossistema global de inovação não está apenas mudando; ele está sendo redesenhado por uma nova arquitetura de financiamento onde a proximidade geográfica perde relevância para a infraestrutura digital e..."
+  },
+  {
+    "slug": "o-lado-obscuro-da-automacao-quando-a-inteligencia-artificial-e-a-vigilancia-no-trabalho-subvertem-a-produtividade",
+    "title": "O Lado Obscuro da Automação: Quando a Inteligência Artificial e a Vigilância no Trabalho Subvertem a Produtividade 🤖📉",
+    "date": "18/07/2026",
+    "image_path": "posts/images/o-lado-obscuro-da-automacao-quando-a-inteligencia-artificial-e-a-vigilancia-no-trabalho-subvertem-a-produtividade.png",
+    "original_link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+    "hn_link": "https://news.ycombinator.com/item?id=48952880",
+    "reading_time": 10,
+    "excerpt": "A integração da Inteligência Artificial nos ambientes corporativos foi saudada como a grande promessa de eficiência do século XXI. De assistentes virtuais automatizando tarefas repetitivas a sistemas complexos de machine..."
+  },
+  {
     "slug": "originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala",
     "title": "OriginBlame: Rastreando a Gênese do Conhecimento na Era dos Modelos de Linguagem de Grande Escala",
     "date": "17/07/2026",

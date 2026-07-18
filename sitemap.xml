@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/spine-a-espinha-dorsal-da-ia-agentica-na-conexao-entre-o-mundo-digital-e-o-fisico.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-efeito-down-under-a-batalha-de-startups-da-stripe-e-a-nova-geopolitica-do-capital-de-risco-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-lado-obscuro-da-automacao-quando-a-inteligencia-artificial-e-a-vigilancia-no-trabalho-subvertem-a-produtividade.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
