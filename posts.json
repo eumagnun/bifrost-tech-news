@@ -1,5 +1,35 @@
 [
   {
+    "slug": "alem-das-previsoes-convencionais-predicao-de-espacos-metricos-com-deep-learning-de-ponta-a-ponta",
+    "title": "Além das Previsões Convencionais: Predição de Espaços Métricos com Deep Learning de Ponta a Ponta",
+    "date": "19/07/2026",
+    "image_path": "posts/images/alem-das-previsoes-convencionais-predicao-de-espacos-metricos-com-deep-learning-de-ponta-a-ponta.png",
+    "original_link": "http://jmlr.org/papers/v27/25-2364.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-2364.html",
+    "reading_time": 7,
+    "excerpt": "O Desafio da Estrutura Invisível: O Que Estávamos Perdendo? Na fronteira do aprendizado profundo Deep Learning, estamos habituados a prever valores escalares um número, como o preço de uma casa..."
+  },
+  {
+    "slug": "o-cemiterio-eletrico-por-que-2026-marca-o-grande-reset-da-mobilidade-nos-eua-e-o-que-isso-revela-sobre-a-nova-economia-global",
+    "title": "O Cemitério Elétrico: Por que 2026 marca o Grande Reset da Mobilidade nos EUA e o que isso revela sobre a nova economia global",
+    "date": "19/07/2026",
+    "image_path": "posts/images/o-cemiterio-eletrico-por-que-2026-marca-o-grande-reset-da-mobilidade-nos-eua-e-o-que-isso-revela-sobre-a-nova-economia-global.png",
+    "original_link": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
+    "hn_link": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
+    "reading_time": 7,
+    "excerpt": "Estamos em 2026 e o setor automotivo global atravessa um ajuste de contas severo. A recente onda de descontinuação de modelos de veículos elétricos EVs nos Estados Unidos não é..."
+  },
+  {
+    "slug": "qwen-3-8-max-o-novo-heavyweight-no-ringue-da-inteligencia-artificial",
+    "title": "Qwen 3.8 Max: O Novo Heavyweight no Ringue da Inteligência Artificial",
+    "date": "19/07/2026",
+    "image_path": "posts/images/qwen-3-8-max-o-novo-heavyweight-no-ringue-da-inteligencia-artificial.png",
+    "original_link": "https://www.qwencloud.com/pricing/token-plan",
+    "hn_link": "https://news.ycombinator.com/item?id=48966190",
+    "reading_time": 6,
+    "excerpt": "A corrida pela supremacia dos Grandes Modelos de Linguagem LLMs nunca esteve tão frenética, e o lançamento do Qwen 3.8 Max não é apenas uma atualização incremental — é um..."
+  },
+  {
     "slug": "silvertorch-o-fim-da-separacao-entre-busca-e-recomendacao-o-novo-paradigma-index-as-model",
     "title": "SilverTorch: O Fim da Separação entre Busca e Recomendação? O Novo Paradigma \"Index as Model\"",
     "date": "19/07/2026",

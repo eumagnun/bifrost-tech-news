@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-das-previsoes-convencionais-predicao-de-espacos-metricos-com-deep-learning-de-ponta-a-ponta.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-cemiterio-eletrico-por-que-2026-marca-o-grande-reset-da-mobilidade-nos-eua-e-o-que-isso-revela-sobre-a-nova-economia-global.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/qwen-3-8-max-o-novo-heavyweight-no-ringue-da-inteligencia-artificial.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/silvertorch-o-fim-da-separacao-entre-busca-e-recomendacao-o-novo-paradigma-index-as-model.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
