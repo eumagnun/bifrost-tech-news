@@ -51,22 +51,12 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://blog.bifrost-solutions.com/posts/originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-meritocracia-algoritmica-quando-o-lixo-de-ia-vence-competicoes-de-alto-nivel.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://blog.bifrost-solutions.com/posts/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -82,11 +72,6 @@
     </url>
     <url>
         <loc>https://blog.bifrost-solutions.com/posts/apagao-repentino-ia-de-pe-a-fronteira-da-resiliencia-em-sistemas-agenticos.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://blog.bifrost-solutions.com/posts/a-nova-cortina-de-ferro-digital-como-a-apple-baidu-e-alibaba-redefinem-a-sobrevivencia-das-big-techs-na-geopolitica-de-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -227,11 +212,6 @@
     </url>
     <url>
         <loc>https://blog.bifrost-solutions.com/posts/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://blog.bifrost-solutions.com/posts/a-revolucao-invisivel-como-agentes-de-ia-estao-unindo-o-legado-do-passado-ao-futuro-do-codigo.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>

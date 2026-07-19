@@ -80,16 +80,6 @@
     "excerpt": "A automação foi prometida como a libertadora do trabalho maçante, aquela que nos permitiria focar no \"trabalho criativo de alto nível\". No entanto, o que estamos presenciando nas trincheiras das..."
   },
   {
-    "slug": "originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala",
-    "title": "OriginBlame: Rastreando a Gênese do Conhecimento na Era dos Modelos de Linguagem de Grande Escala",
-    "date": "17/07/2026",
-    "image_path": "posts/images/originblame-rastreando-a-genese-do-conhecimento-na-era-dos-modelos-de-linguagem-de-grande-escala.png",
-    "original_link": "https://arxiv.org/abs/2607.13037",
-    "hn_link": "https://arxiv.org/abs/2607.13037",
-    "reading_time": 15,
-    "excerpt": "A construção de sistemas de Inteligência Artificial modernos não é mais apenas uma questão de arquitetura de rede neural, mas uma questão de proveniência de dados. À medida que entramos..."
-  },
-  {
     "slug": "a-nova-fronteira-do-capital-por-que-os-financiadores-de-gpus-estao-migrando-para-os-chips-de-inferencia-em-um-movimento-de-us-400-milhoes",
     "title": "O Pós-Treinamento: A Migração de Capital para Chips de Inferência Redefine a Geopolítica da IA em 2026",
     "date": "17/07/2026",
@@ -108,16 +98,6 @@
     "hn_link": "https://news.ycombinator.com/item?id=48946010",
     "reading_time": 7,
     "excerpt": "Vivemos em uma era onde a métrica do sucesso está sendo redefinida não pela perfeição técnica ou otimização profunda, mas pela eficiência na escala e velocidade de implementação. Durante anos,..."
-  },
-  {
-    "slug": "silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao",
-    "title": "SilverTorch: O Fim do Abismo entre Recuperação e Ranking em Sistemas de Recomendação",
-    "date": "17/07/2026",
-    "image_path": "posts/images/silvertorch-o-fim-do-abismo-entre-recuperacao-e-ranking-em-sistemas-de-recomendacao.png",
-    "original_link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-    "hn_link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-    "reading_time": 14,
-    "excerpt": "A era dos sistemas de recomendação baseados em \"dois estágios\" pode estar chegando ao fim. Durante anos, a arquitetura dominante na indústria de tecnologia para plataformas como YouTube, TikTok ou..."
   },
   {
     "slug": "a-crise-da-automacao-em-san-francisco-o-ponto-de-inflexao-da-regulacao-global-de-inteligencia-artificial-e-mobilidade",
@@ -148,16 +128,6 @@
     "hn_link": "https://engineering.fb.com/2026/06/03/data-center-engineering/lights-out-systems-on-validating-instant-power-loss-readiness/",
     "reading_time": 7,
     "excerpt": "O Problema: A Fragilidade Sistêmica na Era da Autonomia Até o momento, a arquitetura dominante de Sistemas Agênticos Agentes de IA que operam de forma autônoma para resolver problemas complexos..."
-  },
-  {
-    "slug": "a-nova-cortina-de-ferro-digital-como-a-apple-baidu-e-alibaba-redefinem-a-sobrevivencia-das-big-techs-na-geopolitica-de-2026",
-    "title": "A Nova Cortina de Ferro Digital: Como a Apple, Baidu e Alibaba Redefinem a Sobrevivência das Big Techs na Geopolítica de 2026",
-    "date": "16/07/2026",
-    "image_path": "posts/images/a-nova-cortina-de-ferro-digital-como-a-apple-baidu-e-alibaba-redefinem-a-sobrevivencia-das-big-techs-na-geopolitica-de-2026.png",
-    "original_link": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-    "hn_link": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-    "reading_time": 12,
-    "excerpt": "O ano de 2026 não será lembrado apenas pela corrida armamentista de chips de silício ou pelas cúpulas sobre regulação ética de IAs Autônomas. Será marcado pela \"Grande Convergência\": o..."
   },
   {
     "slug": "a-queda-da-flagship-killer-licoes-de-arquitetura-de-mercado-e-sobrevivencia-tecnologica",
@@ -438,16 +408,6 @@
     "hn_link": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
     "reading_time": 7,
     "excerpt": "Panorama Global: A Era da Biotecnologia de Precisão Estamos em 2026 e o centro de gravidade da inovação global deslocouse definitivamente do hardware de consumo para a infraestrutura biotecnológica. Enquanto..."
-  },
-  {
-    "slug": "a-revolucao-invisivel-como-agentes-de-ia-estao-unindo-o-legado-do-passado-ao-futuro-do-codigo",
-    "title": "A Revolução Invisível: Como Agentes de IA Estão Unindo o Legado do Passado ao Futuro do Código",
-    "date": "12/07/2026",
-    "image_path": "posts/images/a-revolucao-invisivel-como-agentes-de-ia-estao-unindo-o-legado-do-passado-ao-futuro-do-codigo.png",
-    "original_link": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-    "hn_link": "https://news.ycombinator.com/item?id=48880170",
-    "reading_time": 11,
-    "excerpt": "Introdução: O Dilema da Dívida Técnica Infinita Vivemos em uma era paradoxal na engenharia de software. Nunca tivemos tantas ferramentas poderosas, linguagens de programação expressivas e infraestrutura em nuvem escalável..."
   },
   {
     "slug": "o-santo-graal-da-produtividade-por-que-encontrar-uma-dock-que-acorda-confiavelmente-o-problema-mais-dif-cil-da-computa-o-moderna",
