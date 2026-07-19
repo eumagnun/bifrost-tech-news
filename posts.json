@@ -1,5 +1,25 @@
 [
   {
+    "slug": "silvertorch-o-fim-da-separacao-entre-busca-e-recomendacao-o-novo-paradigma-index-as-model",
+    "title": "SilverTorch: O Fim da Separação entre Busca e Recomendação? O Novo Paradigma \"Index as Model\"",
+    "date": "19/07/2026",
+    "image_path": "posts/images/silvertorch-o-fim-da-separacao-entre-busca-e-recomendacao-o-novo-paradigma-index-as-model.png",
+    "original_link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
+    "hn_link": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
+    "reading_time": 7,
+    "excerpt": "A era da Inteligência Artificial em 2026 nos coloca diante de um desafio paradoxal: quanto mais sofisticados são nossos modelos de recomendação, mais lenta e complexa se torna a infraestrutura..."
+  },
+  {
+    "slug": "kimi-o-cisne-negro-da-ia-chinesa-e-a-nova-fronteira-da-soberania-tecnologica",
+    "title": "Kimi: O Cisne Negro da IA Chinesa e a nova fronteira da soberania tecnológica",
+    "date": "19/07/2026",
+    "image_path": "posts/images/kimi-o-cisne-negro-da-ia-chinesa-e-a-nova-fronteira-da-soberania-tecnologica.png",
+    "original_link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+    "hn_link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+    "reading_time": 7,
+    "excerpt": "O ano de 2026 não é apenas um marco no calendário; é o ponto de inflexão onde a inteligência artificial deixou de ser uma ferramenta de produtividade para se tornar..."
+  },
+  {
     "slug": "o-fim-do-ajuste-de-hiperparametros-decifrando-a-complexidade-amostral-na-otimizacao-convexa-estocastica",
     "title": "O Fim do Ajuste de Hiperparâmetros? Decifrando a Complexidade Amostral na Otimização Convexa Estocástica 🧠✨",
     "date": "18/07/2026",
