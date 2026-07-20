@@ -1,5 +1,35 @@
 [
   {
+    "slug": "graphdx-o-futuro-da-inteligencia-artificial-em-diagnosticos-medicos-com-eficiencia-de-custos",
+    "title": "GraphDx: O Futuro da Inteligência Artificial em Diagnósticos Médicos com Eficiência de Custos",
+    "date": "20/07/2026",
+    "image_path": "posts/images/graphdx-o-futuro-da-inteligencia-artificial-em-diagnosticos-medicos-com-eficiencia-de-custos.png",
+    "original_link": "https://arxiv.org/abs/2607.15280",
+    "hn_link": "https://arxiv.org/abs/2607.15280",
+    "reading_time": 7,
+    "excerpt": "A medicina diagnóstica enfrenta um desafio paradoxal na era da inteligência artificial: temos modelos poderosos de linguagem, mas eles frequentemente operam em silos, com alto custo computacional e sem uma..."
+  },
+  {
+    "slug": "o-abismo-de-dados-na-era-da-ia-generativa-o-brecha-na-hugging-face-e-o-fim-da-inocencia-no-open-source",
+    "title": "O Abismo de Dados na Era da IA Generativa: O Brecha na Hugging Face e o Fim da Inocência no Open Source",
+    "date": "20/07/2026",
+    "image_path": "posts/images/o-abismo-de-dados-na-era-da-ia-generativa-o-brecha-na-hugging-face-e-o-fim-da-inocencia-no-open-source.png",
+    "original_link": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+    "hn_link": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+    "reading_time": 7,
+    "excerpt": "Panorama Global: A Fragilidade da Infraestrutura Invisível em 2026 Em 2026, a economia global atravessa um momento de transição acelerada, onde a \"IA de fronteira\" Frontier AI deixou de ser..."
+  },
+  {
+    "slug": "alem-da-pista-por-que-simuladores-de-aeroporto-sao-o-novo-santo-graal-da-engenharia-de-sistemas-complexos",
+    "title": "Além da Pista: Por que Simuladores de Aeroporto são o Novo \"Santo Graal\" da Engenharia de Sistemas Complexos",
+    "date": "20/07/2026",
+    "image_path": "posts/images/alem-da-pista-por-que-simuladores-de-aeroporto-sao-o-novo-santo-graal-da-engenharia-de-sistemas-complexos.png",
+    "original_link": "https://airport.apunen.com/",
+    "hn_link": "https://news.ycombinator.com/item?id=48976846",
+    "reading_time": 6,
+    "excerpt": "O mundo da aviação sempre exerceu um fascínio quase magnético sobre a engenharia. No entanto, o que está chamando a atenção no cenário tech atual não são os aviões em..."
+  },
+  {
     "slug": "alem-das-previsoes-convencionais-predicao-de-espacos-metricos-com-deep-learning-de-ponta-a-ponta",
     "title": "Além das Previsões Convencionais: Predição de Espaços Métricos com Deep Learning de Ponta a Ponta",
     "date": "19/07/2026",

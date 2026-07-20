@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/graphdx-o-futuro-da-inteligencia-artificial-em-diagnosticos-medicos-com-eficiencia-de-custos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-abismo-de-dados-na-era-da-ia-generativa-o-brecha-na-hugging-face-e-o-fim-da-inocencia-no-open-source.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-da-pista-por-que-simuladores-de-aeroporto-sao-o-novo-santo-graal-da-engenharia-de-sistemas-complexos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/alem-das-previsoes-convencionais-predicao-de-espacos-metricos-com-deep-learning-de-ponta-a-ponta.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
