@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-vies-invisivel-como-o-estado-emocional-dos-avaliadores-corrompe-o-rlhf-e-o-futuro-dos-modelos-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/reatores-modulares-em-barcacas-a-nova-corrida-energetica-que-desafia-a-geopolitica-da-grid-convencional.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-metricas-de-vaidade-como-uma-nova-abordagem-de-dados-esta-reinventando-a-propriedade-imobiliaria.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/causal-audit-a-nova-era-da-ia-explicavel-atraves-de-cadeias-causais-auditaveis.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
