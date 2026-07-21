@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/causal-audit-a-nova-era-da-ia-explicavel-atraves-de-cadeias-causais-auditaveis.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-acordo-bilionario-da-anthropic-o-fim-do-velho-oeste-da-ia-e-o-inicio-da-era-da-propriedade-intelectual-estrategica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-despertar-do-dragao-por-que-os-modelos-chineses-de-ia-mudaram-o-jogo.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/graphdx-o-futuro-da-inteligencia-artificial-em-diagnosticos-medicos-com-eficiencia-de-custos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

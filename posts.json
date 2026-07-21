@@ -1,5 +1,35 @@
 [
   {
+    "slug": "causal-audit-a-nova-era-da-ia-explicavel-atraves-de-cadeias-causais-auditaveis",
+    "title": "Causal-Audit: A Nova Era da IA Explicável através de Cadeias Causais Auditáveis 🧠🔍",
+    "date": "21/07/2026",
+    "image_path": "posts/images/causal-audit-a-nova-era-da-ia-explicavel-atraves-de-cadeias-causais-auditaveis.png",
+    "original_link": "https://arxiv.org/abs/2607.15281",
+    "hn_link": "https://arxiv.org/abs/2607.15281",
+    "reading_time": 7,
+    "excerpt": "Estamos vivendo um momento crucial na Inteligência Artificial. Com a popularização dos Sistemas Agênticos — IAs que não apenas conversam, mas agem e executam tarefas complexas — surgiu um dilema..."
+  },
+  {
+    "slug": "o-acordo-bilionario-da-anthropic-o-fim-do-velho-oeste-da-ia-e-o-inicio-da-era-da-propriedade-intelectual-estrategica",
+    "title": "O Acordo Bilionário da Anthropic: O Fim do \"Velho Oeste\" da IA e o Início da Era da Propriedade Intelectual Estratégica",
+    "date": "21/07/2026",
+    "image_path": "posts/images/o-acordo-bilionario-da-anthropic-o-fim-do-velho-oeste-da-ia-e-o-inicio-da-era-da-propriedade-intelectual-estrategica.png",
+    "original_link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+    "hn_link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+    "reading_time": 7,
+    "excerpt": "O cenário macroeconômico e tecnológico de 2026 é marcado pela \"Grande Consolidação\". Após a euforia irracional dos investimentos em Inteligência Artificial Generativa entre 2023 e 2025, os mercados globais entraram..."
+  },
+  {
+    "slug": "o-despertar-do-dragao-por-que-os-modelos-chineses-de-ia-mudaram-o-jogo",
+    "title": "O Despertar do Dragão: Por que os Modelos Chineses de IA Mudaram o Jogo 🐉",
+    "date": "21/07/2026",
+    "image_path": "posts/images/o-despertar-do-dragao-por-que-os-modelos-chineses-de-ia-mudaram-o-jogo.png",
+    "original_link": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+    "hn_link": "https://news.ycombinator.com/item?id=48977128",
+    "reading_time": 6,
+    "excerpt": "A hegemonia do Vale do Silício no desenvolvimento de Inteligência Artificial parecia inquestionável até pouco tempo atrás. Gigantes americanos como OpenAI, Google e Anthropic ditavam o ritmo, os padrões e..."
+  },
+  {
     "slug": "graphdx-o-futuro-da-inteligencia-artificial-em-diagnosticos-medicos-com-eficiencia-de-custos",
     "title": "GraphDx: O Futuro da Inteligência Artificial em Diagnósticos Médicos com Eficiência de Custos",
     "date": "20/07/2026",
