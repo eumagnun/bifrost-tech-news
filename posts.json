@@ -1,5 +1,35 @@
 [
   {
+    "slug": "a-arte-do-toque-como-redes-neurais-leves-estao-transformando-pelucias-em-companheiros-afetivos",
+    "title": "A Arte do Toque: Como Redes Neurais Leves estão Transformando Pelúcias em Companheiros Afetivos",
+    "date": "22/07/2026",
+    "image_path": "posts/images/a-arte-do-toque-como-redes-neurais-leves-estao-transformando-pelucias-em-companheiros-afetivos.png",
+    "original_link": "https://arxiv.org/abs/2607.16196",
+    "hn_link": "https://arxiv.org/abs/2607.16196",
+    "reading_time": 7,
+    "excerpt": "A interação humanocomputador não se limita mais apenas a telas de vidro e teclados mecânicos. Estamos entrando na era da \"computação afetiva\", onde máquinas não apenas processam dados, mas percebem..."
+  },
+  {
+    "slug": "a-nova-fronteira-do-capital-como-a-convergencia-entre-computacao-e-ciencia-biologica-esta-redefinindo-o-valor-de-mercado-em-2026",
+    "title": "A Nova Fronteira do Capital: Como a Convergência entre Computação e Ciência Biológica está Redefinindo o Valor de Mercado em 2026",
+    "date": "22/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-do-capital-como-a-convergencia-entre-computacao-e-ciencia-biologica-esta-redefinindo-o-valor-de-mercado-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/",
+    "hn_link": "https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/",
+    "reading_time": 7,
+    "excerpt": "O cenário macroeconômico de 2026 é definido por uma dicotomia latente: enquanto as taxas de juros globais, lideradas pelas decisões do Federal Reserve e do Banco Central Europeu, mantêmse em..."
+  },
+  {
+    "slug": "alerta-vermelho-na-ia-o-que-o-recente-incidente-de-seguranca-nos-ensina-sobre-o-ciclo-de-vida-dos-modelos",
+    "title": "Alerta Vermelho na IA: O que o recente incidente de segurança nos ensina sobre o ciclo de vida dos modelos?",
+    "date": "22/07/2026",
+    "image_path": "posts/images/alerta-vermelho-na-ia-o-que-o-recente-incidente-de-seguranca-nos-ensina-sobre-o-ciclo-de-vida-dos-modelos.png",
+    "original_link": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "hn_link": "https://news.ycombinator.com/item?id=48997548",
+    "reading_time": 7,
+    "excerpt": "A segurança cibernética no mundo da Inteligência Artificial não é mais um cenário hipotético de filmes de ficção científica; tornouse a nossa realidade operacional mais crítica. Recentemente, a comunidade técnica..."
+  },
+  {
     "slug": "o-vies-invisivel-como-o-estado-emocional-dos-avaliadores-corrompe-o-rlhf-e-o-futuro-dos-modelos-de-ia",
     "title": "O Viés Invisível: Como o Estado Emocional dos Avaliadores Corrompe o RLHF e o Futuro dos Modelos de IA",
     "date": "21/07/2026",

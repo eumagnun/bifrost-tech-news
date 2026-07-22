@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-arte-do-toque-como-redes-neurais-leves-estao-transformando-pelucias-em-companheiros-afetivos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-do-capital-como-a-convergencia-entre-computacao-e-ciencia-biologica-esta-redefinindo-o-valor-de-mercado-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alerta-vermelho-na-ia-o-que-o-recente-incidente-de-seguranca-nos-ensina-sobre-o-ciclo-de-vida-dos-modelos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-vies-invisivel-como-o-estado-emocional-dos-avaliadores-corrompe-o-rlhf-e-o-futuro-dos-modelos-de-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
