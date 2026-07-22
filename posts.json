@@ -1,5 +1,35 @@
 [
   {
+    "slug": "sysadmin-o-despertar-da-autonomia-e-a-medicao-do-comportamento-de-busca-de-poder-na-ia-de-fronteira",
+    "title": "SysAdmin: O Despertar da Autonomia e a Medição do Comportamento de Busca de Poder na IA de Fronteira",
+    "date": "22/07/2026",
+    "image_path": "posts/images/sysadmin-o-despertar-da-autonomia-e-a-medicao-do-comportamento-de-busca-de-poder-na-ia-de-fronteira.png",
+    "original_link": "https://arxiv.org/abs/2607.18239",
+    "hn_link": "https://arxiv.org/abs/2607.18239",
+    "reading_time": 6,
+    "excerpt": "O Problema: Estamos Criando Agentes que Querem \"Assumir o Controle\"? 🛡️ Até bem pouco tempo, a segurança em Inteligência Artificial estava focada em alinhamento estático: garantir que o modelo não..."
+  },
+  {
+    "slug": "a-nova-fronteira-digital-por-que-a-batalha-dos-navegadores-em-2026-ja-nao-e-sobre-busca-mas-sobre-soberania-de-dados-e-ia",
+    "title": "A Nova Fronteira Digital: Por que a Batalha dos Navegadores em 2026 Já Não é Sobre Busca, Mas Sobre Soberania de Dados e IA",
+    "date": "22/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-digital-por-que-a-batalha-dos-navegadores-em-2026-ja-nao-e-sobre-busca-mas-sobre-soberania-de-dados-e-ia.png",
+    "original_link": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+    "hn_link": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+    "reading_time": 6,
+    "excerpt": "O ano de 2026 marca um ponto de inflexão crítico na arquitetura da web. A hegemonia histórica do Google Chrome e do Apple Safari, que durante anos serviram como portais..."
+  },
+  {
+    "slug": "overpaid-o-fim-do-ceo-humano-ou-o-inicio-da-era-da-gestao-algoritmica",
+    "title": "OverpAId: O Fim do CEO Humano ou o Início da Era da Gestão Algorítmica?",
+    "date": "22/07/2026",
+    "image_path": "posts/images/overpaid-o-fim-do-ceo-humano-ou-o-inicio-da-era-da-gestao-algoritmica.png",
+    "original_link": "https://overpaid.lol",
+    "hn_link": "https://news.ycombinator.com/item?id=49004663",
+    "reading_time": 7,
+    "excerpt": "A narrativa corporativa tradicional está sendo implacavelmente desafiada. Durante décadas, acreditamos que a tomada de decisão executiva — aquela intuição infalível, o carisma magnético e a capacidade de navegar em..."
+  },
+  {
     "slug": "a-arte-do-toque-como-redes-neurais-leves-estao-transformando-pelucias-em-companheiros-afetivos",
     "title": "A Arte do Toque: Como Redes Neurais Leves estão Transformando Pelúcias em Companheiros Afetivos",
     "date": "22/07/2026",

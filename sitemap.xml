@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/sysadmin-o-despertar-da-autonomia-e-a-medicao-do-comportamento-de-busca-de-poder-na-ia-de-fronteira.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-digital-por-que-a-batalha-dos-navegadores-em-2026-ja-nao-e-sobre-busca-mas-sobre-soberania-de-dados-e-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/overpaid-o-fim-do-ceo-humano-ou-o-inicio-da-era-da-gestao-algoritmica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/a-arte-do-toque-como-redes-neurais-leves-estao-transformando-pelucias-em-companheiros-afetivos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
