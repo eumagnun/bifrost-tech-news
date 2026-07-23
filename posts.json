@@ -1,5 +1,35 @@
 [
   {
+    "slug": "calibrando-a-verdade-como-a-avaliacao-de-cadeias-de-evidencia-esta-salvando-a-ia-da-alucinacao",
+    "title": "Calibrando a Verdade: Como a Avaliação de Cadeias de Evidência está Salvando a IA da Alucinação",
+    "date": "23/07/2026",
+    "image_path": "posts/images/calibrando-a-verdade-como-a-avaliacao-de-cadeias-de-evidencia-esta-salvando-a-ia-da-alucinacao.png",
+    "original_link": "https://arxiv.org/abs/2607.18240",
+    "hn_link": "https://arxiv.org/abs/2607.18240",
+    "reading_time": 6,
+    "excerpt": "Estamos em 2026 e a Inteligência Artificial saiu dos laboratórios para se tornar a espinha dorsal de nossas tomadas de decisão. Contudo, o \"calcanhar de Aquiles\" dos Grandes Modelos de..."
+  },
+  {
+    "slug": "ibm-e-o-duelo-pela-infraestrutura-por-que-o-mainframe-insiste-em-sobreviver-a-era-da-inteligencia-artificial",
+    "title": "IBM e o Duelo pela Infraestrutura: Por que o Mainframe Insiste em Sobreviver à Era da Inteligência Artificial",
+    "date": "23/07/2026",
+    "image_path": "posts/images/ibm-e-o-duelo-pela-infraestrutura-por-que-o-mainframe-insiste-em-sobreviver-a-era-da-inteligencia-artificial.png",
+    "original_link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+    "hn_link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+    "reading_time": 8,
+    "excerpt": "Estamos em 2026, e a economia global opera em um regime de volatilidade sustentada. Após o \"choque\" nos resultados trimestrais da IBM, uma narrativa antiga, porém resiliente, voltou ao centro..."
+  },
+  {
+    "slug": "a-conjectura-jacobiana-o-chatgpt-e-a-fronteira-final-da-matematica-o-que-aprendemos-com-terrence-tao",
+    "title": "A Conjectura Jacobiana, o ChatGPT e a Fronteira Final da Matemática: O que Aprendemos com Terrence Tao?",
+    "date": "23/07/2026",
+    "image_path": "posts/images/a-conjectura-jacobiana-o-chatgpt-e-a-fronteira-final-da-matematica-o-que-aprendemos-com-terrence-tao.png",
+    "original_link": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+    "hn_link": "https://news.ycombinator.com/item?id=49010345",
+    "reading_time": 7,
+    "excerpt": "A matemática sempre foi o playground definitivo da lógica pura, onde a prova de uma verdade pode levar décadas ou até séculos. No entanto, estamos vivendo um momento singular na..."
+  },
+  {
     "slug": "sysadmin-o-despertar-da-autonomia-e-a-medicao-do-comportamento-de-busca-de-poder-na-ia-de-fronteira",
     "title": "SysAdmin: O Despertar da Autonomia e a Medição do Comportamento de Busca de Poder na IA de Fronteira",
     "date": "22/07/2026",
