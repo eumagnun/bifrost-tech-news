@@ -1,5 +1,35 @@
 [
   {
+    "slug": "batchdag-o-fim-do-gargalo-na-analise-de-dados-corporativos-com-llms",
+    "title": "BatchDAG: O Fim do Gargalo na Análise de Dados Corporativos com LLMs",
+    "date": "23/07/2026",
+    "image_path": "posts/images/batchdag-o-fim-do-gargalo-na-analise-de-dados-corporativos-com-llms.png",
+    "original_link": "https://arxiv.org/abs/2607.18241",
+    "hn_link": "https://arxiv.org/abs/2607.18241",
+    "reading_time": 7,
+    "excerpt": "Imagine que sua empresa possui um \"oceano\" de dados espalhados em warehouses, tabelas SQL e logs de sistema. Até hoje, pedir para uma IA responder a perguntas complexas de negócio..."
+  },
+  {
+    "slug": "a-guerra-dos-modelos-o-mito-do-roubo-e-a-ascensao-da-autonomia-tecnologica-chinesa-em-2026",
+    "title": "A Guerra dos Modelos: O Mito do Roubo e a Ascensão da Autonomia Tecnológica Chinesa em 2026",
+    "date": "23/07/2026",
+    "image_path": "posts/images/a-guerra-dos-modelos-o-mito-do-roubo-e-a-ascensao-da-autonomia-tecnologica-chinesa-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+    "hn_link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+    "reading_time": 6,
+    "excerpt": "O ecossistema tecnológico global de 2026 está definido pela \"Grande Bifurcação\". Após anos de dependência da infraestrutura de silício e algoritmos do Vale do Silício, o cenário econômico e geopolítico..."
+  },
+  {
+    "slug": "o-gasto-fantasma-da-ia-a-corrida-do-ouro-e-a-sobrevivencia-da-big-tech",
+    "title": "O \"Gasto Fantasma\" da IA: A Corrida do Ouro e a Sobrevivência da Big Tech",
+    "date": "23/07/2026",
+    "image_path": "posts/images/o-gasto-fantasma-da-ia-a-corrida-do-ouro-e-a-sobrevivencia-da-big-tech.png",
+    "original_link": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+    "hn_link": "https://news.ycombinator.com/item?id=49021006",
+    "reading_time": 7,
+    "excerpt": "A corrida armamentista da Inteligência Artificial Generativa atingiu um ponto de inflexão crítico. Gigantes do setor tecnológico, que antes ostentavam margens de lucro inabaláveis, agora enfrentam um desafio inédito: a..."
+  },
+  {
     "slug": "calibrando-a-verdade-como-a-avaliacao-de-cadeias-de-evidencia-esta-salvando-a-ia-da-alucinacao",
     "title": "Calibrando a Verdade: Como a Avaliação de Cadeias de Evidência está Salvando a IA da Alucinação",
     "date": "23/07/2026",

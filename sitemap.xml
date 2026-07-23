@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/batchdag-o-fim-do-gargalo-na-analise-de-dados-corporativos-com-llms.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-guerra-dos-modelos-o-mito-do-roubo-e-a-ascensao-da-autonomia-tecnologica-chinesa-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-gasto-fantasma-da-ia-a-corrida-do-ouro-e-a-sobrevivencia-da-big-tech.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/calibrando-a-verdade-como-a-avaliacao-de-cadeias-de-evidencia-esta-salvando-a-ia-da-alucinacao.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
