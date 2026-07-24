@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/aintma-a-revolucao-da-arquitetura-agentica-na-gestao-autonoma-de-testes-de-software.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-do-comercio-social-meta-contra-a-fragmentacao-do-varejo-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/flux-3-vs-mimic-o-duelo-que-vai-mudar-a-geracao-de-video-e-acao-com-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/fineserve-decifrando-o-comportamento-oculto-das-cargas-de-trabalho-em-llms.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

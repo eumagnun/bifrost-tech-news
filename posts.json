@@ -1,5 +1,35 @@
 [
   {
+    "slug": "aintma-a-revolucao-da-arquitetura-agentica-na-gestao-autonoma-de-testes-de-software",
+    "title": "AINTMA: A Revolução da Arquitetura Agêntica na Gestão Autônoma de Testes de Software",
+    "date": "24/07/2026",
+    "image_path": "posts/images/aintma-a-revolucao-da-arquitetura-agentica-na-gestao-autonoma-de-testes-de-software.png",
+    "original_link": "https://arxiv.org/abs/2607.20452",
+    "hn_link": "https://arxiv.org/abs/2607.20452",
+    "reading_time": 6,
+    "excerpt": "O desenvolvimento de software atingiu um patamar de complexidade onde a intervenção humana em cada etapa do ciclo de vida, especialmente nos testes, tornouse um gargalo crítico. Até 2026, com..."
+  },
+  {
+    "slug": "a-nova-fronteira-do-comercio-social-meta-contra-a-fragmentacao-do-varejo-em-2026",
+    "title": "A Nova Fronteira do Comércio Social: Meta contra a Fragmentação do Varejo em 2026",
+    "date": "24/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-do-comercio-social-meta-contra-a-fragmentacao-do-varejo-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
+    "hn_link": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
+    "reading_time": 6,
+    "excerpt": "O cenário macroeconômico global de 2026 é definido por uma dicotomia acentuada: enquanto a inteligência artificial generativa redefine a produtividade industrial, o comércio eletrônico enfrenta uma crise de confiança e..."
+  },
+  {
+    "slug": "flux-3-vs-mimic-o-duelo-que-vai-mudar-a-geracao-de-video-e-acao-com-ia",
+    "title": "Flux 3 vs. Mimic: O Duelo que Vai Mudar a Geração de Vídeo e Ação com IA",
+    "date": "24/07/2026",
+    "image_path": "posts/images/flux-3-vs-mimic-o-duelo-que-vai-mudar-a-geracao-de-video-e-acao-com-ia.png",
+    "original_link": "https://bfl.ai/blog/flux-3-mimic",
+    "hn_link": "https://news.ycombinator.com/item?id=49033127",
+    "reading_time": 6,
+    "excerpt": "O Amanhã da Criação de Vídeos Chegou e é Selvagem A fronteira entre o que é realidade filmada e o que é gerado por algoritmos nunca foi tão tênue. Até..."
+  },
+  {
     "slug": "fineserve-decifrando-o-comportamento-oculto-das-cargas-de-trabalho-em-llms",
     "title": "FineServe: Decifrando o Comportamento Oculto das Cargas de Trabalho em LLMs",
     "date": "24/07/2026",
