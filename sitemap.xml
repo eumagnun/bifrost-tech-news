@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/fineserve-decifrando-o-comportamento-oculto-das-cargas-de-trabalho-em-llms.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-paradoxo-da-seguranca-como-as-guardrails-da-ia-estao-blindando-cibercriminosos-e-limitando-a-inovacao-ofensiva.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/nostalgia-programavel-como-o-98-css-esta-resgatando-a-interface-da-era-dourada-do-windows.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/batchdag-o-fim-do-gargalo-na-analise-de-dados-corporativos-com-llms.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

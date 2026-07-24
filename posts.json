@@ -1,5 +1,35 @@
 [
   {
+    "slug": "fineserve-decifrando-o-comportamento-oculto-das-cargas-de-trabalho-em-llms",
+    "title": "FineServe: Decifrando o Comportamento Oculto das Cargas de Trabalho em LLMs",
+    "date": "24/07/2026",
+    "image_path": "posts/images/fineserve-decifrando-o-comportamento-oculto-das-cargas-de-trabalho-em-llms.png",
+    "original_link": "https://arxiv.org/abs/2607.19349",
+    "hn_link": "https://arxiv.org/abs/2607.19349",
+    "reading_time": 6,
+    "excerpt": "A infraestrutura de Inteligência Artificial vive hoje uma corrida frenética. Enquanto modelos maiores e mais potentes surgem quase semanalmente, o gargalo real de 2026 não reside apenas no treinamento desses..."
+  },
+  {
+    "slug": "o-paradoxo-da-seguranca-como-as-guardrails-da-ia-estao-blindando-cibercriminosos-e-limitando-a-inovacao-ofensiva",
+    "title": "O Paradoxo da Segurança: Como as ‘Guardrails’ da IA Estão Blindando Cibercriminosos e Limitando a Inovação Ofensiva",
+    "date": "24/07/2026",
+    "image_path": "posts/images/o-paradoxo-da-seguranca-como-as-guardrails-da-ia-estao-blindando-cibercriminosos-e-limitando-a-inovacao-ofensiva.png",
+    "original_link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "hn_link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "reading_time": 7,
+    "excerpt": "Estamos em 2026, um ano definido pela \"consolidação da resiliência\". Após o frenesi da IA generativa em 2023 e 2024, o mercado global atingiu um ponto de inflexão crítico: a..."
+  },
+  {
+    "slug": "nostalgia-programavel-como-o-98-css-esta-resgatando-a-interface-da-era-dourada-do-windows",
+    "title": "Nostalgia Programável: Como o 98.css está resgatando a interface da era dourada do Windows",
+    "date": "24/07/2026",
+    "image_path": "posts/images/nostalgia-programavel-como-o-98-css-esta-resgatando-a-interface-da-era-dourada-do-windows.png",
+    "original_link": "https://jdan.github.io/98.css/#status-bar",
+    "hn_link": "https://news.ycombinator.com/item?id=49028927",
+    "reading_time": 6,
+    "excerpt": "A estética \"Y2K\" e o design dos anos 90 não são apenas uma moda passageira no Instagram ou TikTok; eles invadiram o desenvolvimento de software. Se você navega pelo ecossistema..."
+  },
+  {
     "slug": "batchdag-o-fim-do-gargalo-na-analise-de-dados-corporativos-com-llms",
     "title": "BatchDAG: O Fim do Gargalo na Análise de Dados Corporativos com LLMs",
     "date": "23/07/2026",
