@@ -1,5 +1,35 @@
 [
   {
+    "slug": "a-maquina-critica-decodificando-as-teorias-implicitas-de-qualidade-literaria-nas-ias",
+    "title": "A Máquina Crítica: Decodificando as Teorias Implícitas de Qualidade Literária nas IAs",
+    "date": "25/07/2026",
+    "image_path": "posts/images/a-maquina-critica-decodificando-as-teorias-implicitas-de-qualidade-literaria-nas-ias.png",
+    "original_link": "https://arxiv.org/abs/2607.20425",
+    "hn_link": "https://arxiv.org/abs/2607.20425",
+    "reading_time": 6,
+    "excerpt": "O Problema: A Caixa Preta do \"Bom Gosto\" Até agora, quando pedimos a um Modelo de Linguagem LLM que escreva ou avalie um texto, operamos em um território de subjetividade..."
+  },
+  {
+    "slug": "o-gargalo-de-silicio-e-watts-por-que-a-infraestrutura-energetica-se-tornou-o-calcanhar-de-aquiles-da-revolucao-da-ia-em-2026",
+    "title": "O Gargalo de Silício e Watts: Por que a Infraestrutura Energética se Tornou o \"Calcanhar de Aquiles\" da Revolução da IA em 2026",
+    "date": "25/07/2026",
+    "image_path": "posts/images/o-gargalo-de-silicio-e-watts-por-que-a-infraestrutura-energetica-se-tornou-o-calcanhar-de-aquiles-da-revolucao-da-ia-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+    "hn_link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+    "reading_time": 6,
+    "excerpt": "Estamos em meados de 2026, e a promessa da Inteligência Artificial Generativa e da Computação Quântica aplicada aos negócios deixou de ser uma tese de investimento especulativo para se tornar..."
+  },
+  {
+    "slug": "android-vai-bloquear-o-adb-no-proprio-dispositivo-o-fim-de-uma-era-para-o-power-user",
+    "title": "Android Vai Bloquear o ADB no Próprio Dispositivo? O Fim de uma Era para o Power User? 🤖🔓",
+    "date": "25/07/2026",
+    "image_path": "posts/images/android-vai-bloquear-o-adb-no-proprio-dispositivo-o-fim-de-uma-era-para-o-power-user.png",
+    "original_link": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+    "hn_link": "https://news.ycombinator.com/item?id=49045159",
+    "reading_time": 7,
+    "excerpt": "O ecossistema Android sempre se orgulhou de sua natureza aberta, permitindo que desenvolvedores, entusiastas e empresas de automação tivessem um controle quase granular sobre o sistema operacional. A ferramenta central..."
+  },
+  {
     "slug": "diagnostico-sob-suspeita-a-fragilidade-das-marcas-d-agua-em-textos-medicos-de-ia",
     "title": "Diagnóstico sob Suspeita: A Fragilidade das Marcas d'Água em Textos Médicos de IA 🩺",
     "date": "25/07/2026",

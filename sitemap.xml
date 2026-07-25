@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-maquina-critica-decodificando-as-teorias-implicitas-de-qualidade-literaria-nas-ias.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-gargalo-de-silicio-e-watts-por-que-a-infraestrutura-energetica-se-tornou-o-calcanhar-de-aquiles-da-revolucao-da-ia-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/android-vai-bloquear-o-adb-no-proprio-dispositivo-o-fim-de-uma-era-para-o-power-user.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/diagnostico-sob-suspeita-a-fragilidade-das-marcas-d-agua-em-textos-medicos-de-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
