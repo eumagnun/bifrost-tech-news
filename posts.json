@@ -1,5 +1,35 @@
 [
   {
+    "slug": "diagnostico-sob-suspeita-a-fragilidade-das-marcas-d-agua-em-textos-medicos-de-ia",
+    "title": "Diagnóstico sob Suspeita: A Fragilidade das Marcas d'Água em Textos Médicos de IA 🩺",
+    "date": "25/07/2026",
+    "image_path": "posts/images/diagnostico-sob-suspeita-a-fragilidade-das-marcas-d-agua-em-textos-medicos-de-ia.png",
+    "original_link": "https://arxiv.org/abs/2607.20462",
+    "hn_link": "https://arxiv.org/abs/2607.20462",
+    "reading_time": 6,
+    "excerpt": "O Problema que este trabalho resolve Em 2026, vivemos a era da \"Medicina Aumentada\", onde Grandes Modelos de Linguagem LLMs auxiliam desde a triagem de pacientes até a escrita de..."
+  },
+  {
+    "slug": "a-aposta-de-hardware-da-openai-o-teclado-de-ia-e-a-nova-fronteira-na-guerra-da-produtividade",
+    "title": "A Aposta de Hardware da OpenAI: O Teclado de IA e a Nova Fronteira na Guerra da Produtividade",
+    "date": "25/07/2026",
+    "image_path": "posts/images/a-aposta-de-hardware-da-openai-o-teclado-de-ia-e-a-nova-fronteira-na-guerra-da-produtividade.png",
+    "original_link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+    "hn_link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+    "reading_time": 6,
+    "excerpt": "O ano de 2026 consolida uma tendência que observamos germinar há três anos: a transição da Inteligência Artificial como um software \"invisível\" na nuvem para uma extensão física, tátil e..."
+  },
+  {
+    "slug": "claude-3-5-opus-o-fatality-na-produtividade-e-o-novo-padrao-de-ia-generativa",
+    "title": "Claude 3.5 Opus: O \"Fatality\" na Produtividade e o Novo Padrão de IA Generativa",
+    "date": "25/07/2026",
+    "image_path": "posts/images/claude-3-5-opus-o-fatality-na-produtividade-e-o-novo-padrao-de-ia-generativa.png",
+    "original_link": "https://www.anthropic.com/news/claude-opus-5",
+    "hn_link": "https://news.ycombinator.com/item?id=49038433",
+    "reading_time": 5,
+    "excerpt": "O cenário da Inteligência Artificial Generativa acaba de sofrer uma mudança tectônica. Se até ontem estávamos debatendo qual LLM Large Language Model era o \"campeão\" de raciocínio, o lançamento do..."
+  },
+  {
     "slug": "aintma-a-revolucao-da-arquitetura-agentica-na-gestao-autonoma-de-testes-de-software",
     "title": "AINTMA: A Revolução da Arquitetura Agêntica na Gestão Autônoma de Testes de Software",
     "date": "24/07/2026",

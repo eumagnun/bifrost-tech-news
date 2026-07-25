@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/diagnostico-sob-suspeita-a-fragilidade-das-marcas-d-agua-em-textos-medicos-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-aposta-de-hardware-da-openai-o-teclado-de-ia-e-a-nova-fronteira-na-guerra-da-produtividade.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/claude-3-5-opus-o-fatality-na-produtividade-e-o-novo-padrao-de-ia-generativa.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/aintma-a-revolucao-da-arquitetura-agentica-na-gestao-autonoma-de-testes-de-software.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
