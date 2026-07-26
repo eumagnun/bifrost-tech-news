@@ -1,5 +1,35 @@
 [
   {
+    "slug": "alem-das-fronteiras-lineares-repensando-o-clustering-baseado-em-grafos-atraves-da-lente-do-kernel-k-means",
+    "title": "Além das Fronteiras Lineares: Repensando o Clustering Baseado em Grafos através da Lente do Kernel k-Means",
+    "date": "26/07/2026",
+    "image_path": "posts/images/alem-das-fronteiras-lineares-repensando-o-clustering-baseado-em-grafos-atraves-da-lente-do-kernel-k-means.png",
+    "original_link": "http://jmlr.org/papers/v27/25-2307.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-2307.html",
+    "reading_time": 7,
+    "excerpt": "O Desafio de Agrupar o Caos: Por que os Algoritmos Tradicionais Falham? No mundo da Inteligência Artificial de 2026, onde lidamos com volumes de dados massivos e não estruturados, a..."
+  },
+  {
+    "slug": "a-guerra-dos-talentos-no-pos-algoritmo-warner-bros-vs-amazon-e-o-fim-da-neutralidade-no-mercado-de-talentos",
+    "title": "A Guerra dos Talentos no Pós-Algoritmo: Warner Bros. vs. Amazon e o Fim da Neutralidade no Mercado de Talentos",
+    "date": "26/07/2026",
+    "image_path": "posts/images/a-guerra-dos-talentos-no-pos-algoritmo-warner-bros-vs-amazon-e-o-fim-da-neutralidade-no-mercado-de-talentos.png",
+    "original_link": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
+    "hn_link": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
+    "reading_time": 8,
+    "excerpt": "O ano de 2026 não é apenas sobre inteligência artificial generativa; é sobre quem controla o capital humano capaz de orquestrar a próxima era da economia da atenção. O recente..."
+  },
+  {
+    "slug": "o-ceu-nao-e-mais-seguro-o-desafio-tecnologico-da-defesa-contra-drones-autonomos",
+    "title": "O Céu Não é Mais Seguro: O Desafio Tecnológico da Defesa Contra Drones Autônomos",
+    "date": "26/07/2026",
+    "image_path": "posts/images/o-ceu-nao-e-mais-seguro-o-desafio-tecnologico-da-defesa-contra-drones-autonomos.png",
+    "original_link": "https://english.mapn.ro/",
+    "hn_link": "https://news.ycombinator.com/item?id=49057248",
+    "reading_time": 7,
+    "excerpt": "A recente escalada de incidentes envolvendo drones não identificados invadindo espaços aéreos soberanos reacendeu um debate urgente na arquitetura de defesa e segurança cibernética: como protegemos perímetros físicos contra ameaças..."
+  },
+  {
     "slug": "conhecimento-oculto-desvendando-como-o-mixture-of-experts-pode-combater-as-alucinacoes-da-ia",
     "title": "Conhecimento Oculto: Desvendando como o Mixture-of-Experts pode combater as alucinações da IA",
     "date": "26/07/2026",

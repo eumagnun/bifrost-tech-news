@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-das-fronteiras-lineares-repensando-o-clustering-baseado-em-grafos-atraves-da-lente-do-kernel-k-means.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-guerra-dos-talentos-no-pos-algoritmo-warner-bros-vs-amazon-e-o-fim-da-neutralidade-no-mercado-de-talentos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-ceu-nao-e-mais-seguro-o-desafio-tecnologico-da-defesa-contra-drones-autonomos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/conhecimento-oculto-desvendando-como-o-mixture-of-experts-pode-combater-as-alucinacoes-da-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
