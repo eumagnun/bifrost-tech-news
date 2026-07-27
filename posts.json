@@ -1,5 +1,35 @@
 [
   {
+    "slug": "flowevo-o-futuro-da-inteligencia-artificial-autonoma-atraves-da-co-evolucao-de-agentes",
+    "title": "FlowEvo: O Futuro da Inteligência Artificial Autônoma Através da Co-evolução de Agentes",
+    "date": "27/07/2026",
+    "image_path": "posts/images/flowevo-o-futuro-da-inteligencia-artificial-autonoma-atraves-da-co-evolucao-de-agentes.png",
+    "original_link": "https://arxiv.org/abs/2607.21596",
+    "hn_link": "https://arxiv.org/abs/2607.21596",
+    "reading_time": 7,
+    "excerpt": "O Desafio da Autonomia Dinâmica: A Lacuna na Inteligência Agêntica Até recentemente, a maioria dos sistemas de agentes baseados em Grandes Modelos de Linguagem LLMs operava em uma via de..."
+  },
+  {
+    "slug": "o-efeito-sincronia-snapchat-e-a-economia-da-atencao-em-tempo-real-como-nova-moeda-de-dados",
+    "title": "O Efeito Sincronia: Snapchat e a Economia da Atenção em Tempo Real como Nova Moeda de Dados",
+    "date": "27/07/2026",
+    "image_path": "posts/images/o-efeito-sincronia-snapchat-e-a-economia-da-atencao-em-tempo-real-como-nova-moeda-de-dados.png",
+    "original_link": "https://techcrunch.com/2026/07/27/snapchat-now-lets-you-share-what-youre-listening-to-in-real-time/",
+    "hn_link": "https://techcrunch.com/2026/07/27/snapchat-now-lets-you-share-what-youre-listening-to-in-real-time/",
+    "reading_time": 7,
+    "excerpt": "Estamos em 2026 e o campo de batalha das plataformas digitais atingiu um patamar de saturação onde a retenção de usuários não é mais uma métrica, mas uma questão de..."
+  },
+  {
+    "slug": "o-novo-desafiante-no-ringue-da-ia-kimi-k3-chega-ao-huggingface",
+    "title": "O Novo Desafiante no Ringue da IA: Kimi-K3 Chega ao HuggingFace",
+    "date": "27/07/2026",
+    "image_path": "posts/images/o-novo-desafiante-no-ringue-da-ia-kimi-k3-chega-ao-huggingface.png",
+    "original_link": "https://huggingface.co/moonshotai/Kimi-K3",
+    "hn_link": "https://news.ycombinator.com/item?id=49065752",
+    "reading_time": 6,
+    "excerpt": "A inteligência artificial generativa não para de acelerar, e o ritmo das inovações no ecossistema de código aberto openweights está cada vez mais frenético. Recentemente, a chegada do KimiK3 ao..."
+  },
+  {
     "slug": "o-santo-graal-da-autonomia-como-aprender-jogos-complexos-sem-conhecimento-previo",
     "title": "O Santo Graal da Autonomia: Como Aprender Jogos Complexos sem Conhecimento Prévio",
     "date": "27/07/2026",

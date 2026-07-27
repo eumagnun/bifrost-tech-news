@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/flowevo-o-futuro-da-inteligencia-artificial-autonoma-atraves-da-co-evolucao-de-agentes.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-efeito-sincronia-snapchat-e-a-economia-da-atencao-em-tempo-real-como-nova-moeda-de-dados.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-novo-desafiante-no-ringue-da-ia-kimi-k3-chega-ao-huggingface.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-santo-graal-da-autonomia-como-aprender-jogos-complexos-sem-conhecimento-previo.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
