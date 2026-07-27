@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A base de dados PostgreSQL é, indiscutivelmente, a joia da coroa do mundo open source. No entanto, para muitos desenvolvedores e até arquitetos, o funcionamento interno de como ela gerencia...">
+    <title>PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador — Bifrost Tech News</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://blog.bifrost-solutions.com/posts/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.html">
+    <meta property="og:title" content="PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador">
+    <meta property="og:description" content="A base de dados PostgreSQL é, indiscutivelmente, a joia da coroa do mundo open source. No entanto, para muitos desenvolvedores e até arquitetos, o funcionamento interno de como ela gerencia...">
+    <meta property="og:image" content="https://blog.bifrost-solutions.com/posts/images/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://blog.bifrost-solutions.com/posts/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.html">
+    <meta property="twitter:title" content="PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador">
+    <meta property="twitter:description" content="A base de dados PostgreSQL é, indiscutivelmente, a joia da coroa do mundo open source. No entanto, para muitos desenvolvedores e até arquitetos, o funcionamento interno de como ela gerencia...">
+    <meta property="twitter:image" content="https://blog.bifrost-solutions.com/posts/images/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.png">
+
+    <!-- SEO / Google Discovery -->
+    <link rel="canonical" href="https://blog.bifrost-solutions.com/posts/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.html">
+    <meta name="robots" content="index, follow">
+    
+    <!-- LLM Metadata -->
+    <meta name="ai-generated" content="true">
+    <meta name="citation_title" content="PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador">
+    <meta name="citation_publisher" content="Bifrost Tech News">
+    <meta name="citation_date" content="2026-07-27">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador",
+      "description": "A base de dados PostgreSQL é, indiscutivelmente, a joia da coroa do mundo open source. No entanto, para muitos desenvolvedores e até arquitetos, o funcionamento interno de como ela gerencia...",
+      "image": "https://blog.bifrost-solutions.com/posts/images/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.png",
+      "datePublished": "2026-07-27",
+      "author": {
+        "@type": "Organization",
+        "name": "Bifrost Tech News"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bifrost Tech News",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blog.bifrost-solutions.com/posts/images/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://blog.bifrost-solutions.com/posts/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.html"
+      }
+    }
+    </script>
+
+    <!-- Google Analytics (GA4) -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6X0LB1KZJP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6X0LB1KZJP');
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ═══════════════════════════════════════════
+           DESIGN TOKENS
+           ═══════════════════════════════════════════ */
+        :root {
+            /* Cores principais */
+            --bg-primary: #08061a;
+            --bg-secondary: #0f0b24;
+            --bg-card: rgba(255, 255, 255, 0.03);
+            --bg-card-hover: rgba(255, 255, 255, 0.06);
+            --bg-code: rgba(168, 85, 247, 0.1);
+
+            /* Acentos — paleta Bifrost (tons de roxo) */
+            --accent-orange: #a855f7;
+            --accent-gold: #c084fc;
+            --accent-blue: #818cf8;
+            --accent-purple: #7c3aed;
+            --accent-cyan: #a78bfa;
+
+            /* Gradientes de energia */
+            --gradient-ki: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%);
+            --gradient-hero: linear-gradient(180deg, transparent 0%, var(--bg-primary) 100%);
+            --gradient-glow: radial-gradient(ellipse at 50% 0%, rgba(124, 58, 237, 0.18) 0%, transparent 60%);
+
+            /* Texto */
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a0bb;
+            --text-muted: #5a5a75;
+
+            /* Bordas & superfícies */
+            --border-subtle: rgba(255, 255, 255, 0.06);
+            --border-accent: rgba(168, 85, 247, 0.3);
+            --glass: rgba(12, 10, 30, 0.8);
+            --glass-blur: 20px;
+
+            /* Tipografia */
+            --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+            --font-heading: 'Outfit', 'Inter', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+            /* Espaçamento */
+            --content-width: 820px;
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2.5rem;
+            --spacing-xl: 4rem;
+
+            /* Animação */
+            --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+            --transition-fast: 0.2s var(--ease-out);
+            --transition-base: 0.4s var(--ease-out);
+        }
+
+        /* ═══════════════════════════════════════════
+           RESET & BASE
+           ═══════════════════════════════════════════ */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent-orange) var(--bg-secondary);
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.8;
+            font-size: 1.05rem;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background: rgba(168, 85, 247, 0.3);
+            color: #fff;
+        }
+
+        /* ═══════════════════════════════════════════
+           BARRA DE PROGRESSO DE LEITURA
+           ═══════════════════════════════════════════ */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: var(--gradient-ki);
+            z-index: 1000;
+            transition: width 0.1s linear;
+            box-shadow: 0 0 12px rgba(168, 85, 247, 0.5);
+        }
+
+        /* ═══════════════════════════════════════════
+           FUNDO ENERGÉTICO
+           ═══════════════════════════════════════════ */
+        .energy-bg {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+            background: var(--gradient-glow);
+            opacity: 0.7;
+        }
+
+        .energy-bg::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(129, 140, 248, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.06) 0%, transparent 50%);
+            animation: energyPulse 12s ease-in-out infinite alternate;
+        }
+
+        @keyframes energyPulse {
+            0% { transform: scale(1) rotate(0deg); opacity: 0.5; }
+            100% { transform: scale(1.05) rotate(2deg); opacity: 1; }
+        }
+
+        /* ═══════════════════════════════════════════
+           NAVEGAÇÃO
+           ═══════════════════════════════════════════ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 900;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(6, 6, 12, 0.6);
+            backdrop-filter: blur(var(--glass-blur));
+            -webkit-backdrop-filter: blur(var(--glass-blur));
+            border-bottom: 1px solid var(--border-subtle);
+            transform: translateY(-100%);
+            transition: transform var(--transition-base);
+        }
+
+        .navbar.visible {
+            transform: translateY(0);
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .navbar-brand .logo-icon {
+            font-size: 1.5rem;
+        }
+
+        .navbar-brand span {
+            background: var(--gradient-ki);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: var(--spacing-md);
+        }
+
+        .navbar-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color var(--transition-fast);
+        }
+
+        .navbar-links a:hover {
+            color: var(--accent-orange);
+        }
+
+        /* ═══════════════════════════════════════════
+           HERO / IMAGEM DE CAPA
+           ═══════════════════════════════════════════ */
+        .hero {
+            position: relative;
+            width: 100%;
+            min-height: 70vh;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero-image-container {
+            position: absolute;
+            inset: 0;
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            filter: brightness(0.7) saturate(1.2);
+            transition: transform 8s ease;
+        }
+
+        .hero:hover .hero-image-container img {
+            transform: scale(1.03);
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, rgba(6, 6, 12, 0.2) 0%, rgba(6, 6, 12, 0.5) 50%, var(--bg-primary) 100%),
+                linear-gradient(0deg, var(--bg-primary) 0%, transparent 30%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: var(--content-width);
+            padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
+            text-align: center;
+            animation: heroFadeIn 1s var(--ease-out) 0.3s both;
+        }
+
+        @keyframes heroFadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 16px;
+            border-radius: 100px;
+            background: rgba(168, 85, 247, 0.15);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            color: var(--accent-gold);
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .hero-tag .pulse-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent-orange);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        .hero-title {
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: #fff;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .hero-meta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .hero-meta .separator {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: var(--text-muted);
+        }
+
+        /* ═══════════════════════════════════════════
+           CONTEÚDO PRINCIPAL
+           ═══════════════════════════════════════════ */
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            max-width: var(--content-width);
+            margin: 0 auto;
+            padding: var(--spacing-xl) var(--spacing-lg);
+        }
+
+        .article-body {
+            animation: contentFadeIn 0.8s var(--ease-out) 0.5s both;
+        }
+
+        @keyframes contentFadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Tipografia do artigo */
+        .article-body h1 {
+            font-family: var(--font-heading);
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin: var(--spacing-xl) 0 var(--spacing-md);
+            color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .article-body h2 {
+            font-family: var(--font-heading);
+            font-size: 1.65rem;
+            font-weight: 700;
+            line-height: 1.25;
+            margin: var(--spacing-xl) 0 var(--spacing-sm);
+            color: #fff;
+            letter-spacing: -0.01em;
+            position: relative;
+            padding-left: 1.2rem;
+        }
+
+        .article-body h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.2em;
+            bottom: 0.2em;
+            width: 3px;
+            border-radius: 3px;
+            background: var(--gradient-ki);
+        }
+
+        .article-body h3 {
+            font-family: var(--font-heading);
+            font-size: 1.3rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin: var(--spacing-lg) 0 var(--spacing-sm);
+            color: var(--accent-gold);
+        }
+
+        .article-body p {
+            margin-bottom: var(--spacing-md);
+            color: var(--text-primary);
+            font-weight: 400;
+            text-align: justify;
+        }
+
+        .article-body strong {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .article-body em {
+            color: var(--accent-gold);
+            font-style: italic;
+        }
+
+        .article-body a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(63, 160, 255, 0.3);
+            transition: all var(--transition-fast);
+        }
+
+        .article-body a:hover {
+            color: var(--accent-cyan);
+            border-bottom-color: var(--accent-cyan);
+        }
+
+        /* Listas */
+        .article-body ul,
+        .article-body ol {
+            margin: var(--spacing-sm) 0 var(--spacing-md) var(--spacing-md);
+            padding-left: var(--spacing-sm);
+        }
+
+        .article-body li {
+            margin-bottom: var(--spacing-xs);
+            color: var(--text-primary);
+        }
+
+        .article-body li::marker {
+            color: var(--accent-orange);
+        }
+
+        /* Blocos de código */
+        .article-body code {
+            font-family: var(--font-mono);
+            font-size: 0.9em;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: var(--bg-code);
+            color: var(--accent-gold);
+            border: 1px solid rgba(168, 85, 247, 0.15);
+        }
+
+        .article-body pre {
+            margin: var(--spacing-md) 0;
+            padding: var(--spacing-md);
+            border-radius: 12px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-subtle);
+            overflow-x: auto;
+        }
+
+        .article-body pre code {
+            background: transparent;
+            border: none;
+            padding: 0;
+            color: var(--text-primary);
+            font-size: 0.88rem;
+            line-height: 1.7;
+        }
+
+        /* Blockquotes */
+        .article-body blockquote {
+            margin: var(--spacing-md) 0;
+            padding: var(--spacing-md) var(--spacing-md) var(--spacing-md) var(--spacing-lg);
+            border-left: 3px solid var(--accent-orange);
+            background: rgba(168, 85, 247, 0.05);
+            border-radius: 0 12px 12px 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* Separadores */
+        .article-body hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border-accent), transparent);
+            margin: var(--spacing-xl) 0;
+        }
+
+        .original-article-link {
+            display: block;
+            margin-top: var(--spacing-xl);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        /* ═══════════════════════════════════════════
+           SEÇÃO EM DESTAQUE
+           ═══════════════════════════════════════════ */
+        .highlight-section {
+            margin: var(--spacing-xl) calc(-1 * var(--spacing-md));
+            padding: var(--spacing-lg);
+            border-radius: 16px;
+            background:
+                linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, rgba(168, 85, 247, 0.04) 100%);
+            border: 1px solid rgba(168, 85, 247, 0.15);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .highlight-section::before {
+            content: '🐉';
+            position: absolute;
+            top: -20px;
+            right: -10px;
+            font-size: 8rem;
+            opacity: 0.05;
+            transform: rotate(-15deg);
+            pointer-events: none;
+        }
+
+        .highlight-section h2 {
+            color: var(--accent-gold) !important;
+        }
+
+        .highlight-section h2::before {
+            background: linear-gradient(180deg, var(--accent-orange), var(--accent-purple)) !important;
+        }
+
+        /* ═══════════════════════════════════════════
+           FOOTER
+           ═══════════════════════════════════════════ */
+
+        /* ═══════════════════════════════════════════
+           FOOTER
+           ═══════════════════════════════════════════ */
+        .site-footer {
+            position: relative;
+            z-index: 1;
+            margin-top: var(--spacing-xl);
+            padding: var(--spacing-lg);
+            text-align: center;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-brand {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .footer-brand span {
+            background: var(--gradient-ki);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .footer-text {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* ═══════════════════════════════════════════
+           ANIMAÇÕES DE SCROLL (REVEAL)
+           ═══════════════════════════════════════════ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ═══════════════════════════════════════════
+           BOTÃO VOLTAR AO TOPO
+           ═══════════════════════════════════════════ */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 800;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid var(--border-accent);
+            background: var(--glass);
+            backdrop-filter: blur(var(--glass-blur));
+            color: var(--accent-orange);
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: translateY(16px);
+            transition: all var(--transition-base);
+            pointer-events: none;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: all;
+        }
+
+        .back-to-top:hover {
+            background: rgba(168, 85, 247, 0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(168, 85, 247, 0.25);
+        }
+
+        /* ═══════════════════════════════════════════
+           RESPONSIVIDADE
+           ═══════════════════════════════════════════ */
+        @media (max-width: 768px) {
+            .hero {
+                min-height: 50vh;
+            }
+
+            .hero-title {
+                font-size: clamp(1.6rem, 7vw, 2.4rem);
+            }
+
+            .content-wrapper {
+                padding: var(--spacing-lg) var(--spacing-sm);
+            }
+
+            .article-body h2 {
+                font-size: 1.35rem;
+            }
+
+            .navbar {
+                padding: 0.75rem 1rem;
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+            .navbar-brand {
+                font-size: 1.05rem;
+            }
+
+            .navbar-links {
+                display: flex;
+                gap: var(--spacing-sm);
+            }
+
+            .navbar-links a {
+                font-size: 0.8rem;
+            }
+
+            .highlight-section {
+                margin: var(--spacing-lg) calc(-1 * var(--spacing-xs));
+                padding: var(--spacing-sm);
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 1rem;
+            }
+
+            .hero-meta {
+                flex-direction: column;
+                gap: var(--spacing-xs);
+            }
+
+            .hero-meta .separator {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de progresso de leitura -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <!-- Fundo energético -->
+    <div class="energy-bg"></div>
+
+    <!-- Navbar (aparece ao scrollar) -->
+    <nav class="navbar" id="navbar">
+        <a href="../index.html" class="navbar-brand">
+            <span class="logo-icon">🌌</span>
+            <span>Bifrost Tech News</span>
+        </a>
+        <div class="navbar-links">
+            <a href="../index.html">Início</a>
+            <a href="https://nikolays.github.io/PGSimCity/">Artigo Original</a>
+        </div>
+    </nav>
+
+    <!-- Hero com imagem de capa -->
+    <header class="hero">
+        <div class="hero-image-container">
+            <img src="images/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.png" alt="PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-tag">
+                <span class="pulse-dot"></span>
+                Trending
+            </div>
+            <h1 class="hero-title">PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador</h1>
+            <div class="hero-meta">
+                <span>🌌 Bifrost Tech News</span>
+                <span class="separator"></span>
+                <span>📅 27/07/2026</span>
+                <span class="separator"></span>
+                <span>⚡ 6 min de leitura</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo do post -->
+    <main class="content-wrapper">
+        <article class="article-body" id="articleBody">
+            <p>A base de dados PostgreSQL é, indiscutivelmente, a joia da coroa do mundo open source. No entanto, para muitos desenvolvedores e até arquitetos, o funcionamento interno de como ela gerencia transações, concorrência e o armazenamento de dados permanece uma "caixa preta" mágica. Recentemente, a comunidade técnica voltou seus olhos para projetos que visualizam o funcionamento interno do banco de dados, transformando abstrações complexas em algo visual, quase como um simulador de construção de cidades — o PGSimCity.</p>
+<p>Entender a arquitetura interna do PostgreSQL não é apenas um exercício acadêmico; é o diferencial entre um sistema escalável e resiliente e um pesadelo de performance em produção. Em um cenário onde a eficiência de I/O e a gestão de locks ditam o sucesso de aplicações de alta carga, visualizar como as tuplas se movem, como o WAL (Write-Ahead Logging) funciona e como o MVCC (Multi-Version Concurrency Control) organiza a bagunça é fundamental. Vamos abrir o capô desse gigante.</p>
+<h3>A Anatomia do Gigante: Arquitetura e Mecanismos</h3>
+<p>O coração do PostgreSQL opera sob um modelo de processos muito específico: o modelo <em>process-per-connection</em>. Diferente de bancos que utilizam threads leves (como o MySQL ou sistemas modernos baseados em async I/O), cada conexão cliente no Postgres é tratada por um processo do sistema operacional dedicado. O <em>Postmaster</em>, processo pai, atua como o grande orquestrador, gerenciando o ciclo de vida desses processos, garantindo que o Shared Buffer (memória compartilhada) seja acessado de forma segura e eficiente.</p>
+<p>Quando você executa um <code>INSERT</code> ou <code>UPDATE</code>, a magia acontece no sistema de armazenamento. O PostgreSQL não altera os dados diretamente no arquivo em disco; ele utiliza o conceito de <em>Copy-on-Write</em> e log-ahead. Primeiro, a alteração é escrita no WAL (Write-Ahead Log), garantindo durabilidade caso o sistema falhe. Em seguida, a página de memória correspondente no <em>Shared Buffer</em> é marcada como "suja". É o <em>Checkpoint</em> que, periodicamente, escreve essas páginas sujas no disco físico. O isolamento, por sua vez, é gerenciado pelo MVCC, que mantém múltiplas versões de uma linha, permitindo que leitores não bloqueiem escritores e vice-versa — uma arquitetura elegante que resolve o dilema clássico da concorrência de banco de dados.</p>
+<h3>Por que isso é vital para sua carreira?</h3>
+<p>No mercado atual, onde a latência é medida em microssegundos e a disponibilidade é inegociável, o entendimento profundo de bancos de dados separa os seniores dos plenos. As empresas não buscam apenas quem sabe escrever SQL; elas buscam engenheiros que consigam diagnosticar por que um <em>bloat</em> de tabela está degradando a performance ou por que o <em>vacuum</em> não está limpando os dados mortos de forma eficiente. Quando você compreende como o Postgres aloca memória e como ele interage com o sistema de arquivos do SO, você deixa de ser um usuário e se torna um arquiteto capaz de otimizar infraestruturas em larga escala.</p>
+<p>Além disso, com a ascensão dos sistemas distribuídos e da nuvem, saber configurar parâmetros como <code>work_mem</code>, <code>shared_buffers</code> e entender o impacto do <code>autovacuum</code> nas tabelas de alto tráfego é um conhecimento de alto valor. Dados recentes da comunidade mostram que uma fração considerável de problemas de performance em bancos Postgres pode ser resolvida com o ajuste fino de parâmetros baseados na arquitetura, e não apenas adicionando mais CPU ou RAM. Dominar o "como funciona" é o atalho mais curto para a eficiência operacional. 🚀</p>
+<h3>Caso de Uso: O Torneio Mortal da Concorrência 🥷</h3>
+<p>Imagine o Outworld como o ambiente de hardware e CPU, e o banco de dados como o Grande Torneio. Aqui, cada <em>transação</em> é um guerreiro. O <strong>MVCC</strong> é o nosso mestre <strong>Shang Tsung</strong>, que cria cópias (versões) dos combatentes. Quando Scorpion (uma transação de leitura) entra na arena, ele não vê o Sub-Zero original se ele estiver em meio a uma alteração; ele vê um "snapshot" (uma versão histórica) do Sub-Zero feita pelo mestre. Isso permite que Scorpion lute sem esperar que Sub-Zero termine de congelar o chão, mantendo a consistência sem travar o torneio inteiro.</p>
+<p>Enquanto isso, <strong>Raiden</strong> atua como o <strong>Autovacuum</strong>. Ele caminha pela arena observando as pilhas de corpos (tuplas mortas) deixadas por lutas anteriores (updates e deletes). Se Raiden não limpar essas tuplas, o espaço em disco vira um cemitério ineficiente, e o "bloat" começa a ocupar a arena, tornando a movimentação lenta. <strong>Liu Kang</strong>, representando o <strong>WAL</strong>, é o escriba sagrado: ele registra cada movimento antes mesmo de acontecer no tabuleiro. Se o torneio for interrompido por um cataclismo (crash do servidor), Liu Kang usa seus registros para reconstruir o estado exato da luta, garantindo que nenhum golpe seja perdido.</p>
+<p>Neste torneio, a eficiência não vem de socos mais fortes, mas de saber quando o Autovacuum deve limpar, como o MVCC deve versionar e como o WAL deve registrar. Se o seu torneio (banco de dados) estiver travando, talvez você tenha muitos guerreiros (processos) bloqueando uns aos outros ou Raiden esteja demorando demais para limpar os mortos. Entender esse fluxo é o segredo para garantir que o "Flawless Victory" na sua aplicação seja a regra, não a exceção. ⚡</p>
+<h3>Aplicações Práticas: Do Pequeno App ao Gigante de Dados</h3>
+<p>Empresas como Uber, Instagram e Spotify utilizam o PostgreSQL não apenas pela sua confiabilidade, mas pela capacidade de ajustar seus mecanismos internos para diferentes perfis de carga. Projetos de grande escala aplicam técnicas avançadas baseadas nessa arquitetura, como o <em>Partitioning</em> (divisão de tabelas gigantes em pedaços menores) ou o uso de extensões como o <code>pg_repack</code> para gerenciar o <em>bloat</em> sem travar a tabela — uma manobra que exige o entendimento profundo de como o Postgres bloqueia (ou não) objetos durante as operações.</p>
+<p>Em cenários de microsserviços, arquitetos utilizam o conhecimento de como o <code>connection pooler</code> (como o PgBouncer) interage com o modelo <em>process-per-connection</em> do Postgres. Como o Postgres consome recursos por processo, manter milhares de conexões abertas mataria o sistema. Ao utilizar uma camada de abstração de conexão, a aplicação mantém a resiliência e a performance, garantindo que o banco de dados não sofra com a sobrecarga de context switching, permitindo que a infraestrutura escale de forma previsível e segura.</p>
+<h3>Conclusão: O Futuro está na Observabilidade</h3>
+<p>O PostgreSQL não é apenas um software; é uma peça de engenharia com décadas de evolução que, curiosamente, continua sendo a base mais moderna e resiliente disponível hoje. A tendência para o futuro não é apenas o aumento de performance bruta, mas a melhoria da <em>observabilidade</em>. Ferramentas que nos permitem "ver" o Postgres funcionando — como o PGSimCity — são cruciais para essa nova era, onde a automação do banco de dados será guiada por IA que entende esses fluxos internos. A pergunta que fica para você, arquiteto, é: você está pronto para olhar para dentro do seu banco e orquestrar esse torneio, ou vai continuar deixando que os fantasmas das tuplas mortas assombrem a performance da sua aplicação? O controle está nas suas mãos. 💡</p>
+        </article>
+
+        <!-- Link discreto para o artigo original -->
+        <p style="text-align: center; margin-top: var(--spacing-xl); font-size: 0.9rem; color: var(--text-muted);">
+            *Este artigo foi baseado no <a href="https://nikolays.github.io/PGSimCity/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); text-decoration: underline;">artigo original</a>.*
+        </p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-brand">
+            🌌 <span>Bifrost Tech News</span>
+        </div>
+        <p class="footer-text">
+            Elaborado com o apoio de IA, achou algum erro? reporte e entre no ranking de contribuidores.
+        </p>
+    </footer>
+
+    <!-- Botão voltar ao topo -->
+    <button class="back-to-top" id="backToTop" title="Voltar ao topo">↑</button>
+
+    <!-- ═══════════════════════════════════════════
+         SCRIPTS
+         ═══════════════════════════════════════════ -->
+    <script>
+        // ── Barra de progresso de leitura ──
+        const progressBar = document.getElementById('readingProgress');
+        const navbar = document.getElementById('navbar');
+        const backToTopBtn = document.getElementById('backToTop');
+
+        function updateScrollUI() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+
+            progressBar.style.width = scrollPercent + '%';
+
+            // Mostra navbar após scrollar passado o hero
+            if (scrollTop > 400) {
+                navbar.classList.add('visible');
+            } else {
+                navbar.classList.remove('visible');
+            }
+
+            // Mostra botão de voltar ao topo
+            if (scrollTop > 800) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        }
+
+        window.addEventListener('scroll', updateScrollUI, { passive: true });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ── Animação de revelação ao scrollar ──
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // ── Destaca seções especiais automaticamente ──
+        document.addEventListener('DOMContentLoaded', () => {
+            const headings = document.querySelectorAll('.article-body h2');
+            headings.forEach(h2 => {
+                const text = h2.textContent.toLowerCase();
+                if (text.includes('dragon ball') || text.includes('🐉') || text.includes('caso de uso')) {
+                    // Envolve a seção do h2 até o próximo h2 num wrapper especial
+                    const section = document.createElement('div');
+                    section.className = 'highlight-section reveal';
+
+                    let sibling = h2.nextElementSibling;
+                    h2.parentNode.insertBefore(section, h2);
+                    section.appendChild(h2);
+
+                    while (sibling && sibling.tagName !== 'H2') {
+                        const next = sibling.nextElementSibling;
+                        section.appendChild(sibling);
+                        sibling = next;
+                    }
+
+                    revealObserver.observe(section);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

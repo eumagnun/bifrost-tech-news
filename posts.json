@@ -1,5 +1,35 @@
 [
   {
+    "slug": "o-santo-graal-da-autonomia-como-aprender-jogos-complexos-sem-conhecimento-previo",
+    "title": "O Santo Graal da Autonomia: Como Aprender Jogos Complexos sem Conhecimento Prévio",
+    "date": "27/07/2026",
+    "image_path": "posts/images/o-santo-graal-da-autonomia-como-aprender-jogos-complexos-sem-conhecimento-previo.png",
+    "original_link": "http://jmlr.org/papers/v27/25-2259.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-2259.html",
+    "reading_time": 7,
+    "excerpt": "O Problema: Superando o Viés do \"Conhecimento Especialista\" Historicamente, o sucesso de sistemas de Inteligência Artificial em jogos de soma zero e informação perfeita — como Xadrez ou Go —..."
+  },
+  {
+    "slug": "a-nova-fronteira-da-inteligencia-fisica-por-que-as-ondas-cerebrais-sao-o-santo-graal-do-capital-de-risco-em-2026",
+    "title": "A Nova Fronteira da Inteligência Física: Por que as Ondas Cerebrais São o \"Santo Graal\" do Capital de Risco em 2026",
+    "date": "27/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-da-inteligencia-fisica-por-que-as-ondas-cerebrais-sao-o-santo-graal-do-capital-de-risco-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+    "hn_link": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+    "reading_time": 7,
+    "excerpt": "Estamos em meados de 2026 e o frenesi da IA Generativa, que consumiu trilhões de dólares em infraestrutura de dados nos últimos três anos, atingiu um platô de utilidade. O..."
+  },
+  {
+    "slug": "pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador",
+    "title": "PGSimCity: Desvendando a Arquitetura do PostgreSQL como se fosse um Simulador",
+    "date": "27/07/2026",
+    "image_path": "posts/images/pgsimcity-desvendando-a-arquitetura-do-postgresql-como-se-fosse-um-simulador.png",
+    "original_link": "https://nikolays.github.io/PGSimCity/",
+    "hn_link": "https://news.ycombinator.com/item?id=49063754",
+    "reading_time": 6,
+    "excerpt": "A base de dados PostgreSQL é, indiscutivelmente, a joia da coroa do mundo open source. No entanto, para muitos desenvolvedores e até arquitetos, o funcionamento interno de como ela gerencia..."
+  },
+  {
     "slug": "alem-das-fronteiras-lineares-repensando-o-clustering-baseado-em-grafos-atraves-da-lente-do-kernel-k-means",
     "title": "Além das Fronteiras Lineares: Repensando o Clustering Baseado em Grafos através da Lente do Kernel k-Means",
     "date": "26/07/2026",
