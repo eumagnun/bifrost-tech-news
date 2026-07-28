@@ -1,5 +1,35 @@
 [
   {
+    "slug": "blindando-a-mente-das-maquinas-como-a-decomposicao-de-informacoes-internas-esta-protegendo-a-ia-multimodal",
+    "title": "Blindando a Mente das Máquinas: Como a Decomposição de Informações Internas está Protegendo a IA Multimodal",
+    "date": "28/07/2026",
+    "image_path": "posts/images/blindando-a-mente-das-maquinas-como-a-decomposicao-de-informacoes-internas-esta-protegendo-a-ia-multimodal.png",
+    "original_link": "https://arxiv.org/abs/2607.21600",
+    "hn_link": "https://arxiv.org/abs/2607.21600",
+    "reading_time": 6,
+    "excerpt": "O Problema: A CaixaPreta Multimodal em Xeque Até meados de 2026, a arquitetura dos Modelos de Linguagem Multimodais LMMs atingiu um patamar de complexidade sem precedentes. No entanto, essa versatilidade..."
+  },
+  {
+    "slug": "a-nova-fronteira-do-capital-o-deal-de-us-410-bilhoes-entre-recursive-superintelligence-e-amazon-que-redesenha-a-geopolitica-da-computacao",
+    "title": "A Nova Fronteira do Capital: O Deal de US$ 410 Bilhões entre Recursive Superintelligence e Amazon que Redesenha a Geopolítica da Computação",
+    "date": "28/07/2026",
+    "image_path": "posts/images/a-nova-fronteira-do-capital-o-deal-de-us-410-bilhoes-entre-recursive-superintelligence-e-amazon-que-redesenha-a-geopolitica-da-computacao.png",
+    "original_link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+    "hn_link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+    "reading_time": 6,
+    "excerpt": "O ano de 2026 consolidouse como o marco definitivo da era da \"Escassez Estratégica\". Em um cenário onde o poder computacional superou o petróleo e o silício tornouse a commodity..."
+  },
+  {
+    "slug": "resiliencia-digital-o-que-o-terremoto-no-japao-nos-ensina-sobre-arquitetura-de-sistemas-criticos",
+    "title": "Resiliência Digital: O que o Terremoto no Japão nos Ensina sobre Arquitetura de Sistemas Críticos 🌏⚡",
+    "date": "28/07/2026",
+    "image_path": "posts/images/resiliencia-digital-o-que-o-terremoto-no-japao-nos-ensina-sobre-arquitetura-de-sistemas-criticos.png",
+    "original_link": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+    "hn_link": "https://news.ycombinator.com/item?id=49080664",
+    "reading_time": 6,
+    "excerpt": "Quando pensamos em \"arquitetura de soluções\", geralmente imaginamos latência de banco de dados, escalabilidade de microsserviços ou otimização de custos em nuvem. Mas, e quando a arquitetura precisa literalmente salvar..."
+  },
+  {
     "slug": "o-fim-da-ambiguidade-por-que-o-risco-nao-deve-ser-o-alvo-no-combate-a-incendios-florestais",
     "title": "O Fim da Ambiguidade: Por que o Risco Não Deve Ser o Alvo no Combate a Incêndios Florestais",
     "date": "28/07/2026",

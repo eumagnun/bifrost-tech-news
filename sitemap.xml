@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/blindando-a-mente-das-maquinas-como-a-decomposicao-de-informacoes-internas-esta-protegendo-a-ia-multimodal.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-fronteira-do-capital-o-deal-de-us-410-bilhoes-entre-recursive-superintelligence-e-amazon-que-redesenha-a-geopolitica-da-computacao.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/resiliencia-digital-o-que-o-terremoto-no-japao-nos-ensina-sobre-arquitetura-de-sistemas-criticos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-ambiguidade-por-que-o-risco-nao-deve-ser-o-alvo-no-combate-a-incendios-florestais.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
