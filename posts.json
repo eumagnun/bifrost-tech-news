@@ -1,5 +1,35 @@
 [
   {
+    "slug": "o-fim-da-ambiguidade-por-que-o-risco-nao-deve-ser-o-alvo-no-combate-a-incendios-florestais",
+    "title": "O Fim da Ambiguidade: Por que o Risco Não Deve Ser o Alvo no Combate a Incêndios Florestais",
+    "date": "28/07/2026",
+    "image_path": "posts/images/o-fim-da-ambiguidade-por-que-o-risco-nao-deve-ser-o-alvo-no-combate-a-incendios-florestais.png",
+    "original_link": "https://arxiv.org/abs/2607.21597",
+    "hn_link": "https://arxiv.org/abs/2607.21597",
+    "reading_time": 6,
+    "excerpt": "O Problema: Quando a IA \"Alucina\" Prioridades No cenário atual de 2026, a Inteligência Artificial tornouse a espinha dorsal da gestão de desastres naturais. No entanto, enfrentamos um paradoxo persistente..."
+  },
+  {
+    "slug": "o-dilema-de-amodei-a-geopolitica-da-ia-soberania-digital-e-a-sombra-de-pequim-em-2026",
+    "title": "O Dilema de Amodei: A Geopolítica da IA, Soberania Digital e a Sombra de Pequim em 2026",
+    "date": "28/07/2026",
+    "image_path": "posts/images/o-dilema-de-amodei-a-geopolitica-da-ia-soberania-digital-e-a-sombra-de-pequim-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+    "hn_link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+    "reading_time": 6,
+    "excerpt": "Estamos em meados de 2026 e a indústria da inteligência artificial atravessa seu momento de maior cisão estratégica desde o lançamento do GPT4. Dario Amodei, CEO da Anthropic, trouxe à..."
+  },
+  {
+    "slug": "open-weights-vs-open-source-o-dilema-da-transparencia-na-era-da-ia",
+    "title": "Open Weights vs. Open Source: O Dilema da Transparência na Era da IA",
+    "date": "28/07/2026",
+    "image_path": "posts/images/open-weights-vs-open-source-o-dilema-da-transparencia-na-era-da-ia.png",
+    "original_link": "https://www.anthropic.com/news/position-open-weights-models",
+    "hn_link": "https://news.ycombinator.com/item?id=49076057",
+    "reading_time": 6,
+    "excerpt": "A corrida pela inteligência artificial generativa atingiu um ponto de inflexão crítico. Enquanto empresas gigantes disputam o domínio dos modelos de linguagem, um debate técnico e ético ganha força nos..."
+  },
+  {
     "slug": "flowevo-o-futuro-da-inteligencia-artificial-autonoma-atraves-da-co-evolucao-de-agentes",
     "title": "FlowEvo: O Futuro da Inteligência Artificial Autônoma Através da Co-evolução de Agentes",
     "date": "27/07/2026",

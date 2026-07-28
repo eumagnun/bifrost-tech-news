@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-ambiguidade-por-que-o-risco-nao-deve-ser-o-alvo-no-combate-a-incendios-florestais.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-dilema-de-amodei-a-geopolitica-da-ia-soberania-digital-e-a-sombra-de-pequim-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/open-weights-vs-open-source-o-dilema-da-transparencia-na-era-da-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/flowevo-o-futuro-da-inteligencia-artificial-autonoma-atraves-da-co-evolucao-de-agentes.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
