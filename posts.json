@@ -1,5 +1,35 @@
 [
   {
+    "slug": "decifrando-a-caixa-preta-explicacoes-contrafatuais-baseadas-em-conceitos-com-modelos-de-difusao",
+    "title": "Decifrando a \"Caixa Preta\": Explicações Contrafatuais Baseadas em Conceitos com Modelos de Difusão 🧠✨",
+    "date": "29/07/2026",
+    "image_path": "posts/images/decifrando-a-caixa-preta-explicacoes-contrafatuais-baseadas-em-conceitos-com-modelos-de-difusao.png",
+    "original_link": "https://arxiv.org/abs/2607.22544",
+    "hn_link": "https://arxiv.org/abs/2607.22544",
+    "reading_time": 6,
+    "excerpt": "A inteligência artificial atingiu um patamar de performance inegável em 2026. No entanto, continuamos tropeçando na mesma barreira de anos atrás: a interpretabilidade. Quando um modelo de visão computacional classifica..."
+  },
+  {
+    "slug": "a-corrida-pelo-codigo-de-honra-das-maquinas-por-que-a-cyera-pagou-us-1-bilhao-pela-oasis-security",
+    "title": "A Corrida pelo \"Código de Honra\" das Máquinas: Por que a Cyera pagou US$ 1 bilhão pela Oasis Security",
+    "date": "29/07/2026",
+    "image_path": "posts/images/a-corrida-pelo-codigo-de-honra-das-maquinas-por-que-a-cyera-pagou-us-1-bilhao-pela-oasis-security.png",
+    "original_link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+    "hn_link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+    "reading_time": 7,
+    "excerpt": "O cenário macroeconômico de 2026 é definido pelo que os estrategistas de Wall Street estão chamando de \"A Grande Dispersão da Inteligência\". Após a euforia inicial com a IA Generativa..."
+  },
+  {
+    "slug": "codex-security-a-nova-fronteira-na-blindagem-da-automacao-de-codigo",
+    "title": "Codex Security: A Nova Fronteira na Blindagem da Automação de Código 🛡️",
+    "date": "29/07/2026",
+    "image_path": "posts/images/codex-security-a-nova-fronteira-na-blindagem-da-automacao-de-codigo.png",
+    "original_link": "https://github.com/openai/codex-security",
+    "hn_link": "https://news.ycombinator.com/item?id=49089755",
+    "reading_time": 6,
+    "excerpt": "A inteligência artificial transformou a maneira como escrevemos, depuramos e gerenciamos software. Com assistentes de código integrados ao fluxo de trabalho IDE, a produtividade disparou. No entanto, essa \"conveniência\" trouxe..."
+  },
+  {
     "slug": "blindando-a-mente-das-maquinas-como-a-decomposicao-de-informacoes-internas-esta-protegendo-a-ia-multimodal",
     "title": "Blindando a Mente das Máquinas: Como a Decomposição de Informações Internas está Protegendo a IA Multimodal",
     "date": "28/07/2026",

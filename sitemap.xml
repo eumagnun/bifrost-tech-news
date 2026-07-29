@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/decifrando-a-caixa-preta-explicacoes-contrafatuais-baseadas-em-conceitos-com-modelos-de-difusao.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-corrida-pelo-codigo-de-honra-das-maquinas-por-que-a-cyera-pagou-us-1-bilhao-pela-oasis-security.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/codex-security-a-nova-fronteira-na-blindagem-da-automacao-de-codigo.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/blindando-a-mente-das-maquinas-como-a-decomposicao-de-informacoes-internas-esta-protegendo-a-ia-multimodal.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
