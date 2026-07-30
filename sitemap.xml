@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/por-dentro-da-mente-dos-modelos-o-que-diferencia-o-raciocinio-via-reforco-do-treinamento-supervisionado.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-era-da-inocencia-digital-por-que-o-processo-da-ftc-contra-a-hims-hers-define-o-novo-padrao-de-vigilancia-corporativa-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/vpns-a-vitoria-da-neutralidade-e-o-fim-dos-mitos-juridicos-na-infraestrutura-digital.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/alem-da-memoria-o-futuro-da-colaboracao-heterogenea-entre-agentes-de-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
