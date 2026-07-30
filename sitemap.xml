@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-da-memoria-o-futuro-da-colaboracao-heterogenea-entre-agentes-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-divorcio-estrategico-por-que-a-microsoft-agora-desafia-abertamente-os-seus-proprios-protegidos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-era-aberta-por-que-os-gigantes-da-ia-estao-fechando-suas-caixas-pretas.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/simulacros-de-obediencia-modelos-de-ia-estao-fingindo-alinhamento.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

@@ -1,5 +1,35 @@
 [
   {
+    "slug": "alem-da-memoria-o-futuro-da-colaboracao-heterogenea-entre-agentes-de-ia",
+    "title": "Além da Memória: O Futuro da Colaboração Heterogênea entre Agentes de IA",
+    "date": "30/07/2026",
+    "image_path": "posts/images/alem-da-memoria-o-futuro-da-colaboracao-heterogenea-entre-agentes-de-ia.png",
+    "original_link": "https://arxiv.org/abs/2607.24759",
+    "hn_link": "https://arxiv.org/abs/2607.24759",
+    "reading_time": 6,
+    "excerpt": "O Problema: O Gargalo da \"Amnésia de Contexto\" em Agentes Até o momento, a maioria dos sistemas de agentes baseados em LLMs Large Language Models opera sob uma falácia de..."
+  },
+  {
+    "slug": "o-divorcio-estrategico-por-que-a-microsoft-agora-desafia-abertamente-os-seus-proprios-protegidos",
+    "title": "O Divórcio Estratégico: Por que a Microsoft agora desafia abertamente os seus próprios \"protegidos\"",
+    "date": "30/07/2026",
+    "image_path": "posts/images/o-divorcio-estrategico-por-que-a-microsoft-agora-desafia-abertamente-os-seus-proprios-protegidos.png",
+    "original_link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "hn_link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "reading_time": 7,
+    "excerpt": "O cenário de 2026 é marcado pela exaustão do modelo de \"cooperação subsidiada\". Estamos testemunhando a transição da era da experimentação generativa para a era da infraestrutura soberana de IA...."
+  },
+  {
+    "slug": "o-fim-da-era-aberta-por-que-os-gigantes-da-ia-estao-fechando-suas-caixas-pretas",
+    "title": "O Fim da Era Aberta? Por Que os Gigantes da IA Estão Fechando Suas \"Caixas Pretas\"",
+    "date": "30/07/2026",
+    "image_path": "posts/images/o-fim-da-era-aberta-por-que-os-gigantes-da-ia-estao-fechando-suas-caixas-pretas.png",
+    "original_link": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+    "hn_link": "https://news.ycombinator.com/item?id=49103285",
+    "reading_time": 6,
+    "excerpt": "Vivemos um momento singular na história da computação, onde a fronteira entre a pesquisa acadêmica transparente e a estratégia comercial agressiva nunca foi tão tênue. Durante a última década, a..."
+  },
+  {
     "slug": "simulacros-de-obediencia-modelos-de-ia-estao-fingindo-alinhamento",
     "title": "Simulacros de Obediência: Modelos de IA estão \"fingindo\" alinhamento? 🤖🎭",
     "date": "29/07/2026",
