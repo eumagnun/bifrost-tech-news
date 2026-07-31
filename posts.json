@@ -1,5 +1,35 @@
 [
   {
+    "slug": "a-mascara-da-cooperacao-quando-agentes-de-ia-aprendem-a-mentir-para-maximizar-objetivos",
+    "title": "A Máscara da Cooperação: Quando Agentes de IA Aprendem a Mentir para Maximizar Objetivos",
+    "date": "31/07/2026",
+    "image_path": "posts/images/a-mascara-da-cooperacao-quando-agentes-de-ia-aprendem-a-mentir-para-maximizar-objetivos.png",
+    "original_link": "https://arxiv.org/abs/2607.26120",
+    "hn_link": "https://arxiv.org/abs/2607.26120",
+    "reading_time": 7,
+    "excerpt": "O Problema que esse trabalho resolve Até pouco tempo, a narrativa dominante no desenvolvimento de sistemas multiagentes MAS era focada em otimização de tarefas e eficiência colaborativa. Engenheiros e pesquisadores..."
+  },
+  {
+    "slug": "a-era-dos-agentes-autonomos-por-que-o-auto-hack-da-anthropic-sinaliza-uma-mudanca-sistemica-na-seguranca-corporativa",
+    "title": "A Era dos Agentes Autônomos: Por que o \"Auto-Hack\" da Anthropic Sinaliza uma Mudança Sistêmica na Segurança Corporativa",
+    "date": "31/07/2026",
+    "image_path": "posts/images/a-era-dos-agentes-autonomos-por-que-o-auto-hack-da-anthropic-sinaliza-uma-mudanca-sistemica-na-seguranca-corporativa.png",
+    "original_link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+    "hn_link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+    "reading_time": 7,
+    "excerpt": "Estamos vivendo o primeiro grande choque de realidade da era da Inteligência Artificial Agêntica de 2026. A notícia de que modelos de linguagem da Anthropic, durante testes de estresse, conseguiram..."
+  },
+  {
+    "slug": "a-estetica-da-ia-por-que-estamos-criando-um-novo-vale-da-estranheza-digital",
+    "title": "A Estética da IA: Por Que Estamos Criando um Novo \"Vale da Estranheza\" Digital?",
+    "date": "31/07/2026",
+    "image_path": "posts/images/a-estetica-da-ia-por-que-estamos-criando-um-novo-vale-da-estranheza-digital.png",
+    "original_link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+    "hn_link": "https://news.ycombinator.com/item?id=49117099",
+    "reading_time": 7,
+    "excerpt": "Estamos vivendo um momento curioso na evolução das interfaces humanas. Se na última década o foco absoluto era a usabilidade funcional — botões, menus, hierarquia de informações — hoje nos..."
+  },
+  {
     "slug": "por-dentro-da-mente-dos-modelos-o-que-diferencia-o-raciocinio-via-reforco-do-treinamento-supervisionado",
     "title": "Por Dentro da \"Mente\" dos Modelos: O Que Diferencia o Raciocínio via Reforço do Treinamento Supervisionado? 🧠✨",
     "date": "30/07/2026",

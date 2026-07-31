@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-mascara-da-cooperacao-quando-agentes-de-ia-aprendem-a-mentir-para-maximizar-objetivos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-era-dos-agentes-autonomos-por-que-o-auto-hack-da-anthropic-sinaliza-uma-mudanca-sistemica-na-seguranca-corporativa.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-estetica-da-ia-por-que-estamos-criando-um-novo-vale-da-estranheza-digital.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/por-dentro-da-mente-dos-modelos-o-que-diferencia-o-raciocinio-via-reforco-do-treinamento-supervisionado.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
