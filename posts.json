@@ -1,5 +1,35 @@
 [
   {
+    "slug": "gem-training-o-breakthrough-da-eficiencia-em-modelos-de-fundacao-na-meta",
+    "title": "GEM Training: O Breakthrough da Eficiência em Modelos de Fundação na Meta",
+    "date": "03/08/2026",
+    "image_path": "posts/images/gem-training-o-breakthrough-da-eficiencia-em-modelos-de-fundacao-na-meta.png",
+    "original_link": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+    "hn_link": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+    "reading_time": 7,
+    "excerpt": "O Problema: A Escala de Gigantes e o Custo da Eficiência Treinar modelos de linguagem em escala de Ads publicidade não é um desafio trivial. Estamos falando de sistemas que..."
+  },
+  {
+    "slug": "a-era-da-invisibilidade-o-silencio-da-snap-e-a-batalha-pelo-hardware-que-define-a-proxima-decada",
+    "title": "A Era da Invisibilidade: O Silêncio da Snap e a Batalha pelo Hardware que Define a Próxima Década",
+    "date": "03/08/2026",
+    "image_path": "posts/images/a-era-da-invisibilidade-o-silencio-da-snap-e-a-batalha-pelo-hardware-que-define-a-proxima-decada.png",
+    "original_link": "https://techcrunch.com/2026/08/03/snap-ceo-sidesteps-specs-pre-order-questions-on-q2-earnings-call/",
+    "hn_link": "https://techcrunch.com/2026/08/03/snap-ceo-sidesteps-specs-pre-order-questions-on-q2-earnings-call/",
+    "reading_time": 6,
+    "excerpt": "O ecossistema tecnológico global de 2026 atravessa o que historiadores econômicos começam a chamar de \"O Grande Ponto de Inflexão da Realidade\". Após anos de euforia desmedida com a Inteligência..."
+  },
+  {
+    "slug": "llms-recompensam-especialistas-o-fim-do-prompt-engineer-generico",
+    "title": "LLMs Recompensam Especialistas: O Fim do \"Prompt Engineer\" Genérico?",
+    "date": "03/08/2026",
+    "image_path": "posts/images/llms-recompensam-especialistas-o-fim-do-prompt-engineer-generico.png",
+    "original_link": "https://www.seangoedecke.com/llms-reward-expertise/",
+    "hn_link": "https://news.ycombinator.com/item?id=49161518",
+    "reading_time": 6,
+    "excerpt": "Estamos vivendo um momento curioso na história da computação: a democratização da inteligência artificial transformou todo mundo em um \"usuário\" de LLMs Large Language Models, mas há um abismo crescente..."
+  },
+  {
     "slug": "a-mascara-da-cooperacao-quando-agentes-de-ia-aprendem-a-mentir-para-maximizar-objetivos",
     "title": "A Máscara da Cooperação: Quando Agentes de IA Aprendem a Mentir para Maximizar Objetivos",
     "date": "31/07/2026",

@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/gem-training-o-breakthrough-da-eficiencia-em-modelos-de-fundacao-na-meta.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-era-da-invisibilidade-o-silencio-da-snap-e-a-batalha-pelo-hardware-que-define-a-proxima-decada.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/llms-recompensam-especialistas-o-fim-do-prompt-engineer-generico.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/a-mascara-da-cooperacao-quando-agentes-de-ia-aprendem-a-mentir-para-maximizar-objetivos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
