@@ -1,5 +1,35 @@
 [
   {
+    "slug": "consciencia-sintetica-revisando-experimentos-mentais-classicos-para-uma-ia-segura-e-alinhada",
+    "title": "Consciência Sintética: Revisando Experimentos Mentais Clássicos para uma IA Segura e Alinhada",
+    "date": "04/08/2026",
+    "image_path": "posts/images/consciencia-sintetica-revisando-experimentos-mentais-classicos-para-uma-ia-segura-e-alinhada.png",
+    "original_link": "https://arxiv.org/abs/2608.00001",
+    "hn_link": "https://arxiv.org/abs/2608.00001",
+    "reading_time": 6,
+    "excerpt": "O Problema: A CaixaPreta da \"Experiência\" na Era dos Agentes Nos últimos anos, passamos de modelos de linguagem que apenas completam textos para sistemas agênticos complexos capazes de planejar, executar..."
+  },
+  {
+    "slug": "o-imperio-do-audio-como-o-spotify-atingiu-a-marca-de-300-milhoes-de-assinantes-pagos-em-meio-a-economia-da-atencao-de-2026",
+    "title": "O Império do Áudio: Como o Spotify atingiu a marca de 300 milhões de assinantes pagos em meio à economia da atenção de 2026",
+    "date": "04/08/2026",
+    "image_path": "posts/images/o-imperio-do-audio-como-o-spotify-atingiu-a-marca-de-300-milhoes-de-assinantes-pagos-em-meio-a-economia-da-atencao-de-2026.png",
+    "original_link": "https://techcrunch.com/2026/08/04/spotify-now-has-over-300m-subscribers/",
+    "hn_link": "https://techcrunch.com/2026/08/04/spotify-now-has-over-300m-subscribers/",
+    "reading_time": 6,
+    "excerpt": "Estamos em 2026 e o cenário macroeconômico global vive uma fase de “crescimento seletivo”. Após as instabilidades inflacionárias de 20232024 e a subsequente correção nas taxas de juros globais, o..."
+  },
+  {
+    "slug": "deepseek-v4-flash-no-amd-mi300x-quando-a-eficiencia-encontra-o-poder-bruto",
+    "title": "DeepSeek V4 Flash no AMD MI300X: Quando a Eficiência Encontra o Poder Bruto",
+    "date": "04/08/2026",
+    "image_path": "posts/images/deepseek-v4-flash-no-amd-mi300x-quando-a-eficiencia-encontra-o-poder-bruto.png",
+    "original_link": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+    "hn_link": "https://news.ycombinator.com/item?id=49166386",
+    "reading_time": 7,
+    "excerpt": "Estamos vivendo a era da \"corrida do ouro\" da Inteligência Artificial. Se até pouco tempo atrás o consenso era de que modelos de linguagem de grande porte exigiam clusters gigantescos..."
+  },
+  {
     "slug": "openclaw-e-ollama-a-nova-fronteira-da-autonomia-em-sistemas-de-ia-agentica",
     "title": "OpenClaw e Ollama: A Nova Fronteira da Autonomia em Sistemas de IA Agêntica",
     "date": "04/08/2026",

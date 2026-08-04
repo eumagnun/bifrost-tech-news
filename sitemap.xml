@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/consciencia-sintetica-revisando-experimentos-mentais-classicos-para-uma-ia-segura-e-alinhada.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-imperio-do-audio-como-o-spotify-atingiu-a-marca-de-300-milhoes-de-assinantes-pagos-em-meio-a-economia-da-atencao-de-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/deepseek-v4-flash-no-amd-mi300x-quando-a-eficiencia-encontra-o-poder-bruto.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/openclaw-e-ollama-a-nova-fronteira-da-autonomia-em-sistemas-de-ia-agentica.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
