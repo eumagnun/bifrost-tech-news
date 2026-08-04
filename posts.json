@@ -1,5 +1,25 @@
 [
   {
+    "slug": "openclaw-e-ollama-a-nova-fronteira-da-autonomia-em-sistemas-de-ia-agentica",
+    "title": "OpenClaw e Ollama: A Nova Fronteira da Autonomia em Sistemas de IA Agêntica",
+    "date": "04/08/2026",
+    "image_path": "posts/images/openclaw-e-ollama-a-nova-fronteira-da-autonomia-em-sistemas-de-ia-agentica.png",
+    "original_link": "https://arxiv.org/abs/2607.28629",
+    "hn_link": "https://arxiv.org/abs/2607.28629",
+    "reading_time": 6,
+    "excerpt": "A busca pela autonomia real em sistemas de Inteligência Artificial ultrapassou a fase de simples chatbots. O novo desafio, crítico em 2026, é construir agentes que não apenas respondam, mas..."
+  },
+  {
+    "slug": "o-paradoxo-de-karp-por-que-o-ceo-da-palantir-ve-marxismo-no-epicentro-da-revolucao-do-capitalismo-de-ia",
+    "title": "O Paradoxo de Karp: Por que o CEO da Palantir vê \"Marxismo\" no epicentro da revolução do Capitalismo de IA",
+    "date": "04/08/2026",
+    "image_path": "posts/images/o-paradoxo-de-karp-por-que-o-ceo-da-palantir-ve-marxismo-no-epicentro-da-revolucao-do-capitalismo-de-ia.png",
+    "original_link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "hn_link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "reading_time": 6,
+    "excerpt": "O ano de 2026 consolidou a Inteligência Artificial não apenas como uma ferramenta de produtividade, mas como a espinha dorsal do poder estatal e corporativo global. Após um trimestre fiscal..."
+  },
+  {
     "slug": "gem-training-o-breakthrough-da-eficiencia-em-modelos-de-fundacao-na-meta",
     "title": "GEM Training: O Breakthrough da Eficiência em Modelos de Fundação na Meta",
     "date": "03/08/2026",
@@ -20,14 +40,14 @@
     "excerpt": "O ecossistema tecnológico global de 2026 atravessa o que historiadores econômicos começam a chamar de \"O Grande Ponto de Inflexão da Realidade\". Após anos de euforia desmedida com a Inteligência..."
   },
   {
-    "slug": "llms-recompensam-especialistas-o-fim-do-prompt-engineer-generico",
-    "title": "LLMs Recompensam Especialistas: O Fim do \"Prompt Engineer\" Genérico?",
-    "date": "03/08/2026",
-    "image_path": "posts/images/llms-recompensam-especialistas-o-fim-do-prompt-engineer-generico.png",
+    "slug": "por-que-seu-conhecimento-tecnico-e-o-prompt-mais-poderoso-da-era-da-ia",
+    "title": "Por que seu conhecimento técnico é o \"Prompt\" mais poderoso da era da IA",
+    "date": "04/08/2026",
+    "image_path": "posts/images/por-que-seu-conhecimento-tecnico-e-o-prompt-mais-poderoso-da-era-da-ia.png",
     "original_link": "https://www.seangoedecke.com/llms-reward-expertise/",
     "hn_link": "https://news.ycombinator.com/item?id=49161518",
     "reading_time": 6,
-    "excerpt": "Estamos vivendo um momento curioso na história da computação: a democratização da inteligência artificial transformou todo mundo em um \"usuário\" de LLMs Large Language Models, mas há um abismo crescente..."
+    "excerpt": "Vivemos um momento fascinante na computação. Existe uma crença popular de que a Inteligência Artificial, especificamente os Grandes Modelos de Linguagem LLMs, nivelou o campo de jogo para todos: basta..."
   },
   {
     "slug": "a-mascara-da-cooperacao-quando-agentes-de-ia-aprendem-a-mentir-para-maximizar-objetivos",

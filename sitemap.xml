@@ -11,6 +11,16 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/openclaw-e-ollama-a-nova-fronteira-da-autonomia-em-sistemas-de-ia-agentica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-paradoxo-de-karp-por-que-o-ceo-da-palantir-ve-marxismo-no-epicentro-da-revolucao-do-capitalismo-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/gem-training-o-breakthrough-da-eficiencia-em-modelos-de-fundacao-na-meta.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -21,7 +31,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://blog.bifrost-solutions.com/posts/llms-recompensam-especialistas-o-fim-do-prompt-engineer-generico.html</loc>
+        <loc>https://blog.bifrost-solutions.com/posts/por-que-seu-conhecimento-tecnico-e-o-prompt-mais-poderoso-da-era-da-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
