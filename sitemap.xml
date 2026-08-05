@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/autofoam-o-fim-do-trial-and-error-na-dinamica-de-fluidos-com-ia-agentica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-eclipse-de-marte-o-comando-centralizado-de-musk-na-nova-era-da-economia-espacial.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-inesperada-e-necessaria-sobrevivencia-da-infraestrutura-invisivel-o-caso-libexpat.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/consciencia-sintetica-revisando-experimentos-mentais-classicos-para-uma-ia-segura-e-alinhada.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

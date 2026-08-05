@@ -1,5 +1,35 @@
 [
   {
+    "slug": "autofoam-o-fim-do-trial-and-error-na-dinamica-de-fluidos-com-ia-agentica",
+    "title": "AutoFOAM: O Fim do \"Trial and Error\" na Dinâmica de Fluidos com IA Agêntica",
+    "date": "05/08/2026",
+    "image_path": "posts/images/autofoam-o-fim-do-trial-and-error-na-dinamica-de-fluidos-com-ia-agentica.png",
+    "original_link": "https://arxiv.org/abs/2608.00003",
+    "hn_link": "https://arxiv.org/abs/2608.00003",
+    "reading_time": 5,
+    "excerpt": "O Desafio da Simulação na Engenharia Moderna A Dinâmica de Fluidos Computacional CFD é a espinha dorsal de quase tudo o que se move: desde o design aerodinâmico de carros..."
+  },
+  {
+    "slug": "o-eclipse-de-marte-o-comando-centralizado-de-musk-na-nova-era-da-economia-espacial",
+    "title": "O Eclipse de Marte: O Comando Centralizado de Musk na Nova Era da Economia Espacial",
+    "date": "05/08/2026",
+    "image_path": "posts/images/o-eclipse-de-marte-o-comando-centralizado-de-musk-na-nova-era-da-economia-espacial.png",
+    "original_link": "https://techcrunch.com/2026/08/04/elon-musk-repeatedly-one-upped-his-execs-on-spacexs-first-earnings-call/",
+    "hn_link": "https://techcrunch.com/2026/08/04/elon-musk-repeatedly-one-upped-his-execs-on-spacexs-first-earnings-call/",
+    "reading_time": 5,
+    "excerpt": "O cenário global em 2026 é marcado por uma descompressão inédita na corrida espacial comercial. Enquanto governos ocidentais e blocos asiáticos travam uma disputa feroz por recursos lunares e soberania..."
+  },
+  {
+    "slug": "a-inesperada-e-necessaria-sobrevivencia-da-infraestrutura-invisivel-o-caso-libexpat",
+    "title": "A Inesperada (e Necessária) Sobrevivência da Infraestrutura Invisível: O Caso libexpat",
+    "date": "05/08/2026",
+    "image_path": "posts/images/a-inesperada-e-necessaria-sobrevivencia-da-infraestrutura-invisivel-o-caso-libexpat.png",
+    "original_link": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+    "hn_link": "https://news.ycombinator.com/item?id=49176606",
+    "reading_time": 6,
+    "excerpt": "Imagine que a fundação de um arranhacéu moderno, algo que sustenta as vigas de aço e os sistemas de ventilação, dependa de uma estrutura de madeira construída há 25 anos..."
+  },
+  {
     "slug": "consciencia-sintetica-revisando-experimentos-mentais-classicos-para-uma-ia-segura-e-alinhada",
     "title": "Consciência Sintética: Revisando Experimentos Mentais Clássicos para uma IA Segura e Alinhada",
     "date": "04/08/2026",
