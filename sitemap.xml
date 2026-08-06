@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-da-obsolescencia-a-teoria-da-persistencia-de-longo-prazo-e-o-artificial-age-score-aas.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-era-da-autenticidade-digital-por-que-a-marca-d-agua-da-suno-marca-o-fim-da-velha-ia-generativa.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/mario-meets-pareto-otimizando-a-experiencia-do-usuario-com-a-regra-de-ouro.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/alem-do-clique-como-as-leis-de-escala-estao-redefinindo-a-publicidade-algoritmica-na-meta.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
