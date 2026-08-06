@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-do-clique-como-as-leis-de-escala-estao-redefinindo-a-publicidade-algoritmica-na-meta.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-capital-da-inovacao-sob-pressao-por-que-o-techcrunch-disrupt-2026-e-o-barometro-do-novo-ciclo-economico.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-do-puxar-e-esperar-como-o-discovery-loop-esta-transformando-a-arquitetura-de-software.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/autofoam-o-fim-do-trial-and-error-na-dinamica-de-fluidos-com-ia-agentica.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

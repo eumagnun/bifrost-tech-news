@@ -1,5 +1,35 @@
 [
   {
+    "slug": "alem-do-clique-como-as-leis-de-escala-estao-redefinindo-a-publicidade-algoritmica-na-meta",
+    "title": "Além do Clique: Como as Leis de Escala Estão Redefinindo a Publicidade Algorítmica na Meta",
+    "date": "06/08/2026",
+    "image_path": "posts/images/alem-do-clique-como-as-leis-de-escala-estao-redefinindo-a-publicidade-algoritmica-na-meta.png",
+    "original_link": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
+    "hn_link": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
+    "reading_time": 5,
+    "excerpt": "O Desafio da Escala no Ranking de Anúncios O sistema de recomendação de anúncios da Meta é, sem dúvida, uma das maiores máquinas de previsão em tempo real do planeta...."
+  },
+  {
+    "slug": "o-capital-da-inovacao-sob-pressao-por-que-o-techcrunch-disrupt-2026-e-o-barometro-do-novo-ciclo-economico",
+    "title": "O Capital da Inovação sob Pressão: Por que o TechCrunch Disrupt 2026 é o Barômetro do Novo Ciclo Econômico",
+    "date": "06/08/2026",
+    "image_path": "posts/images/o-capital-da-inovacao-sob-pressao-por-que-o-techcrunch-disrupt-2026-e-o-barometro-do-novo-ciclo-economico.png",
+    "original_link": "https://techcrunch.com/2026/08/05/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/",
+    "hn_link": "https://techcrunch.com/2026/08/05/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/",
+    "reading_time": 6,
+    "excerpt": "Estamos em 2026 e o ecossistema global de inovação atravessa uma transformação estrutural sem precedentes. O frenesi do dinheiro barato da década anterior deu lugar a um mercado disciplinado, onde..."
+  },
+  {
+    "slug": "o-fim-do-puxar-e-esperar-como-o-discovery-loop-esta-transformando-a-arquitetura-de-software",
+    "title": "O Fim do \"Puxar e Esperar\": Como o Discovery Loop está Transformando a Arquitetura de Software",
+    "date": "06/08/2026",
+    "image_path": "posts/images/o-fim-do-puxar-e-esperar-como-o-discovery-loop-esta-transformando-a-arquitetura-de-software.png",
+    "original_link": "https://www.discoveryloop.com/",
+    "hn_link": "https://news.ycombinator.com/item?id=49184960",
+    "reading_time": 5,
+    "excerpt": "No desenvolvimento de sistemas distribuídos, a comunicação entre microserviços sempre foi um calcanhar de Aquiles. Antigamente, dependíamos de configurações estáticas e hardcoded que, no primeiro scaleout, tornavamse obsoletas e geravam..."
+  },
+  {
     "slug": "autofoam-o-fim-do-trial-and-error-na-dinamica-de-fluidos-com-ia-agentica",
     "title": "AutoFOAM: O Fim do \"Trial and Error\" na Dinâmica de Fluidos com IA Agêntica",
     "date": "05/08/2026",
