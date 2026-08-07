@@ -1,5 +1,35 @@
 [
   {
+    "slug": "o-fim-da-alucinacao-de-longo-prazo-dissociando-a-intencao-da-execucao-em-agentes-de-ia",
+    "title": "O Fim da Alucinação de Longo Prazo? Dissociando a Intenção da Execução em Agentes de IA",
+    "date": "07/08/2026",
+    "image_path": "posts/images/o-fim-da-alucinacao-de-longo-prazo-dissociando-a-intencao-da-execucao-em-agentes-de-ia.png",
+    "original_link": "https://arxiv.org/abs/2608.04066",
+    "hn_link": "https://arxiv.org/abs/2608.04066",
+    "reading_time": 5,
+    "excerpt": "O Dilema dos Agentes Autônomos: Por que eles se perdem? Os agentes de IA atuais, baseados em LLMs, são mestres na improvisação, mas sofrem de um mal crônico: a \"deriva\"..."
+  },
+  {
+    "slug": "o-dispositivo-de-us-400-a-nova-fronteira-da-openai-na-guerra-da-computacao-ubiqua",
+    "title": "O Dispositivo de US$ 400: A Nova Fronteira da OpenAI na Guerra da Computação Ubíqua",
+    "date": "07/08/2026",
+    "image_path": "posts/images/o-dispositivo-de-us-400-a-nova-fronteira-da-openai-na-guerra-da-computacao-ubiqua.png",
+    "original_link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "hn_link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "reading_time": 5,
+    "excerpt": "Estamos em 2026 e o campo de batalha da inteligência artificial migrou definitivamente das nuvens e telas de navegador para o hardware doméstico. A notícia de que a OpenAI prepara..."
+  },
+  {
+    "slug": "a-revolucao-do-silicio-como-a-amd-esta-mudando-o-jogo-da-ia-com-a-taalas",
+    "title": "A Revolução do Silício: Como a AMD está mudando o jogo da IA com a Taalas",
+    "date": "07/08/2026",
+    "image_path": "posts/images/a-revolucao-do-silicio-como-a-amd-esta-mudando-o-jogo-da-ia-com-a-taalas.png",
+    "original_link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+    "hn_link": "https://news.ycombinator.com/item?id=49201970",
+    "reading_time": 5,
+    "excerpt": "A corrida pela Inteligência Artificial atingiu um novo platô de complexidade. Até agora, a maioria das empresas focava em GPUs cada vez mais robustas e generalistas para treinar e executar..."
+  },
+  {
     "slug": "alem-da-obsolescencia-a-teoria-da-persistencia-de-longo-prazo-e-o-artificial-age-score-aas",
     "title": "Além da Obsolescência: A Teoria da Persistência de Longo Prazo e o Artificial Age Score (AAS) 🧬🤖",
     "date": "06/08/2026",

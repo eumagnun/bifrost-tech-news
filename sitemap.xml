@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-alucinacao-de-longo-prazo-dissociando-a-intencao-da-execucao-em-agentes-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-dispositivo-de-us-400-a-nova-fronteira-da-openai-na-guerra-da-computacao-ubiqua.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-revolucao-do-silicio-como-a-amd-esta-mudando-o-jogo-da-ia-com-a-taalas.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/alem-da-obsolescencia-a-teoria-da-persistencia-de-longo-prazo-e-o-artificial-age-score-aas.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
