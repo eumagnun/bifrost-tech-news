@@ -1,5 +1,35 @@
 [
   {
+    "slug": "esqueleto-de-pontos-especiais-a-nova-fronteira-na-otimizacao-multiobjetivo-dinamica",
+    "title": "Esqueleto de Pontos Especiais: A Nova Fronteira na Otimização Multiobjetivo Dinâmica",
+    "date": "08/08/2026",
+    "image_path": "posts/images/esqueleto-de-pontos-especiais-a-nova-fronteira-na-otimizacao-multiobjetivo-dinamica.png",
+    "original_link": "https://arxiv.org/abs/2608.06096",
+    "hn_link": "https://arxiv.org/abs/2608.06096",
+    "reading_time": 5,
+    "excerpt": "O Desafio da Otimização em Tempo Real No vasto universo da Inteligência Artificial, frequentemente nos deparamos com problemas de \"Otimização Multiobjetivo\" MOO. Imagine tentar configurar um sistema onde você precisa,..."
+  },
+  {
+    "slug": "o-custo-da-eficiencia-como-a-era-da-ia-esta-redefinindo-o-valor-do-capital-humano-em-2026",
+    "title": "O Custo da Eficiência: Como a Era da IA está redefinindo o valor do Capital Humano em 2026",
+    "date": "08/08/2026",
+    "image_path": "posts/images/o-custo-da-eficiencia-como-a-era-da-ia-esta-redefinindo-o-valor-do-capital-humano-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+    "hn_link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+    "reading_time": 5,
+    "excerpt": "O ano de 2026 nos encontrou em um ponto de inflexão brutal para a gestão corporativa global. Após a euforia inicial com a Inteligência Artificial Generativa entre 2023 e 2025,..."
+  },
+  {
+    "slug": "arquitetura-de-memoria-o-que-aprendemos-com-o-arquivo-digital-da-urss",
+    "title": "Arquitetura de Memória: O Que Aprendemos com o Arquivo Digital da URSS",
+    "date": "08/08/2026",
+    "image_path": "posts/images/arquitetura-de-memoria-o-que-aprendemos-com-o-arquivo-digital-da-urss.png",
+    "original_link": "https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html",
+    "hn_link": "https://news.ycombinator.com/item?id=49221041",
+    "reading_time": 5,
+    "excerpt": "A preservação digital de grandes acervos históricos não é apenas um desafio de curadoria, mas um problema de engenharia de escala. Quando analisamos o projeto de \"A URSS em 100..."
+  },
+  {
     "slug": "aninhamento-agentico-o-futuro-da-integracao-em-sistemas-empresariais-complexos",
     "title": "Aninhamento Agêntico: O Futuro da Integração em Sistemas Empresariais Complexos",
     "date": "08/08/2026",

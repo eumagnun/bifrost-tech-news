@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/esqueleto-de-pontos-especiais-a-nova-fronteira-na-otimizacao-multiobjetivo-dinamica.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-custo-da-eficiencia-como-a-era-da-ia-esta-redefinindo-o-valor-do-capital-humano-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/arquitetura-de-memoria-o-que-aprendemos-com-o-arquivo-digital-da-urss.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/aninhamento-agentico-o-futuro-da-integracao-em-sistemas-empresariais-complexos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
