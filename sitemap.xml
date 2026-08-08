@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/aninhamento-agentico-o-futuro-da-integracao-em-sistemas-empresariais-complexos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-freio-de-arruda-por-que-a-openai-decidiu-pausar-a-ascensao-do-astra-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/deepseek-v4-flash-0731-o-novo-padrao-de-performance-e-eficiencia-que-voce-precisava.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-fim-da-alucinacao-de-longo-prazo-dissociando-a-intencao-da-execucao-em-agentes-de-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

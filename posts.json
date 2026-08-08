@@ -1,5 +1,35 @@
 [
   {
+    "slug": "aninhamento-agentico-o-futuro-da-integracao-em-sistemas-empresariais-complexos",
+    "title": "Aninhamento Agêntico: O Futuro da Integração em Sistemas Empresariais Complexos",
+    "date": "08/08/2026",
+    "image_path": "posts/images/aninhamento-agentico-o-futuro-da-integracao-em-sistemas-empresariais-complexos.png",
+    "original_link": "https://arxiv.org/abs/2608.05159",
+    "hn_link": "https://arxiv.org/abs/2608.05159",
+    "reading_time": 4,
+    "excerpt": "O Abismo da Integração na Era da IA Até hoje, a integração de sistemas corporativos EAI Enterprise Application Integration tem sido um pesadelo de custos, tempo e complexidade técnica. Conectar..."
+  },
+  {
+    "slug": "o-freio-de-arruda-por-que-a-openai-decidiu-pausar-a-ascensao-do-astra-em-2026",
+    "title": "O Freio de Arruda: Por que a OpenAI Decidiu Pausar a Ascensão do Astra em 2026",
+    "date": "08/08/2026",
+    "image_path": "posts/images/o-freio-de-arruda-por-que-a-openai-decidiu-pausar-a-ascensao-do-astra-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+    "hn_link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+    "reading_time": 5,
+    "excerpt": "O cenário tecnológico de 2026 é marcado pela \"Grande Convergência\": o momento em que a inteligência artificial generativa deixou de ser um produto de prateleira para se tornar a espinha..."
+  },
+  {
+    "slug": "deepseek-v4-flash-0731-o-novo-padrao-de-performance-e-eficiencia-que-voce-precisava",
+    "title": "DeepSeek V4 Flash 0731: O Novo Padrão de Performance e Eficiência que Você Precisava",
+    "date": "08/08/2026",
+    "image_path": "posts/images/deepseek-v4-flash-0731-o-novo-padrao-de-performance-e-eficiencia-que-voce-precisava.png",
+    "original_link": "https://arcprize.org/results/deepseek-v4-flash-0731",
+    "hn_link": "https://news.ycombinator.com/item?id=49214008",
+    "reading_time": 5,
+    "excerpt": "O cenário da inteligência artificial generativa está mudando mais rápido do que conseguimos acompanhar. Quando pensávamos que os modelos gigantes eram a única resposta para a complexidade, surge uma atualização..."
+  },
+  {
     "slug": "o-fim-da-alucinacao-de-longo-prazo-dissociando-a-intencao-da-execucao-em-agentes-de-ia",
     "title": "O Fim da Alucinação de Longo Prazo? Dissociando a Intenção da Execução em Agentes de IA",
     "date": "07/08/2026",
