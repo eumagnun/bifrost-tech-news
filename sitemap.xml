@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/inteligencia-hibrida-o-casamento-da-evolucao-genetica-com-llms-para-solucionar-problemas-complexos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-paradoxo-de-amazonia-o-custo-energetico-da-inteligencia-artificial-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-seu-proximo-servidor-de-alta-performance-pode-estar-na-sua-gaveta.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/esqueleto-de-pontos-especiais-a-nova-fronteira-na-otimizacao-multiobjetivo-dinamica.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

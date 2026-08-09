@@ -1,5 +1,35 @@
 [
   {
+    "slug": "inteligencia-hibrida-o-casamento-da-evolucao-genetica-com-llms-para-solucionar-problemas-complexos",
+    "title": "Inteligência Híbrida: O Casamento da Evolução Genética com LLMs para Solucionar Problemas Complexos",
+    "date": "09/08/2026",
+    "image_path": "posts/images/inteligencia-hibrida-o-casamento-da-evolucao-genetica-com-llms-para-solucionar-problemas-complexos.png",
+    "original_link": "https://arxiv.org/abs/2607.27698",
+    "hn_link": "https://arxiv.org/abs/2607.27698",
+    "reading_time": 5,
+    "excerpt": "O Desafio da Escala e a Lacuna na Otimização Imagine um canteiro de obras gigantesco ou a linha de montagem de um processador de última geração. O problema do Dynamic..."
+  },
+  {
+    "slug": "o-paradoxo-de-amazonia-o-custo-energetico-da-inteligencia-artificial-em-2026",
+    "title": "O Paradoxo de Amazonia: O Custo Energético da Inteligência Artificial em 2026",
+    "date": "09/08/2026",
+    "image_path": "posts/images/o-paradoxo-de-amazonia-o-custo-energetico-da-inteligencia-artificial-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+    "hn_link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+    "reading_time": 5,
+    "excerpt": "O ano de 2026 consolida a Inteligência Artificial não apenas como uma ferramenta de produtividade, mas como a infraestrutura crítica da economia global. Estamos vivenciando uma corrida armamentista digital onde..."
+  },
+  {
+    "slug": "o-seu-proximo-servidor-de-alta-performance-pode-estar-na-sua-gaveta",
+    "title": "O Seu Próximo Servidor de Alta Performance Pode Estar na Sua Gaveta",
+    "date": "09/08/2026",
+    "image_path": "posts/images/o-seu-proximo-servidor-de-alta-performance-pode-estar-na-sua-gaveta.png",
+    "original_link": "https://seg6.space/posts/phone-server/",
+    "hn_link": "https://news.ycombinator.com/item?id=49226636",
+    "reading_time": 5,
+    "excerpt": "A computação de borda, ou Edge Computing, vive um momento de democratização sem precedentes. Durante anos, fomos condicionados a acreditar que servidores robustos precisavam de racks refrigerados e datacenters colossais...."
+  },
+  {
     "slug": "esqueleto-de-pontos-especiais-a-nova-fronteira-na-otimizacao-multiobjetivo-dinamica",
     "title": "Esqueleto de Pontos Especiais: A Nova Fronteira na Otimização Multiobjetivo Dinâmica",
     "date": "08/08/2026",
