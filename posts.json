@@ -1,5 +1,35 @@
 [
   {
+    "slug": "aprendizado-por-transferencia-mais-inteligente-a-tecnica-de-subamostragem-duplamente-desenviesada-para-modelos-mais-robustos",
+    "title": "Aprendizado por Transferência mais Inteligente: A técnica de \"Subamostragem duplamente desenviesada\" para modelos mais robustos",
+    "date": "09/08/2026",
+    "image_path": "posts/images/aprendizado-por-transferencia-mais-inteligente-a-tecnica-de-subamostragem-duplamente-desenviesada-para-modelos-mais-robustos.png",
+    "original_link": "http://jmlr.org/papers/v27/25-2221.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-2221.html",
+    "reading_time": 5,
+    "excerpt": "O problema do viés no aprendizado por transferência No ecossistema atual de Inteligência Artificial, o Transfer Learning aprendizado por transferência é a espinha dorsal de quase tudo o que construímos...."
+  },
+  {
+    "slug": "openai-e-a-nextslide-o-fim-do-powerpoint-como-o-conhecemos-e-a-era-da-sintaxe-generativa",
+    "title": "OpenAI e a NextSlide: O Fim do Powerpoint Como o Conhecemos e a Era da Sintaxe Generativa",
+    "date": "09/08/2026",
+    "image_path": "posts/images/openai-e-a-nextslide-o-fim-do-powerpoint-como-o-conhecemos-e-a-era-da-sintaxe-generativa.png",
+    "original_link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "hn_link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "reading_time": 5,
+    "excerpt": "Estamos em pleno 2026, e o cenário macroeconômico global vive sob a égide da \"Eficiência Algorítmica\". Após anos de inflação persistente e taxas de juros que forçaram um rerating severo..."
+  },
+  {
+    "slug": "hexagonos-magicos-a-matematica-oculta-que-conecta-padroes-no-mundo-digital",
+    "title": "Hexágonos Mágicos: A Matemática Oculta que Conecta Padrões no Mundo Digital",
+    "date": "09/08/2026",
+    "image_path": "posts/images/hexagonos-magicos-a-matematica-oculta-que-conecta-padroes-no-mundo-digital.png",
+    "original_link": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+    "hn_link": "https://news.ycombinator.com/item?id=49229174",
+    "reading_time": 6,
+    "excerpt": "A matemática, muitas vezes vista apenas como uma ferramenta utilitária para o desenvolvimento de software, esconde belezas estruturais que desafiam a intuição. Recentemente, a redescoberta da existência de \"Hexágonos Mágicos\"..."
+  },
+  {
     "slug": "inteligencia-hibrida-o-casamento-da-evolucao-genetica-com-llms-para-solucionar-problemas-complexos",
     "title": "Inteligência Híbrida: O Casamento da Evolução Genética com LLMs para Solucionar Problemas Complexos",
     "date": "09/08/2026",
