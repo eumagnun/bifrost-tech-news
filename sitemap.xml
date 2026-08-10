@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/alem-do-vetor-unico-a-nova-fronteira-dos-modelos-de-fundacao-em-grafos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-nova-corrida-do-ouro-termico-como-a-descoberta-de-novos-materiais-esta-redefinindo-a-soberania-da-ia-em-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/meta-muse-glimmer-o-poder-do-codigo-local-de-elite-no-seu-proprio-hardware.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/gradient-training-abstrato-a-unificacao-da-seguranca-e-privacidade-em-modelos-de-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

@@ -1,5 +1,35 @@
 [
   {
+    "slug": "alem-do-vetor-unico-a-nova-fronteira-dos-modelos-de-fundacao-em-grafos",
+    "title": "Além do Vetor Único: A Nova Fronteira dos Modelos de Fundação em Grafos",
+    "date": "10/08/2026",
+    "image_path": "posts/images/alem-do-vetor-unico-a-nova-fronteira-dos-modelos-de-fundacao-em-grafos.png",
+    "original_link": "https://arxiv.org/abs/2608.06394",
+    "hn_link": "https://arxiv.org/abs/2608.06394",
+    "reading_time": 5,
+    "excerpt": "O Desafio da Representação: Onde a IA Estagnou Os modelos de IA atuais, especialmente os de fundação Foundation Models, dominam a linguagem e a visão computacional, mas frequentemente falham ao..."
+  },
+  {
+    "slug": "a-nova-corrida-do-ouro-termico-como-a-descoberta-de-novos-materiais-esta-redefinindo-a-soberania-da-ia-em-2026",
+    "title": "A Nova Corrida do Ouro Térmico: Como a Descoberta de Novos Materiais Está Redefinindo a Soberania da IA em 2026",
+    "date": "10/08/2026",
+    "image_path": "posts/images/a-nova-corrida-do-ouro-termico-como-a-descoberta-de-novos-materiais-esta-redefinindo-a-soberania-da-ia-em-2026.png",
+    "original_link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+    "hn_link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+    "reading_time": 5,
+    "excerpt": "O ano é 2026, e a fronteira final da Inteligência Artificial não é mais o algoritmo, mas o calor. O crescimento exponencial dos modelos de linguagem e a expansão dos..."
+  },
+  {
+    "slug": "meta-muse-glimmer-o-poder-do-codigo-local-de-elite-no-seu-proprio-hardware",
+    "title": "Meta Muse Glimmer: O Poder do Código Local de Elite no Seu Próprio Hardware 🚀",
+    "date": "10/08/2026",
+    "image_path": "posts/images/meta-muse-glimmer-o-poder-do-codigo-local-de-elite-no-seu-proprio-hardware.png",
+    "original_link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "hn_link": "https://news.ycombinator.com/item?id=49241679",
+    "reading_time": 6,
+    "excerpt": "O ecossistema de Inteligência Artificial para desenvolvimento de software acaba de receber um novo protagonista de peso. Estamos falando do lançamento do modelo Muse Glimmer, uma potência de 30 bilhões..."
+  },
+  {
     "slug": "gradient-training-abstrato-a-unificacao-da-seguranca-e-privacidade-em-modelos-de-ia",
     "title": "Gradient Training Abstrato: A Unificação da Segurança e Privacidade em Modelos de IA",
     "date": "10/08/2026",
