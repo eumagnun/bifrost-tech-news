@@ -11,6 +11,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/gradient-training-abstrato-a-unificacao-da-seguranca-e-privacidade-em-modelos-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/aposta-de-400-milhoes-em-semicondutores-quando-hedge-funds-buscam-refugio-na-guerra-dos-chips.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://blog.bifrost-solutions.com/posts/a-arte-de-aprender-o-impossivel-como-hackear-seu-cerebro-com-llms.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/aprendizado-por-transferencia-mais-inteligente-a-tecnica-de-subamostragem-duplamente-desenviesada-para-modelos-mais-robustos.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

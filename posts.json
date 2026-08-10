@@ -1,5 +1,35 @@
 [
   {
+    "slug": "gradient-training-abstrato-a-unificacao-da-seguranca-e-privacidade-em-modelos-de-ia",
+    "title": "Gradient Training Abstrato: A Unificação da Segurança e Privacidade em Modelos de IA",
+    "date": "10/08/2026",
+    "image_path": "posts/images/gradient-training-abstrato-a-unificacao-da-seguranca-e-privacidade-em-modelos-de-ia.png",
+    "original_link": "http://jmlr.org/papers/v27/25-2206.html",
+    "hn_link": "http://jmlr.org/papers/v27/25-2206.html",
+    "reading_time": 5,
+    "excerpt": "O Desafio da Integridade na Era da IA Generativa 🛡️ Atualmente, estamos diante de um paradoxo fascinante: nunca treinamos modelos tão poderosos, mas nunca estivemos tão vulneráveis a ataques que..."
+  },
+  {
+    "slug": "aposta-de-400-milhoes-em-semicondutores-quando-hedge-funds-buscam-refugio-na-guerra-dos-chips",
+    "title": "Aposta de $400 Milhões em Semicondutores: Quando Hedge Funds Buscam Refúgio na Guerra dos Chips",
+    "date": "10/08/2026",
+    "image_path": "posts/images/aposta-de-400-milhoes-em-semicondutores-quando-hedge-funds-buscam-refugio-na-guerra-dos-chips.png",
+    "original_link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+    "hn_link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+    "reading_time": 5,
+    "excerpt": "O cenário de 2026 é marcado por uma saturação de capital de risco tradicional e uma volatilidade extrema nos mercados de capitais. Estamos vivendo a ressaca das grandes bolhas de..."
+  },
+  {
+    "slug": "a-arte-de-aprender-o-impossivel-como-hackear-seu-cerebro-com-llms",
+    "title": "A Arte de Aprender o Impossível: Como Hackear seu Cérebro com LLMs",
+    "date": "10/08/2026",
+    "image_path": "posts/images/a-arte-de-aprender-o-impossivel-como-hackear-seu-cerebro-com-llms.png",
+    "original_link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+    "hn_link": "https://news.ycombinator.com/item?id=49234675",
+    "reading_time": 4,
+    "excerpt": "A tecnologia avança em uma velocidade vertiginosa, deixando profissionais experientes com a sensação de estar sempre correndo atrás do prejuízo. A sobrecarga de informação não é apenas um incômodo; é..."
+  },
+  {
     "slug": "aprendizado-por-transferencia-mais-inteligente-a-tecnica-de-subamostragem-duplamente-desenviesada-para-modelos-mais-robustos",
     "title": "Aprendizado por Transferência mais Inteligente: A técnica de \"Subamostragem duplamente desenviesada\" para modelos mais robustos",
     "date": "09/08/2026",
