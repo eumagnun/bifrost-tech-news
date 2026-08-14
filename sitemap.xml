@@ -11,6 +11,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/governanca-dinamica-a-nova-fronteira-na-orquestracao-de-multi-agentes-de-ia.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/detectando-golpes-no-whatsapp-o-desafio-de-unir-ia-privacidade-e-criptografia-ponta-a-ponta.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
