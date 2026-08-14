@@ -1,5 +1,15 @@
 [
   {
+    "slug": "detectando-golpes-no-whatsapp-o-desafio-de-unir-ia-privacidade-e-criptografia-ponta-a-ponta",
+    "title": "Detectando Golpes no WhatsApp: O Desafio de Unir IA, Privacidade e Criptografia Ponta a Ponta",
+    "date": "14/08/2026",
+    "image_path": "posts/images/detectando-golpes-no-whatsapp-o-desafio-de-unir-ia-privacidade-e-criptografia-ponta-a-ponta.png",
+    "original_link": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
+    "hn_link": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
+    "reading_time": 5,
+    "excerpt": "O Problema: O Paradoxo da Segurança em Sistemas Criptografados No ecossistema atual de mensageria, vivemos um dilema técnico fundamental: como proteger os usuários contra golpes e conteúdos maliciosos sem quebrar..."
+  },
+  {
     "slug": "alem-do-vetor-unico-a-nova-fronteira-dos-modelos-de-fundacao-em-grafos",
     "title": "Além do Vetor Único: A Nova Fronteira dos Modelos de Fundação em Grafos",
     "date": "10/08/2026",
