@@ -11,6 +11,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/tarski-algebra-e-o-ataque-brutal-como-solvers-modernos-estao-quebrando-problemas-antigos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/raciocinio-nao-e-magica-desvendando-o-processo-de-regras-apreensiveis-em-modelos-de-linguagem.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

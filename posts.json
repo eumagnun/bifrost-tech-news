@@ -1,5 +1,15 @@
 [
   {
+    "slug": "tarski-algebra-e-o-ataque-brutal-como-solvers-modernos-estao-quebrando-problemas-antigos",
+    "title": "Tarski, Álgebra e o Ataque Brutal: Como Solvers Modernos estão Quebrando Problemas Antigos",
+    "date": "16/08/2026",
+    "image_path": "posts/images/tarski-algebra-e-o-ataque-brutal-como-solvers-modernos-estao-quebrando-problemas-antigos.png",
+    "original_link": "https://arxiv.org/abs/2608.08421",
+    "hn_link": "https://news.ycombinator.com/item?id=49268565",
+    "reading_time": 5,
+    "excerpt": "A história da computação é um ciclo constante de desafios matemáticos impossíveis se tornando tarefas triviais com a evolução do hardware e dos algoritmos. Durante décadas, certos problemas algébricos clássicos,..."
+  },
+  {
     "slug": "raciocinio-nao-e-magica-desvendando-o-processo-de-regras-apreensiveis-em-modelos-de-linguagem",
     "title": "Raciocínio não é mágica: Desvendando o Processo de Regras Apreensíveis em Modelos de Linguagem",
     "date": "15/08/2026",
