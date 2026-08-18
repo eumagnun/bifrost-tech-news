@@ -1,5 +1,15 @@
 [
   {
+    "slug": "o-mito-dos-flops-por-que-contar-operacoes-matematicas-nao-basta-para-medir-a-eficiencia-da-ia",
+    "title": "O Mito dos FLOPs: Por Que Contar Operações Matemáticas Não Basta para Medir a Eficiência da IA",
+    "date": "18/08/2026",
+    "image_path": "posts/images/o-mito-dos-flops-por-que-contar-operacoes-matematicas-nao-basta-para-medir-a-eficiencia-da-ia.png",
+    "original_link": "https://arxiv.org/abs/2608.14550",
+    "hn_link": "https://arxiv.org/abs/2608.14550",
+    "reading_time": 4,
+    "excerpt": "O Problema: A Ilusão da Eficiência Teórica Na corrida armamentista da Inteligência Artificial em 2026, estamos obcecados por uma métrica específica: o FLOP Floating Point Operation. Quase todos os artigos..."
+  },
+  {
     "slug": "a-guerra-das-apis-por-que-a-stripe-esta-comprando-o-canivete-suico-da-inteligencia-artificial",
     "title": "A Guerra das APIs: Por que a Stripe está comprando o \"canivete suíço\" da Inteligência Artificial",
     "date": "17/08/2026",
