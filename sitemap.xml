@@ -11,6 +11,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-renascimento-da-privacidade-grapheneos-chegando-aos-motorola-high-end.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-mito-dos-flops-por-que-contar-operacoes-matematicas-nao-basta-para-medir-a-eficiencia-da-ia.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
