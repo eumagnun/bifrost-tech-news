@@ -1,5 +1,15 @@
 [
   {
+    "slug": "o-perigo-do-ctrl-c-ctrl-v-por-que-a-inteligencia-artificial-nao-e-sua-nova-arquiteta-de-solucoes",
+    "title": "O Perigo do \"Ctrl+C, Ctrl+V\": Por que a Inteligência Artificial não é sua nova Arquiteta de Soluções",
+    "date": "20/08/2026",
+    "image_path": "posts/images/o-perigo-do-ctrl-c-ctrl-v-por-que-a-inteligencia-artificial-nao-e-sua-nova-arquiteta-de-solucoes.png",
+    "original_link": "https://dontpastetheai.com/",
+    "hn_link": "https://news.ycombinator.com/item?id=49371857",
+    "reading_time": 5,
+    "excerpt": "Você já sentiu aquela tentação irresistível? O bug está travando o deploy, o prazo está apertado e a IA, em segundos, entrega um bloco de código que parece perfeito. O..."
+  },
+  {
     "slug": "o-renascimento-da-privacidade-grapheneos-chegando-aos-motorola-high-end",
     "title": "O Renascimento da Privacidade: GrapheneOS Chegando aos Motorola High-End",
     "date": "19/08/2026",

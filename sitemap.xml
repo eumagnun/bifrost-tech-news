@@ -11,6 +11,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/o-perigo-do-ctrl-c-ctrl-v-por-que-a-inteligencia-artificial-nao-e-sua-nova-arquiteta-de-solucoes.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/o-renascimento-da-privacidade-grapheneos-chegando-aos-motorola-high-end.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
