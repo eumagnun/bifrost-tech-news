@@ -11,6 +11,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://blog.bifrost-solutions.com/posts/quando-a-precisao-falha-o-custo-de-ignorar-a-origem-dos-dados.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://blog.bifrost-solutions.com/posts/a-fronteira-da-biologia-sintetica-quando-a-inteligencia-artificial-encontra-o-tecido-vivo.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
